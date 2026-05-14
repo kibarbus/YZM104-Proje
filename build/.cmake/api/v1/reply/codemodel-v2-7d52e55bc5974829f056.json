@@ -21,7 +21,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Git::Git::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Git__Git-Debug-86239d09910287d7c1c6.json",
+					"jsonFile" : "target-Git__Git-Debug-fec079782ad1df7458f7.json",
 					"name" : "Git::Git",
 					"projectIndex" : 0
 				},
@@ -103,7 +103,7 @@
 					"jsonFile" : "directory-_deps.sfml-build-Debug-575f2a008103579aec6d.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.7.2"
+						"string" : "3.14"
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 1,
@@ -124,7 +124,7 @@
 					"jsonFile" : "directory-_deps.sfml-build.src.SFML-Debug-66d770ddf3796f3d09ea.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.7.2"
+						"string" : "3.14"
 					},
 					"parentIndex" : 1,
 					"projectIndex" : 1,
@@ -136,7 +136,7 @@
 					"jsonFile" : "directory-_deps.sfml-build.src.SFML.System-Debug-62ceb25cf81c70b0616f.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.7.2"
+						"string" : "3.14"
 					},
 					"parentIndex" : 2,
 					"projectIndex" : 1,
@@ -152,7 +152,7 @@
 					"jsonFile" : "directory-_deps.sfml-build.src.SFML.Main-Debug-1a4044c876f6b9f0409a.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.7.2"
+						"string" : "3.14"
 					},
 					"parentIndex" : 2,
 					"projectIndex" : 1,
@@ -174,7 +174,7 @@
 					"jsonFile" : "directory-_deps.sfml-build.src.SFML.Window-Debug-429c730e97bf75d29ce8.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.7.2"
+						"string" : "3.14"
 					},
 					"parentIndex" : 2,
 					"projectIndex" : 1,
@@ -190,7 +190,7 @@
 					"jsonFile" : "directory-_deps.sfml-build.src.SFML.Network-Debug-86477a6f2e29461f7204.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.7.2"
+						"string" : "3.14"
 					},
 					"parentIndex" : 2,
 					"projectIndex" : 1,
@@ -210,7 +210,7 @@
 					"jsonFile" : "directory-_deps.sfml-build.src.SFML.Graphics-Debug-636e0e2cdb0a96f6edd0.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.7.2"
+						"string" : "3.14"
 					},
 					"parentIndex" : 2,
 					"projectIndex" : 1,
@@ -233,7 +233,7 @@
 					"jsonFile" : "directory-_deps.sfml-build.src.SFML.Audio-Debug-295962bb073eff06b462.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.7.2"
+						"string" : "3.14"
 					},
 					"parentIndex" : 2,
 					"projectIndex" : 1,
@@ -349,7 +349,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "tetris::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-tetris-Debug-629ebfebbc340b12bcb6.json",
+					"jsonFile" : "target-tetris-Debug-f7faf16f4d09cd1fb1b5.json",
 					"name" : "tetris",
 					"projectIndex" : 0
 				}

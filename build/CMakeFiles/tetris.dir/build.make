@@ -86,14 +86,31 @@ CMakeFiles/tetris.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tetris.dir/main.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\DellX\Desktop\programlama 2 proje\YZM104-Proje\main.cpp" -o CMakeFiles\tetris.dir\main.cpp.s
 
+CMakeFiles/tetris.dir/OyunAlani.cpp.obj: CMakeFiles/tetris.dir/flags.make
+CMakeFiles/tetris.dir/OyunAlani.cpp.obj: CMakeFiles/tetris.dir/includes_CXX.rsp
+CMakeFiles/tetris.dir/OyunAlani.cpp.obj: C:/Users/DellX/Desktop/programlama\ 2\ proje/YZM104-Proje/OyunAlani.cpp
+CMakeFiles/tetris.dir/OyunAlani.cpp.obj: CMakeFiles/tetris.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\DellX\Desktop\programlama 2 proje\YZM104-Proje\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tetris.dir/OyunAlani.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tetris.dir/OyunAlani.cpp.obj -MF CMakeFiles\tetris.dir\OyunAlani.cpp.obj.d -o CMakeFiles\tetris.dir\OyunAlani.cpp.obj -c "C:\Users\DellX\Desktop\programlama 2 proje\YZM104-Proje\OyunAlani.cpp"
+
+CMakeFiles/tetris.dir/OyunAlani.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tetris.dir/OyunAlani.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\DellX\Desktop\programlama 2 proje\YZM104-Proje\OyunAlani.cpp" > CMakeFiles\tetris.dir\OyunAlani.cpp.i
+
+CMakeFiles/tetris.dir/OyunAlani.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tetris.dir/OyunAlani.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\DellX\Desktop\programlama 2 proje\YZM104-Proje\OyunAlani.cpp" -o CMakeFiles\tetris.dir\OyunAlani.cpp.s
+
 # Object files for target tetris
 tetris_OBJECTS = \
-"CMakeFiles/tetris.dir/main.cpp.obj"
+"CMakeFiles/tetris.dir/main.cpp.obj" \
+"CMakeFiles/tetris.dir/OyunAlani.cpp.obj"
 
 # External object files for target tetris
 tetris_EXTERNAL_OBJECTS =
 
 tetris.exe: CMakeFiles/tetris.dir/main.cpp.obj
+tetris.exe: CMakeFiles/tetris.dir/OyunAlani.cpp.obj
 tetris.exe: CMakeFiles/tetris.dir/build.make
 tetris.exe: _deps/sfml-build/lib/libsfml-graphics-d.a
 tetris.exe: _deps/sfml-build/lib/libsfml-window-d.a
@@ -101,7 +118,7 @@ tetris.exe: _deps/sfml-build/lib/libsfml-system-d.a
 tetris.exe: CMakeFiles/tetris.dir/linkLibs.rsp
 tetris.exe: CMakeFiles/tetris.dir/objects1.rsp
 tetris.exe: CMakeFiles/tetris.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\DellX\Desktop\programlama 2 proje\YZM104-Proje\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable tetris.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\DellX\Desktop\programlama 2 proje\YZM104-Proje\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable tetris.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\tetris.dir\link.txt --verbose=$(VERBOSE)
 	C:\mingw64\bin\cmake.exe -E copy_if_different "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-build/lib/sfml-graphics-d-2.dll" "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-build/lib/sfml-window-d-2.dll" "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-build/lib/sfml-system-d-2.dll" "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build"
 

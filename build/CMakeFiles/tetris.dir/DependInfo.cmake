@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/OyunAlani.cpp" "CMakeFiles/tetris.dir/OyunAlani.cpp.obj" "gcc" "CMakeFiles/tetris.dir/OyunAlani.cpp.obj.d"
   "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/main.cpp" "CMakeFiles/tetris.dir/main.cpp.obj" "gcc" "CMakeFiles/tetris.dir/main.cpp.obj.d"
   )
 

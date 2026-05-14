@@ -11,7 +11,7 @@ FetchContent_Declare(
 )
 FetchContent_MakeAvailable(SFML)
 
-add_executable(tetris main.cpp)
+add_executable(tetris main.cpp OyunAlani.cpp)
 
 target_link_libraries(tetris sfml-graphics sfml-window sfml-system)
 if(WIN32)
