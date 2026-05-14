@@ -25,6 +25,8 @@ int main()
     int windowbaslangicdegerix = (window.getSize().x - anapenceregenisligi) / 2;
     int windowbaslangicdegeriy = (window.getSize().y - anapencereyuksekligi) / 2;//kullanıcının ekran boyutu alınarak oyun alanının koordinatları hesaplandı.
 
+    bool yeniBlokGerekiyor = true;
+
     while (window.isOpen())
     {
         Event olay;
@@ -41,6 +43,18 @@ int main()
                     window.close();
                 }
             }
+            if (olay.type == Event::KeyPressed) 
+            {
+                if (olay.key.code == Keyboard::Up) {
+                    siradakiblok.blokdondur();
+                }
+                if (olay.key.code == Keyboard::Left) {
+                    siradakiblok.solagit();
+                }
+                if (olay.key.code == Keyboard::Right) {
+                    siradakiblok.sagagit();
+                }
+            }
         }
 
         window.clear(Color(45,35,50));//ekran temizlendi ve arka plan rengi ayarlandı.
@@ -55,9 +69,13 @@ int main()
 
 
         oyunalani.oyunalaniolustur(window, windowbaslangicdegerix, windowbaslangicdegeriy);
-        siradakiblok.blokolustur(rand() % 14);
+        if (yeniBlokGerekiyor) 
+        {
+            siradakiblok.blokolustur(rand() % 14); 
+            yeniBlokGerekiyor = false; 
+        }
+        
         siradakiblok.blokciz(window, windowbaslangicdegerix, windowbaslangicdegeriy);
-        sleep(seconds(0.5f));
         window.display();
 
     }

@@ -4,6 +4,8 @@
 using namespace sf;
 using namespace std;
 
+OyunAlani tempoyunalani;
+
 const int bloktipi [14][5][5]=
 {
     //buyuk t blok
@@ -56,7 +58,7 @@ void TetrisBloklari::blokolustur(int bloknumarasi)
     {
         blokdondur(); 
     }
-    
+
     blokxdegeri = 6;
     blokydegeri = 0;
 
@@ -83,7 +85,6 @@ void TetrisBloklari::blokolustur(int bloknumarasi)
 
 void TetrisBloklari::blokciz(RenderWindow& pencere, int windowbaslangicdegerix, int windowbaslangicdegeriy)
 {
-    OyunAlani tempoyunalani;
     int blokbirimkareboyutu = tempoyunalani.getbirimkareboyutu();
     
     RectangleShape blokbirimkare(Vector2f(blokbirimkareboyutu-2, blokbirimkareboyutu-2));
@@ -109,22 +110,84 @@ void TetrisBloklari::blokciz(RenderWindow& pencere, int windowbaslangicdegerix, 
 
 void TetrisBloklari::sagagit()
 {
-
+    if(bisonrakikarebosmu(blokxdegeri + 1 , blokydegeri + 1 , blokmatrisi))
+    {
+        blokxdegeri++;
+    }
 }
 
 void TetrisBloklari::solagit()
 {
-
+    if(bisonrakikarebosmu(blokxdegeri - 1 , blokydegeri + 1 , blokmatrisi))
+    {
+        blokxdegeri--;
+    }
 }
 
 void TetrisBloklari::blokdondur()
 {
+    int tempmatris[5][5];
+    for(int i=0; i<5; i++)
+    {
+        for(int j=0; j<5; j++)
+        {
+            tempmatris[j][4-i] = blokmatrisi[i][j];
+        }
+    }
     
+    int ilkdolusatir = 5, ilkdolusutun = 5;
+    for(int i=0; i<5; i++) 
+    {
+        for(int j=0; j<5; j++) 
+        {
+            if(tempmatris[i][j] == 1) 
+            {
+                if(i < ilkdolusatir) 
+                {
+                    ilkdolusatir = i;
+                }
+                if(j < ilkdolusutun) 
+                {
+                    ilkdolusutun = j;
+                }
+            }
+        }
+    }
+
+    for(int k=0; k<5; k++)
+    {
+        for(int m=0; m<5; m++)
+        {
+            blokmatrisi[k-ilkdolusatir][m-ilkdolusutun] = tempmatris[k][m];
+        }
+    }
 }
 
 void TetrisBloklari::blokdusur()
 {
     
+}
+
+bool TetrisBloklari::bisonrakikarebosmu(int siradakix, int siradakiy, int matris[5][5])
+{
+    for (int i = 0; i < 5; i++) 
+    {
+        for (int j = 0; j < 5; j++) 
+        {
+            int siradakixkoordinati;
+            int siradakiykoordinati;
+            if (matris[i][j] == 1) 
+            {
+                siradakixkoordinati = siradakix + j;
+                siradakiykoordinati = siradakiy + i;
+            }
+            if(siradakixkoordinati >= tempoyunalani.getsutunsayisi() || siradakixkoordinati < 0 || siradakiykoordinati >= tempoyunalani.getsatirsayisi() || siradakiykoordinati < 0)
+            {
+                return false; 
+            }
+        }
+    }
+    return true;
 }
 
 int TetrisBloklari::getblokmatrisi(int i, int j) const

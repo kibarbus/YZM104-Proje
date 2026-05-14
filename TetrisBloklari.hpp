@@ -17,6 +17,8 @@ public:
     void blokdondur();
     void blokdusur();
 
+    bool bisonrakikarebosmu(int siradakix, int siradakiy, int matris[5][5]);
+
     int getblokmatrisi(int i, int j) const;
     int getblokxdegeri() const;
     int getblokydegeri() const;
