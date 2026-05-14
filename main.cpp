@@ -1,11 +1,14 @@
 #include <SFML/Graphics.hpp>
 #include "OyunAlani.hpp"
+#include "TetrisBloklari.hpp"
+
 using namespace sf;
 using namespace std;
 
 int main()
 {
     OyunAlani oyunalani;
+    TetrisBloklari siradakiblok;
 
     VideoMode kullaniciEkranBoyutu = VideoMode::getDesktopMode();//kullanıcının ekran boyutu alındı.
 
@@ -52,7 +55,9 @@ int main()
 
 
         oyunalani.oyunalaniolustur(window, windowbaslangicdegerix, windowbaslangicdegeriy);
-
+        siradakiblok.blokolustur(rand() % 14);
+        siradakiblok.blokciz(window, windowbaslangicdegerix, windowbaslangicdegeriy);
+        sleep(seconds(0.5f));
         window.display();
 
     }

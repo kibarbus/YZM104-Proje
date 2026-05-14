@@ -295,6 +295,30 @@ OyunAlani.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/OyunAlani.cpp.s
 .PHONY : OyunAlani.cpp.s
 
+TetrisBloklari.obj: TetrisBloklari.cpp.obj
+.PHONY : TetrisBloklari.obj
+
+# target to build an object file
+TetrisBloklari.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/TetrisBloklari.cpp.obj
+.PHONY : TetrisBloklari.cpp.obj
+
+TetrisBloklari.i: TetrisBloklari.cpp.i
+.PHONY : TetrisBloklari.i
+
+# target to preprocess a source file
+TetrisBloklari.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/TetrisBloklari.cpp.i
+.PHONY : TetrisBloklari.cpp.i
+
+TetrisBloklari.s: TetrisBloklari.cpp.s
+.PHONY : TetrisBloklari.s
+
+# target to generate assembly for a file
+TetrisBloklari.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/TetrisBloklari.cpp.s
+.PHONY : TetrisBloklari.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -343,6 +367,9 @@ help:
 	@echo ... OyunAlani.obj
 	@echo ... OyunAlani.i
 	@echo ... OyunAlani.s
+	@echo ... TetrisBloklari.obj
+	@echo ... TetrisBloklari.i
+	@echo ... TetrisBloklari.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

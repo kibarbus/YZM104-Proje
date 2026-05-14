@@ -19,7 +19,7 @@ public:
 
 
 private:
-    static const int BIRIMKAREBOYUTU = 35;
+    static const int BIRIMKAREBOYUTU = 37;
     static const int satir = 20;
     static const int sutun = 15;
 

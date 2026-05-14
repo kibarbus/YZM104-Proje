@@ -26,7 +26,7 @@ int OyunAlani::getsutunsayisi() const
 
 void OyunAlani::oyunalaniolustur(RenderWindow& pencere, int baslangicdegerix, int baslangicdegeriy)
 {
-    RectangleShape birimkare(Vector2f(BIRIMKAREBOYUTU-1, BIRIMKAREBOYUTU-1));
+    RectangleShape birimkare(Vector2f(BIRIMKAREBOYUTU-1, BIRIMKAREBOYUTU-1));//birim karelerin ayrılması için aralarında boşluk bırakıldı.
 
     for(int i=0; i<satir; i++)
     {
@@ -37,8 +37,8 @@ void OyunAlani::oyunalaniolustur(RenderWindow& pencere, int baslangicdegerix, in
 
             birimkare.setPosition(x, y);
             birimkare.setFillColor(Color(55,45,60));
-            birimkare.setOutlineThickness(-2.0f);
-            birimkare.setOutlineColor(Color(253,250,255,10));
+            birimkare.setOutlineThickness(-2.0f); 
+            birimkare.setOutlineColor(Color(253,250,255,10));//birim karelerin estetik durması için iç kısmında ince yarı saydam bir çerçeve çizildi.
             pencere.draw(birimkare);
         }
     }
