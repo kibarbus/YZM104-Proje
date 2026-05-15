@@ -110,7 +110,7 @@ void TetrisBloklari::blokciz(RenderWindow& pencere, int windowbaslangicdegerix, 
 
 void TetrisBloklari::sagagit()
 {
-    if(bisonrakikarebosmu(blokxdegeri + 1 , blokydegeri + 1 , blokmatrisi))
+    if(bisonrakikarebosmu(blokxdegeri + 1 , blokydegeri , blokmatrisi))
     {
         blokxdegeri++;
     }
@@ -118,9 +118,17 @@ void TetrisBloklari::sagagit()
 
 void TetrisBloklari::solagit()
 {
-    if(bisonrakikarebosmu(blokxdegeri - 1 , blokydegeri + 1 , blokmatrisi))
+    if(bisonrakikarebosmu(blokxdegeri - 1 , blokydegeri , blokmatrisi))
     {
         blokxdegeri--;
+    }
+}
+
+void TetrisBloklari::asagigit()
+{
+    if(bisonrakikarebosmu(blokxdegeri , blokydegeri + 1 , blokmatrisi))
+    {
+        blokydegeri++;
     }
 }
 
@@ -163,9 +171,14 @@ void TetrisBloklari::blokdondur()
     }
 }
 
-void TetrisBloklari::blokdusur()
+bool TetrisBloklari::blokdusur()
 {
-    
+    if(bisonrakikarebosmu(blokxdegeri, blokydegeri + 1, blokmatrisi))
+    {
+        blokydegeri++;
+        return true;
+    }
+    return false;
 }
 
 bool TetrisBloklari::bisonrakikarebosmu(int siradakix, int siradakiy, int matris[5][5])
@@ -180,10 +193,11 @@ bool TetrisBloklari::bisonrakikarebosmu(int siradakix, int siradakiy, int matris
             {
                 siradakixkoordinati = siradakix + j;
                 siradakiykoordinati = siradakiy + i;
-            }
-            if(siradakixkoordinati >= tempoyunalani.getsutunsayisi() || siradakixkoordinati < 0 || siradakiykoordinati >= tempoyunalani.getsatirsayisi() || siradakiykoordinati < 0)
-            {
-                return false; 
+
+                if(siradakixkoordinati >= tempoyunalani.getsutunsayisi() || siradakixkoordinati < 0 || siradakiykoordinati >= tempoyunalani.getsatirsayisi() || siradakiykoordinati < 0)
+                {
+                    return false; 
+                }
             }
         }
     }

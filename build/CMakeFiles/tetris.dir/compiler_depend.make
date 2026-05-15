@@ -258,7 +258,8 @@ CMakeFiles/tetris.dir/OyunAlani.cpp.obj: C:/Users/DellX/Desktop/programlama\ 2\ 
   C:/mingw64/x86_64-w64-mingw32/include/vadefs.h \
   C:/mingw64/x86_64-w64-mingw32/include/wchar.h \
   C:/mingw64/x86_64-w64-mingw32/include/wctype.h \
-  C:/Users/DellX/Desktop/programlama\ 2\ proje/YZM104-Proje/OyunAlani.hpp
+  C:/Users/DellX/Desktop/programlama\ 2\ proje/YZM104-Proje/OyunAlani.hpp \
+  C:/Users/DellX/Desktop/programlama\ 2\ proje/YZM104-Proje/TetrisBloklari.hpp
 
 CMakeFiles/tetris.dir/TetrisBloklari.cpp.obj: C:/Users/DellX/Desktop/programlama\ 2\ proje/YZM104-Proje/TetrisBloklari.cpp \
   _deps/sfml-src/include/SFML/Config.hpp \

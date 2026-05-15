@@ -27,9 +27,21 @@ int main()
 
     bool yeniBlokGerekiyor = true;
 
+    Clock ekranacilissuresayaci;
+    float dusurdongusuzamansayaci = 0.0f;
+    float blokdusmegecikmesuresi = 0.9f;
+    float blokdusmeminimumgecikmesuresi = 0.1f;
+
+    int gecicimatris [5][5];
+
+
     while (window.isOpen())
     {
+        float sonacilistangecenzaman = ekranacilissuresayaci.restart().asSeconds();//restart, pencerenin son acildigindan itibaren gecen sureyi tutar ve sifirlar, assecond ise saniye cinsinden tutar.
+        dusurdongusuzamansayaci += sonacilistangecenzaman;
+
         Event olay;
+
         while (window.pollEvent(olay))
         {
             if (olay.type == Event::Closed)
@@ -45,16 +57,42 @@ int main()
             }
             if (olay.type == Event::KeyPressed) 
             {
-                if (olay.key.code == Keyboard::Up) {
+                if (olay.key.code == Keyboard::Up) 
+                {
                     siradakiblok.blokdondur();
                 }
-                if (olay.key.code == Keyboard::Left) {
+                if (olay.key.code == Keyboard::Left) 
+                {
                     siradakiblok.solagit();
                 }
-                if (olay.key.code == Keyboard::Right) {
+                if (olay.key.code == Keyboard::Right) 
+                {
                     siradakiblok.sagagit();
                 }
+                if (olay.key.code == Keyboard::Down) 
+                {
+                    siradakiblok.asagigit();
+                }
             }
+        }
+
+        for(int u=0; u<5; u++)
+        {
+            for(int v=0; v<5; v++)
+            {
+                gecicimatris[u][v] = siradakiblok.getblokmatrisi(u,v);
+            }
+        }
+
+        if (dusurdongusuzamansayaci >= blokdusmegecikmesuresi)//ekran acildiktan gecikme suresi kadar vakit gecicp gecmedigini kontrol eder.
+        {
+            if(!siradakiblok.blokdusur())
+            {
+                yeniBlokGerekiyor = true;
+                oyunalani.dusenbloksabitle(siradakiblok.getblokxdegeri(), siradakiblok.getblokydegeri(), gecicimatris, siradakiblok.getblokrengi());
+            }
+
+            dusurdongusuzamansayaci = 0.0f;
         }
 
         window.clear(Color(45,35,50));//ekran temizlendi ve arka plan rengi ayarlandı.
@@ -69,13 +107,19 @@ int main()
 
 
         oyunalani.oyunalaniolustur(window, windowbaslangicdegerix, windowbaslangicdegeriy);
+
         if (yeniBlokGerekiyor) 
         {
+            if (blokdusmegecikmesuresi > blokdusmeminimumgecikmesuresi) 
+            {
+                blokdusmegecikmesuresi -= blokdusmeminimumgecikmesuresi * 0.1f; //her  yeni blokta gecikme azaltildi, bloklar gittikce hizlanacak
+            }
             siradakiblok.blokolustur(rand() % 14); 
             yeniBlokGerekiyor = false; 
         }
         
         siradakiblok.blokciz(window, windowbaslangicdegerix, windowbaslangicdegeriy);
+
         window.display();
 
     }

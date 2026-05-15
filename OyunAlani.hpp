@@ -17,12 +17,14 @@ public:
 
     void oyunalaniolustur(RenderWindow& pencere, int baslangicdegerix, int baslangicdegeriy);
 
+    void dusenbloksabitle(int blokxdegeri, int blokydegeri, int blokmatrisi[5][5], Color sabitlenecekblokrengi);
+
 
 private:
     static const int BIRIMKAREBOYUTU = 37;
     static const int satir = 20;
     static const int sutun = 15;
 
-    int izgara [satir][sutun] = {0}; //birim karelerin içinin değeri default olarak 0 atandı.
+    Color grid [satir][sutun]; //birim karelerin içinin değeri default olarak 0 atandı. sonrasinda boyayabilmek icin color olarak degistirildi.
 
 };

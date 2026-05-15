@@ -14,8 +14,10 @@ public:
     void blokciz(RenderWindow& pencere, int windowbaslangicdegerix, int windowbaslangicdegeriy);
     void sagagit();
     void solagit();
+    void asagigit();
     void blokdondur();
-    void blokdusur();
+
+    bool blokdusur();
 
     bool bisonrakikarebosmu(int siradakix, int siradakiy, int matris[5][5]);
 
