@@ -15,10 +15,15 @@ public:
     int getsatirsayisi() const; 
     int getsutunsayisi() const;
 
+    Color getgriddegeri(int sutun, int satir) const;
+    
+    Color getvarsayilangriddegeri() const;
+
     void oyunalaniolustur(RenderWindow& pencere, int baslangicdegerix, int baslangicdegeriy);
 
     void dusenbloksabitle(int blokxdegeri, int blokydegeri, int blokmatrisi[5][5], Color sabitlenecekblokrengi);
 
+    void satirlarikontrolet();
 
 private:
     static const int BIRIMKAREBOYUTU = 37;
@@ -26,5 +31,7 @@ private:
     static const int sutun = 15;
 
     Color grid [satir][sutun]; //birim karelerin içinin değeri default olarak 0 atandı. sonrasinda boyayabilmek icin color olarak degistirildi.
+    Color varsayilangridrengi = Color(55,45,60);
 
+    void satirsil(int silineceksatir);
 };

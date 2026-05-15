@@ -7,7 +7,13 @@ using namespace std;
 
 OyunAlani::OyunAlani()
 {
-
+    for(int i=0; i<satir; i++)
+    {
+        for(int j=0; j<sutun; j++)
+        {
+            grid[i][j] = varsayilangridrengi;
+        }
+    }
 }
 
 int OyunAlani::getbirimkareboyutu() const
@@ -23,6 +29,16 @@ int OyunAlani::getsatirsayisi() const
 int OyunAlani::getsutunsayisi() const 
 {
     return sutun;
+}
+
+Color OyunAlani::getgriddegeri(int sutun, int satir) const
+{
+    return grid[satir][sutun];
+}
+
+Color OyunAlani::getvarsayilangriddegeri() const
+{
+    return varsayilangridrengi;
 }
 
 void OyunAlani::oyunalaniolustur(RenderWindow& pencere, int baslangicdegerix, int baslangicdegeriy)
@@ -75,4 +91,46 @@ void OyunAlani::dusenbloksabitle(int blokxdegeri, int blokydegeri, int blokmatri
                
             }
         }
+}
+
+void OyunAlani::satirlarikontrolet()
+{
+    for(int i=0; i<satir; i++)
+    {
+        bool satirdolumu = false;
+
+        for(int j=0; j<sutun; j++)
+        {
+            if(grid[i][j] == varsayilangridrengi)
+            {
+                satirdolumu = false;
+                break;
+            }
+            else
+            {
+                satirdolumu = true;
+            }
+        }
+        if(satirdolumu)
+        {
+            sleep(milliseconds(150));
+            satirsil(i);
+        }
+    }
+}
+
+void OyunAlani::satirsil(int silineceksatir)
+{
+    for(int i=silineceksatir; i>0; i--)
+    {
+        for(int j=0; j<sutun; j++)
+        {
+            grid[i][j] = grid[i-1][j];
+        }
+
+        for(int k=0; k<sutun; k++)
+        {
+            grid[0][k] = varsayilangridrengi;
+        }
+    }
 }

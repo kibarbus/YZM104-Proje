@@ -63,15 +63,15 @@ int main()
                 }
                 if (olay.key.code == Keyboard::Left) 
                 {
-                    siradakiblok.solagit();
+                    siradakiblok.solagit(oyunalani);
                 }
                 if (olay.key.code == Keyboard::Right) 
                 {
-                    siradakiblok.sagagit();
+                    siradakiblok.sagagit(oyunalani);
                 }
                 if (olay.key.code == Keyboard::Down) 
                 {
-                    siradakiblok.asagigit();
+                    siradakiblok.asagigit(oyunalani);
                 }
             }
         }
@@ -86,10 +86,13 @@ int main()
 
         if (dusurdongusuzamansayaci >= blokdusmegecikmesuresi)//ekran acildiktan gecikme suresi kadar vakit gecicp gecmedigini kontrol eder.
         {
-            if(!siradakiblok.blokdusur())
+            if(!siradakiblok.blokdusur(oyunalani))
             {
-                yeniBlokGerekiyor = true;
                 oyunalani.dusenbloksabitle(siradakiblok.getblokxdegeri(), siradakiblok.getblokydegeri(), gecicimatris, siradakiblok.getblokrengi());
+                
+                yeniBlokGerekiyor = true;
+
+                oyunalani.satirlarikontrolet();
             }
 
             dusurdongusuzamansayaci = 0.0f;
@@ -118,7 +121,7 @@ int main()
             yeniBlokGerekiyor = false; 
         }
         
-        siradakiblok.blokciz(window, windowbaslangicdegerix, windowbaslangicdegeriy);
+        siradakiblok.blokciz(window, windowbaslangicdegerix, windowbaslangicdegeriy, oyunalani);
 
         window.display();
 

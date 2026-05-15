@@ -5,21 +5,23 @@
 using namespace sf;
 using namespace std;
 
+class OyunAlani;
+
 class TetrisBloklari
 {
 public:
     TetrisBloklari();
 
     void blokolustur(int bloknumarasi);
-    void blokciz(RenderWindow& pencere, int windowbaslangicdegerix, int windowbaslangicdegeriy);
-    void sagagit();
-    void solagit();
-    void asagigit();
+    void blokciz(RenderWindow& pencere, int windowbaslangicdegerix, int windowbaslangicdegeriy, const OyunAlani& oyunalani);
+    void sagagit(const OyunAlani& oyunalani);
+    void solagit(const OyunAlani& oyunalani);
+    void asagigit(const OyunAlani& oyunalani);
     void blokdondur();
 
-    bool blokdusur();
+    bool blokdusur(const OyunAlani& oyunalani);
 
-    bool bisonrakikarebosmu(int siradakix, int siradakiy, int matris[5][5]);
+    bool bisonrakikarebosmu(int siradakix, int siradakiy, int matris[5][5], const OyunAlani& oyunalani);
 
     int getblokmatrisi(int i, int j) const;
     int getblokxdegeri() const;

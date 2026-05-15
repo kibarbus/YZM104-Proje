@@ -4,7 +4,7 @@
 using namespace sf;
 using namespace std;
 
-OyunAlani tempoyunalani;
+class OyunAlani;
 
 const int bloktipi [14][5][5]=
 {
@@ -83,9 +83,9 @@ void TetrisBloklari::blokolustur(int bloknumarasi)
     }
 }
 
-void TetrisBloklari::blokciz(RenderWindow& pencere, int windowbaslangicdegerix, int windowbaslangicdegeriy)
+void TetrisBloklari::blokciz(RenderWindow& pencere, int windowbaslangicdegerix, int windowbaslangicdegeriy, const OyunAlani& oyunalani)
 {
-    int blokbirimkareboyutu = tempoyunalani.getbirimkareboyutu();
+    int blokbirimkareboyutu = oyunalani.getbirimkareboyutu();
     
     RectangleShape blokbirimkare(Vector2f(blokbirimkareboyutu-2, blokbirimkareboyutu-2));
 
@@ -108,25 +108,25 @@ void TetrisBloklari::blokciz(RenderWindow& pencere, int windowbaslangicdegerix, 
     }
 }
 
-void TetrisBloklari::sagagit()
+void TetrisBloklari::sagagit(const OyunAlani& oyunalani)
 {
-    if(bisonrakikarebosmu(blokxdegeri + 1 , blokydegeri , blokmatrisi))
+    if(bisonrakikarebosmu(blokxdegeri + 1 , blokydegeri , blokmatrisi, oyunalani))
     {
         blokxdegeri++;
     }
 }
 
-void TetrisBloklari::solagit()
+void TetrisBloklari::solagit(const OyunAlani& oyunalani)
 {
-    if(bisonrakikarebosmu(blokxdegeri - 1 , blokydegeri , blokmatrisi))
+    if(bisonrakikarebosmu(blokxdegeri - 1 , blokydegeri , blokmatrisi, oyunalani))
     {
         blokxdegeri--;
     }
 }
 
-void TetrisBloklari::asagigit()
+void TetrisBloklari::asagigit(const OyunAlani& oyunalani)
 {
-    if(bisonrakikarebosmu(blokxdegeri , blokydegeri + 1 , blokmatrisi))
+    if(bisonrakikarebosmu(blokxdegeri , blokydegeri + 1 , blokmatrisi, oyunalani))
     {
         blokydegeri++;
     }
@@ -171,9 +171,9 @@ void TetrisBloklari::blokdondur()
     }
 }
 
-bool TetrisBloklari::blokdusur()
+bool TetrisBloklari::blokdusur(const OyunAlani& oyunalani)
 {
-    if(bisonrakikarebosmu(blokxdegeri, blokydegeri + 1, blokmatrisi))
+    if(bisonrakikarebosmu(blokxdegeri, blokydegeri + 1, blokmatrisi, oyunalani))
     {
         blokydegeri++;
         return true;
@@ -181,7 +181,7 @@ bool TetrisBloklari::blokdusur()
     return false;
 }
 
-bool TetrisBloklari::bisonrakikarebosmu(int siradakix, int siradakiy, int matris[5][5])
+bool TetrisBloklari::bisonrakikarebosmu(int siradakix, int siradakiy, int matris[5][5], const OyunAlani& oyunalani)
 {
     for (int i = 0; i < 5; i++) 
     {
@@ -194,7 +194,11 @@ bool TetrisBloklari::bisonrakikarebosmu(int siradakix, int siradakiy, int matris
                 siradakixkoordinati = siradakix + j;
                 siradakiykoordinati = siradakiy + i;
 
-                if(siradakixkoordinati >= tempoyunalani.getsutunsayisi() || siradakixkoordinati < 0 || siradakiykoordinati >= tempoyunalani.getsatirsayisi() || siradakiykoordinati < 0)
+                if(siradakixkoordinati >= oyunalani.getsutunsayisi() || siradakixkoordinati < 0 || siradakiykoordinati >= oyunalani.getsatirsayisi())
+                {
+                    return false; 
+                }
+                if (oyunalani.getgriddegeri(siradakixkoordinati, siradakiykoordinati) != oyunalani.getvarsayilangriddegeri()) 
                 {
                     return false; 
                 }
