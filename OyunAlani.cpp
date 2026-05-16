@@ -94,10 +94,10 @@ void OyunAlani::dusenbloksabitle(int blokxdegeri, int blokydegeri, int blokmatri
         }
 }
 
-int OyunAlani::satirlarikontrolet()
+vector<int> OyunAlani::satirlarikontrolet()
 {
-    int satirindeksi = 0;
-    for(satirindeksi; satirindeksi<satir; satirindeksi++)
+    vector<int> silineceksatirlar;
+    for(int satirindeksi = satir-1; satirindeksi>=0; satirindeksi--)
     {
         bool satirdolumu = true;
 
@@ -111,10 +111,10 @@ int OyunAlani::satirlarikontrolet()
         }
         if(satirdolumu)
         {
-            return satirindeksi;
+            silineceksatirlar.push_back(satirindeksi);
         }
     }
-    return -1;
+    return silineceksatirlar;
 }
 
 void OyunAlani::satirefekt(int silineceksatir)

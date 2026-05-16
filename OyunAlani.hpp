@@ -1,6 +1,7 @@
 #pragma once
 #include <SFML/Graphics.hpp>
 #include <iostream>
+#include <vector>
 
 using namespace sf;
 using namespace std;
@@ -23,7 +24,7 @@ public:
 
     void dusenbloksabitle(int blokxdegeri, int blokydegeri, int blokmatrisi[5][5], Color sabitlenecekblokrengi);
 
-    int satirlarikontrolet();
+    vector <int> satirlarikontrolet();
 
     void satirsil(int silineceksatir);
 

@@ -2,6 +2,7 @@
 #include "OyunAlani.hpp"
 #include "TetrisBloklari.hpp"
 #include <iostream>
+#include <vector>
 
 using namespace sf;
 using namespace std;
@@ -102,31 +103,40 @@ int main()
 
         if (dusurdongusuzamansayaci >= blokdusmegecikmesuresi)//ekran acildiktan gecikme suresi kadar vakit gecicp gecmedigini kontrol eder.
         {
+
+            dusurdongusuzamansayaci = 0.0f;
+            
             if(!siradakiblok.blokdusur(oyunalani))
             {
                 oyunalani.dusenbloksabitle(siradakiblok.getblokxdegeri(), siradakiblok.getblokydegeri(), gecicimatris, siradakiblok.getblokrengi());
                 
-                int silineceksatir = oyunalani.satirlarikontrolet();
-                if(silineceksatir >= 0)
+                vector <int> silineceksatirlar = oyunalani.satirlarikontrolet();
+                if(!silineceksatirlar.empty())
                 {
-
                     Clock efektsuresi;
-
-                    oyunalani.satirefekt(silineceksatir);
+                    for(int m=0; m<silineceksatirlar.size(); m++)
+                    {
+                        int efektekleneceksatir = silineceksatirlar[m];
+                        oyunalani.satirefekt(efektekleneceksatir);
+                    }
                     
                     while(efektsuresi.getElapsedTime().asMilliseconds() < 400)//satir silinmeden once efekt icin bekleme suresi ayarlandi.
                     {
                         ekraniguncelle(window, oyunalani, oyunalanidiscerceve, windowbaslangicdegerix, windowbaslangicdegeriy); //satir silinmeden once efektin gorunmesi icin ekran guncellendi.
                         window.display();
                     }
-       
-                    oyunalani.satirsil(silineceksatir);
+
+                    for(int u=silineceksatirlar.size()-1; u>=0 ; u--)
+                    {
+                        int silineceksatiritut=silineceksatirlar[u];
+                        oyunalani.satirsil(silineceksatiritut);
+                    }
+
                 }
 
                 yeniBlokGerekiyor = true;
             }
 
-            dusurdongusuzamansayaci = 0.0f;
         }
 
         ekraniguncelle(window, oyunalani, oyunalanidiscerceve, windowbaslangicdegerix, windowbaslangicdegeriy);
