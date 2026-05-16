@@ -1,5 +1,6 @@
 #include "OyunAlani.hpp"
 #include "TetrisBloklari.hpp"
+#include <iostream>
  
 using namespace sf;
 using namespace std;
@@ -93,29 +94,34 @@ void OyunAlani::dusenbloksabitle(int blokxdegeri, int blokydegeri, int blokmatri
         }
 }
 
-void OyunAlani::satirlarikontrolet()
+int OyunAlani::satirlarikontrolet()
 {
-    for(int i=0; i<satir; i++)
+    int satirindeksi = 0;
+    for(satirindeksi; satirindeksi<satir; satirindeksi++)
     {
-        bool satirdolumu = false;
+        bool satirdolumu = true;
 
         for(int j=0; j<sutun; j++)
         {
-            if(grid[i][j] == varsayilangridrengi)
+            if(grid[satirindeksi][j] == varsayilangridrengi)
             {
                 satirdolumu = false;
                 break;
             }
-            else
-            {
-                satirdolumu = true;
-            }
         }
         if(satirdolumu)
         {
-            sleep(milliseconds(150));
-            satirsil(i);
+            return satirindeksi;
         }
+    }
+    return -1;
+}
+
+void OyunAlani::satirefekt(int silineceksatir)
+{
+    for (int j = 0; j < sutun; j++) 
+    {
+        grid[silineceksatir][j] = varsayilangridrengi;
     }
 }
 
@@ -127,10 +133,10 @@ void OyunAlani::satirsil(int silineceksatir)
         {
             grid[i][j] = grid[i-1][j];
         }
-
-        for(int k=0; k<sutun; k++)
-        {
-            grid[0][k] = varsayilangridrengi;
-        }
+    }
+    
+    for(int k=0; k<sutun; k++)
+    {
+        grid[0][k] = varsayilangridrengi;
     }
 }

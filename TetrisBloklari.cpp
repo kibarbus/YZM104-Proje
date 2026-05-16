@@ -1,5 +1,6 @@
 #include "TetrisBloklari.hpp"
 #include "OyunAlani.hpp"
+#include <iostream>
 
 using namespace sf;
 using namespace std;
@@ -134,6 +135,15 @@ void TetrisBloklari::asagigit(const OyunAlani& oyunalani)
 
 void TetrisBloklari::blokdondur()
 {
+    int eskimatris[5][5];
+    for(int k=0; k<5; k++)
+    {
+        for(int m=0; m<5; m++)
+        {
+            eskimatris[k][m] = blokmatrisi[k][m];
+        }
+    }
+
     int tempmatris[5][5];
     for(int i=0; i<5; i++)
     {
@@ -169,6 +179,17 @@ void TetrisBloklari::blokdondur()
             blokmatrisi[k-ilkdolusatir][m-ilkdolusutun] = tempmatris[k][m];
         }
     }
+
+    if(!bisonrakikarebosmu(blokxdegeri, blokydegeri, blokmatrisi, OyunAlani()))
+    {
+        for(int k=0; k<5; k++)
+        {
+            for(int m=0; m<5; m++)
+            {
+                blokmatrisi[k][m] = eskimatris[k][m];
+            }
+        }
+    }
 }
 
 bool TetrisBloklari::blokdusur(const OyunAlani& oyunalani)
@@ -198,9 +219,13 @@ bool TetrisBloklari::bisonrakikarebosmu(int siradakix, int siradakiy, int matris
                 {
                     return false; 
                 }
-                if (oyunalani.getgriddegeri(siradakixkoordinati, siradakiykoordinati) != oyunalani.getvarsayilangriddegeri()) 
+
+                if (siradakiykoordinati >= 0) 
                 {
-                    return false; 
+                    if (oyunalani.getgriddegeri(siradakixkoordinati, siradakiykoordinati) != oyunalani.getvarsayilangriddegeri()) 
+                    {
+                        return false; 
+                    }
                 }
             }
         }

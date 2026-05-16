@@ -23,7 +23,11 @@ public:
 
     void dusenbloksabitle(int blokxdegeri, int blokydegeri, int blokmatrisi[5][5], Color sabitlenecekblokrengi);
 
-    void satirlarikontrolet();
+    int satirlarikontrolet();
+
+    void satirsil(int silineceksatir);
+
+    void satirefekt(int silineceksatir);
 
 private:
     static const int BIRIMKAREBOYUTU = 37;
@@ -32,6 +36,5 @@ private:
 
     Color grid [satir][sutun]; //birim karelerin içinin değeri default olarak 0 atandı. sonrasinda boyayabilmek icin color olarak degistirildi.
     Color varsayilangridrengi = Color(55,45,60);
-
-    void satirsil(int silineceksatir);
+    
 };

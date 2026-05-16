@@ -1,9 +1,18 @@
 #include <SFML/Graphics.hpp>
 #include "OyunAlani.hpp"
 #include "TetrisBloklari.hpp"
+#include <iostream>
 
 using namespace sf;
 using namespace std;
+
+
+void ekraniguncelle(RenderWindow& window, OyunAlani& oyunalani, RectangleShape& oyunalanidiscerceve  ,int windowbaslangicdegerix, int windowbaslangicdegeriy)
+{
+    window.clear(Color(45,35,50));
+    window.draw(oyunalanidiscerceve);
+    oyunalani.oyunalaniolustur(window, windowbaslangicdegerix,windowbaslangicdegeriy);
+}
 
 int main()
 {
@@ -41,6 +50,13 @@ int main()
         dusurdongusuzamansayaci += sonacilistangecenzaman;
 
         Event olay;
+
+
+        RectangleShape oyunalanidiscerceve(sf::Vector2f(oyunalanigenisligi + 6, oyunalaniyuksekligi + 6));
+        oyunalanidiscerceve.setPosition(windowbaslangicdegerix - 3, windowbaslangicdegeriy - 3);
+        oyunalanidiscerceve.setFillColor(sf::Color::Transparent);
+        oyunalanidiscerceve.setOutlineThickness(10.0f);
+        oyunalanidiscerceve.setOutlineColor(sf::Color(90, 80, 100)); 
 
         while (window.pollEvent(olay))
         {
@@ -90,26 +106,30 @@ int main()
             {
                 oyunalani.dusenbloksabitle(siradakiblok.getblokxdegeri(), siradakiblok.getblokydegeri(), gecicimatris, siradakiblok.getblokrengi());
                 
-                yeniBlokGerekiyor = true;
+                int silineceksatir = oyunalani.satirlarikontrolet();
+                if(silineceksatir >= 0)
+                {
 
-                oyunalani.satirlarikontrolet();
+                    Clock efektsuresi;
+
+                    oyunalani.satirefekt(silineceksatir);
+                    
+                    while(efektsuresi.getElapsedTime().asMilliseconds() < 400)//satir silinmeden once efekt icin bekleme suresi ayarlandi.
+                    {
+                        ekraniguncelle(window, oyunalani, oyunalanidiscerceve, windowbaslangicdegerix, windowbaslangicdegeriy); //satir silinmeden once efektin gorunmesi icin ekran guncellendi.
+                        window.display();
+                    }
+       
+                    oyunalani.satirsil(silineceksatir);
+                }
+
+                yeniBlokGerekiyor = true;
             }
 
             dusurdongusuzamansayaci = 0.0f;
         }
 
-        window.clear(Color(45,35,50));//ekran temizlendi ve arka plan rengi ayarlandı.
-
-
-        RectangleShape oyunalanidiscerceve(sf::Vector2f(oyunalanigenisligi + 6, oyunalaniyuksekligi + 6));
-        oyunalanidiscerceve.setPosition(windowbaslangicdegerix - 3, windowbaslangicdegeriy - 3);
-        oyunalanidiscerceve.setFillColor(sf::Color::Transparent);
-        oyunalanidiscerceve.setOutlineThickness(10.0f);
-        oyunalanidiscerceve.setOutlineColor(sf::Color(90, 80, 100)); 
-        window.draw(oyunalanidiscerceve);//birim karelerin etrafına çerçeve çizildi.
-
-
-        oyunalani.oyunalaniolustur(window, windowbaslangicdegerix, windowbaslangicdegeriy);
+        ekraniguncelle(window, oyunalani, oyunalanidiscerceve, windowbaslangicdegerix, windowbaslangicdegeriy);
 
         if (yeniBlokGerekiyor) 
         {
