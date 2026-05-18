@@ -12,16 +12,18 @@ class TetrisBloklari
 public:
     TetrisBloklari();
 
-    void blokolustur(int bloknumarasi);
+    void blokolustur(int bloknumarasi, const OyunAlani& oyunalani);
     void blokciz(RenderWindow& pencere, int windowbaslangicdegerix, int windowbaslangicdegeriy, const OyunAlani& oyunalani);
     void sagagit(const OyunAlani& oyunalani);
     void solagit(const OyunAlani& oyunalani);
     void asagigit(const OyunAlani& oyunalani);
-    void blokdondur();
+    void blokdondur(const OyunAlani& oyunalani);
 
     bool blokdusur(const OyunAlani& oyunalani);
 
     bool bisonrakikarebosmu(int siradakix, int siradakiy, int matris[5][5], const OyunAlani& oyunalani);
+
+    bool oyunbittimi(int oyunbittimix, int oyunbittimiy, int matris[5][5], const OyunAlani& oyunalani);
 
     int getblokmatrisi(int i, int j) const;
     int getblokxdegeri() const;

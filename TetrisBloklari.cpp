@@ -45,7 +45,7 @@ TetrisBloklari::TetrisBloklari()
     blokydegeri = 0;
 }
 
-void TetrisBloklari::blokolustur(int bloknumarasi)
+void TetrisBloklari::blokolustur(int bloknumarasi, const OyunAlani& oyunalani)
 {
     for(int i=0; i<5; i++)
     {
@@ -57,7 +57,7 @@ void TetrisBloklari::blokolustur(int bloknumarasi)
     int donusyonu = rand() % 5;
     for(int z=0; z<donusyonu; z++)
     {
-        blokdondur(); 
+        blokdondur(oyunalani); 
     }
 
     blokxdegeri = 6;
@@ -133,7 +133,7 @@ void TetrisBloklari::asagigit(const OyunAlani& oyunalani)
     }
 }
 
-void TetrisBloklari::blokdondur()
+void TetrisBloklari::blokdondur(const OyunAlani& oyunalani)
 {
     int eskimatris[5][5];
     for(int k=0; k<5; k++)
@@ -180,7 +180,7 @@ void TetrisBloklari::blokdondur()
         }
     }
 
-    if(!bisonrakikarebosmu(blokxdegeri, blokydegeri, blokmatrisi, OyunAlani()))
+    if(!bisonrakikarebosmu(blokxdegeri, blokydegeri, blokmatrisi, oyunalani))
     {
         for(int k=0; k<5; k++)
         {
@@ -231,6 +231,28 @@ bool TetrisBloklari::bisonrakikarebosmu(int siradakix, int siradakiy, int matris
         }
     }
     return true;
+}
+
+bool TetrisBloklari::oyunbittimi(int oyunbittimix, int oyunbittimiy, int matris[5][5], const OyunAlani& oyunalani)
+{
+    for (int i = 0; i < 5; i++) 
+    {
+        for (int j = 0; j < 5; j++) 
+        {
+            int oyunbittimikontroly;
+
+            if (matris[i][j] == 1) 
+            {
+                oyunbittimikontroly = oyunbittimiy + i;
+
+                if(oyunbittimikontroly <= 0)
+                {
+                    return true;
+                }
+            }
+        }
+    }
+    return false;
 }
 
 int TetrisBloklari::getblokmatrisi(int i, int j) const

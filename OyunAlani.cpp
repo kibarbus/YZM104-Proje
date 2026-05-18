@@ -97,8 +97,8 @@ void OyunAlani::dusenbloksabitle(int blokxdegeri, int blokydegeri, int blokmatri
 vector<int> OyunAlani::satirlarikontrolet()
 {
     vector<int> silineceksatirlar;
-    for(int satirindeksi = satir-1; satirindeksi>=0; satirindeksi--)
-    {
+    for(int satirindeksi = satir-1; satirindeksi>=0; satirindeksi--)//silinecek satir indekslerini asagidan yukariya dogru aliyor.
+    {//satirlarin numarasi yukaridan asagi artiyor.{0,1,2,...}
         bool satirdolumu = true;
 
         for(int j=0; j<sutun; j++)
@@ -127,7 +127,7 @@ void OyunAlani::satirefekt(int silineceksatir)
 
 void OyunAlani::satirsil(int silineceksatir)
 {
-    for(int i=silineceksatir; i>0; i--)
+    for(int i=silineceksatir; i>0; i--)//silinecek satirdan baslayarak yukari dogru cikiyor ve satirlari bir assagi kaydiriyor.
     {
         for(int j=0; j<sutun; j++)
         {
@@ -137,6 +137,6 @@ void OyunAlani::satirsil(int silineceksatir)
     
     for(int k=0; k<sutun; k++)
     {
-        grid[0][k] = varsayilangridrengi;
+        grid[0][k] = varsayilangridrengi;//en ustteki satir dolu olabilecegi icin onu da kaydiriyor.
     }
 }

@@ -40,7 +40,7 @@ int main()
     Clock ekranacilissuresayaci;
     float dusurdongusuzamansayaci = 0.0f;
     float blokdusmegecikmesuresi = 0.9f;
-    float blokdusmeminimumgecikmesuresi = 0.1f;
+    float blokdusmeminimumgecikmesuresi = 0.2f;
 
     int gecicimatris [5][5];
 
@@ -76,7 +76,7 @@ int main()
             {
                 if (olay.key.code == Keyboard::Up) 
                 {
-                    siradakiblok.blokdondur();
+                    siradakiblok.blokdondur(oyunalani);
                 }
                 if (olay.key.code == Keyboard::Left) 
                 {
@@ -89,6 +89,13 @@ int main()
                 if (olay.key.code == Keyboard::Down) 
                 {
                     siradakiblok.asagigit(oyunalani);
+                }
+                if (olay.key.code == Keyboard::Space) 
+                {
+                    while(siradakiblok.blokdusur(oyunalani));
+                    {
+                        
+                    }
                 }
             }
         }
@@ -116,22 +123,27 @@ int main()
                     Clock efektsuresi;
                     for(int m=0; m<silineceksatirlar.size(); m++)
                     {
-                        int efektekleneceksatir = silineceksatirlar[m];
-                        oyunalani.satirefekt(efektekleneceksatir);
+                        int efektekleneceksatiritut = silineceksatirlar[m];
+                        oyunalani.satirefekt(efektekleneceksatiritut);
                     }
                     
-                    while(efektsuresi.getElapsedTime().asMilliseconds() < 400)//satir silinmeden once efekt icin bekleme suresi ayarlandi.
+                    while(efektsuresi.getElapsedTime().asMilliseconds() < 600)//satir silinmeden once efekt icin bekleme suresi ayarlandi.
                     {
                         ekraniguncelle(window, oyunalani, oyunalanidiscerceve, windowbaslangicdegerix, windowbaslangicdegeriy); //satir silinmeden once efektin gorunmesi icin ekran guncellendi.
                         window.display();
                     }
 
-                    for(int u=silineceksatirlar.size()-1; u>=0 ; u--)
+                    for(int u=silineceksatirlar.size()-1; u>=0 ; u--)//asagidan yukari dogru alinan indeksleri yukaridan asagiya dogru siliyor cunku once alttakini silse usttekinin indeksi degisirdi.
                     {
                         int silineceksatiritut=silineceksatirlar[u];
                         oyunalani.satirsil(silineceksatiritut);
                     }
 
+                }
+
+                if (siradakiblok.oyunbittimi(siradakiblok.getblokxdegeri(), siradakiblok.getblokydegeri(), gecicimatris, oyunalani))
+                {
+                    window.close();
                 }
 
                 yeniBlokGerekiyor = true;
@@ -145,9 +157,9 @@ int main()
         {
             if (blokdusmegecikmesuresi > blokdusmeminimumgecikmesuresi) 
             {
-                blokdusmegecikmesuresi -= blokdusmeminimumgecikmesuresi * 0.1f; //her  yeni blokta gecikme azaltildi, bloklar gittikce hizlanacak
+                blokdusmegecikmesuresi -= blokdusmeminimumgecikmesuresi * 0.05f; //her  yeni blokta gecikme azaltildi, bloklar gittikce hizlanacak
             }
-            siradakiblok.blokolustur(rand() % 14); 
+            siradakiblok.blokolustur(rand() % 14, oyunalani); //14 bloktan biri rastgele olusturuldu
             yeniBlokGerekiyor = false; 
         }
         
