@@ -73,11 +73,11 @@ void OyunAlani::oyunalaniolustur(RenderWindow& pencere, int baslangicdegerix, in
     }
 }
 
-void OyunAlani::dusenbloksabitle(int blokxdegeri, int blokydegeri, int blokmatrisi[5][5], Color sabitlenecekblokrengi)
+void OyunAlani::dusenbloksabitle(int blokxdegeri, int blokydegeri, int blokmatrisi[4][4], Color sabitlenecekblokrengi)
 {
-        for(int k=0; k<5; k++)
+        for(int k=0; k<4; k++)
         {
-            for(int m=0; m<5; m++)
+            for(int m=0; m<4; m++)
             {
                 if(blokmatrisi[k][m] == 1)
                 {

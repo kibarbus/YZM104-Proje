@@ -7,36 +7,22 @@ using namespace std;
 
 class OyunAlani;
 
-const int bloktipi [14][5][5]=
+const int bloktipi [7][4][4]=
 {
-    //buyuk t blok
-    {{1,1,1,0,0},{0,1,0,0,0},{0,1,0,0,0},{0,0,0,0,0},{0,0,0,0,0}}, //1
     //kucuk t blok
-    {{1,1,1,0,0},{0,1,0,0,0},{0,0,0,0,0},{0,0,0,0,0},{0,0,0,0,0}}, //2
-    //sol yan l blok
-    {{1,1,1,0,0},{1,0,0,0,0},{0,0,0,0,0},{0,0,0,0,0},{0,0,0,0,0}}, //3
-    //sag yan l blok
-    {{1,1,1,0,0},{0,0,1,0,0},{0,0,0,0,0},{0,0,0,0,0},{0,0,0,0,0}}, //4
+    {{1,1,1,0},{0,1,0,0},{0,0,0,0},{0,0,0,0}}, //1
+    //j blok
+    {{1,1,1,0},{1,0,0,0},{0,0,0,0},{0,0,0,0}}, //2
+    //l blok
+    {{1,1,1,0},{0,0,1,0},{0,0,0,0},{0,0,0,0}}, //3
+    //s blok
+    {{0,1,1,0},{1,1,0,0},{0,0,0,0},{0,0,0,0}},//4
     //z blok
-    {{1,1,0,0,0},{0,1,1,0,0},{0,0,0,0,0},{0,0,0,0,0},{0,0,0,0,0}}, //5
+    {{1,1,0,0},{0,1,1,0},{0,0,0,0},{0,0,0,0}}, //5
     //2'li kare blok
-    {{1,1,0,0,0},{1,1,0,0,0},{0,0,0,0,0},{0,0,0,0,0},{0,0,0,0,0}}, //6
-    //3'lu kare blok
-    {{1,1,1,0,0},{1,1,1,0,0},{1,1,1,0,0},{0,0,0,0,0},{0,0,0,0,0}}, //7
-    //5'li yatay blok
-    {{1,1,1,1,1},{0,0,0,0,0},{0,0,0,0,0},{0,0,0,0,0},{0,0,0,0,0}}, //8
+    {{1,1,0,0},{1,1,0,0},{0,0,0,0},{0,0,0,0}}, //6
     //4'lu yatay blok
-    {{1,1,1,1,0},{0,0,0,0,0},{0,0,0,0,0},{0,0,0,0,0},{0,0,0,0,0}}, //9
-    //3'lu yatay blok
-    {{1,1,1,0,0},{0,0,0,0,0},{0,0,0,0,0},{0,0,0,0,0},{0,0,0,0,0}}, //10
-    //2'li yatay blok
-    {{1,1,0,0,0},{0,0,0,0,0},{0,0,0,0,0},{0,0,0,0,0},{0,0,0,0,0}}, //11
-    //tek blok
-    {{1,0,0,0,0},{0,0,0,0,0},{0,0,0,0,0},{0,0,0,0,0},{0,0,0,0,0}}, //12
-    //n blok
-    {{0,0,1,0,0},{1,1,1,0,0},{1,0,0,0,0},{0,0,0,0,0},{0,0,0,0,0}}, //13
-    //sapan blok
-    {{1,1,1,0,0},{0,0,1,0,0},{0,0,1,0,0},{0,0,0,0,0},{0,0,0,0,0}}, //14
+    {{1,1,1,1},{0,0,0,0},{0,0,0,0},{0,0,0,0},}, //7
 };
 
 TetrisBloklari::TetrisBloklari()
@@ -47,14 +33,14 @@ TetrisBloklari::TetrisBloklari()
 
 void TetrisBloklari::blokolustur(int bloknumarasi, const OyunAlani& oyunalani)
 {
-    for(int i=0; i<5; i++)
+    for(int i=0; i<4; i++)
     {
-        for(int j=0; j<5; j++)
+        for(int j=0; j<4; j++)
         {
             blokmatrisi[i][j] = bloktipi[bloknumarasi][i][j];
         }
     }
-    int donusyonu = rand() % 5;
+    int donusyonu = rand() % 5; //donmemis hallerinin gelme ihtimalinin daha fazla olmasi icin randomda ilk halini 2 kez ihtimal aldirdim.
     for(int z=0; z<donusyonu; z++)
     {
         blokdondur(oyunalani); 
@@ -65,23 +51,48 @@ void TetrisBloklari::blokolustur(int bloknumarasi, const OyunAlani& oyunalani)
 
     switch(bloknumarasi) 
     {
-        case 0:  blokrengi = Color(255, 179, 186);      break; // buyuk t blok
-        case 1:  blokrengi = Color(255, 223, 186);      break; // kucuk t blok
-        case 2:  blokrengi = Color(255, 255, 186);      break; // sol yan l blok
-        case 3:  blokrengi = Color(186, 255, 201);      break; // sag yan l blok
-        case 4:  blokrengi = Color(188, 158, 130);      break; // z blok
-        case 5:  blokrengi = Color(221, 160, 221);      break; // 2'li kare blok
-        case 6:  blokrengi = Color(204, 204, 255);      break; // 3'lu kare blok
-        case 7:  blokrengi = Color(255, 204, 229);      break; // 4'lu yatay blok
-        case 8:  blokrengi = Color(204, 255, 255);      break; // 5'li yatay blok
-        case 9:  blokrengi = Color(224, 224, 224);      break; // 4'lu yatay blok
-        case 10: blokrengi = Color(255, 218, 185);      break; // 3'lu yatay blok
-        case 11: blokrengi = Color(186, 225, 255);      break; // tek blok
-        case 12: blokrengi = Color(176, 224, 230);      break; // n blok
-        case 13: blokrengi = Color(152, 251, 152);      break; // sapan blok
+        case 0:  blokrengi = Color(255, 150, 196);   break; // kucuk t blok
+        case 1:  blokrengi = Color(186, 215, 255);   break; // j blok
+        case 2:  blokrengi = Color(230, 223, 186);   break; // l blok
+        case 3:  blokrengi = Color(186, 255, 211);   break; // s blok
+        case 4:  blokrengi = Color(221, 155, 231);   break; // z blok
+        case 5:  blokrengi = Color(188, 158, 130);   break; // 2'li kare blok
+        case 6:  blokrengi = Color(204, 200, 255);   break; // 4'lu yatay blok
         
         default:                                        break;
     }
+}
+
+void TetrisBloklari::hayaletblokolustur(int hayaletbloknumarasi, const OyunAlani& oyunalani)
+{
+    /* for(int i=0; i<4; i++)
+    {
+        for(int j=0; j<4; j++)
+        {
+            blokmatrisi[i][j] = bloktipi[hayaletbloknumarasi][i][j];
+        }
+    } */
+
+    this->hayaletbloknumarasi = hayaletbloknumarasi;
+
+    switch(hayaletbloknumarasi) 
+    {
+        case 0:  blokrengi = Color(255, 240, 245, 30);   break; // kucuk t blok
+        case 1:  blokrengi = Color(240, 248, 255, 30);   break; // j blok
+        case 2:  blokrengi = Color(255, 253, 240, 30);   break; // l blok
+        case 3:  blokrengi = Color(240, 255, 245, 30);   break; // s blok
+        case 4:  blokrengi = Color(253, 242, 255, 30);   break; // z blok
+        case 5:  blokrengi = Color(250, 245, 240, 30);   break; // 2'li kare blok
+        case 6:  blokrengi = Color(242, 255, 255, 30);   break; // 4'lu yatay blok
+        
+        default:                                        break;
+    }
+
+    while(blokdusur(oyunalani))
+    {
+        
+    }
+
 }
 
 void TetrisBloklari::blokciz(RenderWindow& pencere, int windowbaslangicdegerix, int windowbaslangicdegeriy, const OyunAlani& oyunalani)
@@ -90,9 +101,9 @@ void TetrisBloklari::blokciz(RenderWindow& pencere, int windowbaslangicdegerix, 
     
     RectangleShape blokbirimkare(Vector2f(blokbirimkareboyutu-2, blokbirimkareboyutu-2));
 
-    for(int i=0; i<5; i++)
+    for(int i=0; i<4; i++)
     {
-        for(int j=0; j<5; j++)
+        for(int j=0; j<4; j++)
         {
             if(blokmatrisi[i][j] == 1)
             {
@@ -103,6 +114,31 @@ void TetrisBloklari::blokciz(RenderWindow& pencere, int windowbaslangicdegerix, 
                 blokbirimkare.setFillColor(blokrengi);
                 blokbirimkare.setOutlineThickness(-2.0f);
                 blokbirimkare.setOutlineColor(Color(255, 255, 255, 60));
+                pencere.draw(blokbirimkare);
+            }
+        }
+    }
+}
+
+void TetrisBloklari::hayaletblokciz(RenderWindow& pencere, int windowbaslangicdegerix, int windowbaslangicdegeriy, const OyunAlani& oyunalani)
+{
+    int blokbirimkareboyutu = oyunalani.getbirimkareboyutu();
+    
+    RectangleShape blokbirimkare(Vector2f(blokbirimkareboyutu-2, blokbirimkareboyutu-2));
+
+    for(int i=0; i<4; i++)
+    {
+        for(int j=0; j<4; j++)
+        {
+            if(blokmatrisi[i][j] == 1)
+            {
+                int x = windowbaslangicdegerix + (blokxdegeri + j) * blokbirimkareboyutu;
+                int y = windowbaslangicdegeriy + (blokydegeri + i) * blokbirimkareboyutu;
+
+                blokbirimkare.setPosition(x, y);
+                blokbirimkare.setFillColor(blokrengi);
+                blokbirimkare.setOutlineThickness(-2.0f);
+                blokbirimkare.setOutlineColor(Color(255, 255, 255, 1));
                 pencere.draw(blokbirimkare);
             }
         }
@@ -135,28 +171,28 @@ void TetrisBloklari::asagigit(const OyunAlani& oyunalani)
 
 void TetrisBloklari::blokdondur(const OyunAlani& oyunalani)
 {
-    int eskimatris[5][5];
-    for(int k=0; k<5; k++)
+    int eskimatris[4][4];
+    for(int k=0; k<4; k++)
     {
-        for(int m=0; m<5; m++)
+        for(int m=0; m<4; m++)
         {
             eskimatris[k][m] = blokmatrisi[k][m];
         }
     }
 
-    int tempmatris[5][5];
-    for(int i=0; i<5; i++)
+    int tempmatris[4][4];
+    for(int i=0; i<4; i++)
     {
-        for(int j=0; j<5; j++)
+        for(int j=0; j<4; j++)
         {
-            tempmatris[j][4-i] = blokmatrisi[i][j];
+            tempmatris[j][3-i] = blokmatrisi[i][j];//indis 0dan başladigi icin 3-i
         }
     }
     
-    int ilkdolusatir = 5, ilkdolusutun = 5;
-    for(int i=0; i<5; i++) 
+    int ilkdolusatir = 4, ilkdolusutun = 4;
+    for(int i=0; i<4; i++) 
     {
-        for(int j=0; j<5; j++) 
+        for(int j=0; j<4; j++) 
         {
             if(tempmatris[i][j] == 1) 
             {
@@ -172,9 +208,9 @@ void TetrisBloklari::blokdondur(const OyunAlani& oyunalani)
         }
     }
 
-    for(int k=0; k<5; k++)
+    for(int k=0; k<4; k++)
     {
-        for(int m=0; m<5; m++)
+        for(int m=0; m<4; m++)
         {
             blokmatrisi[k-ilkdolusatir][m-ilkdolusutun] = tempmatris[k][m];
         }
@@ -182,9 +218,9 @@ void TetrisBloklari::blokdondur(const OyunAlani& oyunalani)
 
     if(!bisonrakikarebosmu(blokxdegeri, blokydegeri, blokmatrisi, oyunalani))
     {
-        for(int k=0; k<5; k++)
+        for(int k=0; k<4; k++)
         {
-            for(int m=0; m<5; m++)
+            for(int m=0; m<4; m++)
             {
                 blokmatrisi[k][m] = eskimatris[k][m];
             }
@@ -202,11 +238,11 @@ bool TetrisBloklari::blokdusur(const OyunAlani& oyunalani)
     return false;
 }
 
-bool TetrisBloklari::bisonrakikarebosmu(int siradakix, int siradakiy, int matris[5][5], const OyunAlani& oyunalani)
+bool TetrisBloklari::bisonrakikarebosmu(int siradakix, int siradakiy, int matris[4][4], const OyunAlani& oyunalani)
 {
-    for (int i = 0; i < 5; i++) 
+    for (int i=0; i<4; i++) 
     {
-        for (int j = 0; j < 5; j++) 
+        for (int j=0; j<4; j++) 
         {
             int siradakixkoordinati;
             int siradakiykoordinati;
@@ -215,12 +251,12 @@ bool TetrisBloklari::bisonrakikarebosmu(int siradakix, int siradakiy, int matris
                 siradakixkoordinati = siradakix + j;
                 siradakiykoordinati = siradakiy + i;
 
-                if(siradakixkoordinati >= oyunalani.getsutunsayisi() || siradakixkoordinati < 0 || siradakiykoordinati >= oyunalani.getsatirsayisi())
+                if(siradakixkoordinati >= oyunalani.getsutunsayisi() || siradakixkoordinati<0 || siradakiykoordinati >= oyunalani.getsatirsayisi())
                 {
                     return false; 
                 }
 
-                if (siradakiykoordinati >= 0) 
+                if (siradakiykoordinati>=0) 
                 {
                     if (oyunalani.getgriddegeri(siradakixkoordinati, siradakiykoordinati) != oyunalani.getvarsayilangriddegeri()) 
                     {
@@ -233,11 +269,11 @@ bool TetrisBloklari::bisonrakikarebosmu(int siradakix, int siradakiy, int matris
     return true;
 }
 
-bool TetrisBloklari::oyunbittimi(int oyunbittimix, int oyunbittimiy, int matris[5][5], const OyunAlani& oyunalani)
+bool TetrisBloklari::oyunbittimi(int oyunbittimix, int oyunbittimiy, int matris[4][4], const OyunAlani& oyunalani)
 {
-    for (int i = 0; i < 5; i++) 
+    for (int i=0; i<4; i++) 
     {
-        for (int j = 0; j < 5; j++) 
+        for (int j=0; j<4; j++) 
         {
             int oyunbittimikontroly;
 

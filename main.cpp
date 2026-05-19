@@ -19,6 +19,7 @@ int main()
 {
     OyunAlani oyunalani;
     TetrisBloklari siradakiblok;
+    TetrisBloklari hayaletblok;
 
     VideoMode kullaniciEkranBoyutu = VideoMode::getDesktopMode();//kullanıcının ekran boyutu alındı.
 
@@ -42,11 +43,14 @@ int main()
     float blokdusmegecikmesuresi = 0.9f;
     float blokdusmeminimumgecikmesuresi = 0.2f;
 
-    int gecicimatris [5][5];
+    int gecicimatris [4][4];
 
 
     while (window.isOpen())
     {
+        
+        int yenibloknumara;
+
         float sonacilistangecenzaman = ekranacilissuresayaci.restart().asSeconds();//restart, pencerenin son acildigindan itibaren gecen sureyi tutar ve sifirlar, assecond ise saniye cinsinden tutar.
         dusurdongusuzamansayaci += sonacilistangecenzaman;
 
@@ -77,13 +81,16 @@ int main()
                 if (olay.key.code == Keyboard::Up) 
                 {
                     siradakiblok.blokdondur(oyunalani);
+                    hayaletblok.blokdondur(oyunalani);
                 }
                 if (olay.key.code == Keyboard::Left) 
                 {
                     siradakiblok.solagit(oyunalani);
+                    hayaletblok.solagit(oyunalani);
                 }
                 if (olay.key.code == Keyboard::Right) 
                 {
+                    siradakiblok.sagagit(oyunalani);
                     siradakiblok.sagagit(oyunalani);
                 }
                 if (olay.key.code == Keyboard::Down) 
@@ -92,7 +99,7 @@ int main()
                 }
                 if (olay.key.code == Keyboard::Space) 
                 {
-                    while(siradakiblok.blokdusur(oyunalani));
+                    while(siradakiblok.blokdusur(oyunalani))
                     {
                         
                     }
@@ -100,9 +107,9 @@ int main()
             }
         }
 
-        for(int u=0; u<5; u++)
+        for(int u=0; u<4; u++)
         {
-            for(int v=0; v<5; v++)
+            for(int v=0; v<4; v++)
             {
                 gecicimatris[u][v] = siradakiblok.getblokmatrisi(u,v);
             }
@@ -159,11 +166,20 @@ int main()
             {
                 blokdusmegecikmesuresi -= blokdusmeminimumgecikmesuresi * 0.05f; //her  yeni blokta gecikme azaltildi, bloklar gittikce hizlanacak
             }
-            siradakiblok.blokolustur(rand() % 14, oyunalani); //14 bloktan biri rastgele olusturuldu
+
+            yenibloknumara = rand() % 6;
+
+            siradakiblok.blokolustur(yenibloknumara, oyunalani); //7 bloktan biri rastgele olusturuldu
+
             yeniBlokGerekiyor = false; 
         }
+
+        hayaletblok = siradakiblok;
+
+        hayaletblok.hayaletblokolustur(yenibloknumara, oyunalani);
         
         siradakiblok.blokciz(window, windowbaslangicdegerix, windowbaslangicdegeriy, oyunalani);
+        hayaletblok.hayaletblokciz(window, windowbaslangicdegerix, windowbaslangicdegeriy, oyunalani);
 
         window.display();
 

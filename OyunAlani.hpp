@@ -22,7 +22,7 @@ public:
 
     void oyunalaniolustur(RenderWindow& pencere, int baslangicdegerix, int baslangicdegeriy);
 
-    void dusenbloksabitle(int blokxdegeri, int blokydegeri, int blokmatrisi[5][5], Color sabitlenecekblokrengi);
+    void dusenbloksabitle(int blokxdegeri, int blokydegeri, int blokmatrisi[4][4], Color sabitlenecekblokrengi);
 
     vector <int> satirlarikontrolet();
 
