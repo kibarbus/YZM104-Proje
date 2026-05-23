@@ -138,7 +138,7 @@ void TetrisBloklari::hayaletblokciz(RenderWindow& pencere, int windowbaslangicde
                 blokrengi.a = 40;//blok renkleri şeffaflaştırıldı.
 
                 blokbirimkare.setPosition(x, y);
-                blokbirimkare.setFillColor(blokrengi + Color(255,255,255,1));
+                blokbirimkare.setFillColor(blokrengi);
                 blokbirimkare.setOutlineThickness(-1.0f);
                 blokbirimkare.setOutlineColor(Color(255, 255, 255, 1));
                 pencere.draw(blokbirimkare);

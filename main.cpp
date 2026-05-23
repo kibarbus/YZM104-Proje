@@ -44,6 +44,7 @@ int main()
 
 
     bilgipaneli.panelikonumlandir(bilgipanelibaslangicdegerix, bilgipanelibaslangicdegeriy);
+    bilgipaneli.siradakiblokonizlemekutusuciz(window, oyunalani, bilgipanelibaslangicdegerix, bilgipanelibaslangicdegeriy);
 
 
     bool yeniBlokGerekiyor = true;
@@ -58,12 +59,13 @@ int main()
     Clock satirsilmefrekansisayaci;
     float satirsilmefrekansizamansayaci = 0.0f;
 
+    siradakiblok.blokolustur((rand() % 7), oyunalani); //7 bloktan biri rastgele olusturuldu.
+    sonrakiblok.blokolustur((rand() % 7), oyunalani);
+
 
     while (window.isOpen())
     {
         
-        int yenibloknumara;
-
         float sonacilistangecenzaman = ekranacilissuresayaci.restart().asSeconds();//restart, pencerenin son acildigindan itibaren gecen sureyi tutar ve sifirlar, assecond ise saniye cinsinden tutar.
         dusurdongusuzamansayaci += sonacilistangecenzaman;
 
@@ -198,10 +200,9 @@ int main()
                 blokdusmegecikmesuresi -= blokdusmeminimumgecikmesuresi * 0.05f; //her  yeni blokta gecikme azaltildi, bloklar gittikce hizlanacak
             }
 
-            yenibloknumara = rand() % 7;
-
-            siradakiblok.blokolustur(yenibloknumara, oyunalani); //7 bloktan biri rastgele olusturuldu
-            sonrakiblok.blokolustur(yenibloknumara, oyunalani);
+            siradakiblok = sonrakiblok;
+            
+            sonrakiblok.blokolustur((rand() % 7), oyunalani);
 
             yeniBlokGerekiyor = false; 
         }
@@ -216,6 +217,10 @@ int main()
         window.draw(bilgipanelidiscervceve);
 
         bilgipaneli.bilgialaniciz(window);
+
+        bilgipaneli.siradakiblokonizlemekutusuciz(window, oyunalani, bilgipanelibaslangicdegerix, bilgipanelibaslangicdegeriy);
+
+        bilgipaneli.siradakiblokonizlemeciz(window, sonrakiblok, oyunalani);
 
         window.display();
 

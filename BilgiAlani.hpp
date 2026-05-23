@@ -23,7 +23,8 @@ public:
     void dusenbloklaskorarttir();
     void levelarttir();
 
-    void siradakiblokonizlemesiciz(RenderWindow& window, const TetrisBloklari& sonrakiblok);
+    void siradakiblokonizlemekutusuciz(RenderWindow& window, OyunAlani& oyunalani, int x, int y);
+    void siradakiblokonizlemeciz(RenderWindow& window, const TetrisBloklari& sonrakiblok, const OyunAlani& oyunalani);
 
     int getpanelgenisligi() const;
 
@@ -32,6 +33,10 @@ private:
     static const int genislik = 7;
     static const int yukseklik = 20;
 
+    static const int siradakiblokonizlemekutusugenisligi = 6;
+    static const int siradakiblokonizlemekutusuyuksekligi = 6;
+
+
     int skortut;
     int leveltut;
 
@@ -39,9 +44,12 @@ private:
 
     RectangleShape bilgialanicerceve;
     RectangleShape siradakiblokonizlemekutusu;
+    RectangleShape siradakiblokonizlemekutusucerceve;
 
     Font font;
+    Text skoryazisi;
     Text skor;
+    Text levelyazisi;
     Text level;
 
     Color panelrengi = Color(255,255,255,60);
