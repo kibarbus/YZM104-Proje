@@ -1,6 +1,7 @@
 #include <SFML/Graphics.hpp>
 #include "OyunAlani.hpp"
 #include "TetrisBloklari.hpp"
+#include "BilgiAlani.hpp"
 #include <iostream>
 #include <vector>
 
@@ -8,7 +9,7 @@ using namespace sf;
 using namespace std;
 
 
-void ekraniguncelle(RenderWindow& window, OyunAlani& oyunalani, RectangleShape& oyunalanidiscerceve  ,int windowbaslangicdegerix, int windowbaslangicdegeriy)
+void ekraniguncelle(RenderWindow& window, OyunAlani& oyunalani, RectangleShape& oyunalanidiscerceve ,int windowbaslangicdegerix, int windowbaslangicdegeriy)
 {
     window.clear(Color(45,35,50));
     window.draw(oyunalanidiscerceve);
@@ -19,22 +20,31 @@ int main()
 {
     OyunAlani oyunalani;
     TetrisBloklari siradakiblok;
+    TetrisBloklari sonrakiblok;
     TetrisBloklari hayaletblok;
+    BilgiAlani bilgipaneli(0, 0, oyunalani);
 
     VideoMode kullaniciEkranBoyutu = VideoMode::getDesktopMode();//kullanıcının ekran boyutu alındı.
 
     RenderWindow window(kullaniciEkranBoyutu, "Tetris", Style::Fullscreen);//oyun default olarak tam ekran başlamaya ayarlandı.
 
-    int bilgipaneligenisligi = 200;
-
     int oyunalanigenisligi = oyunalani.getsutunsayisi() * oyunalani.getbirimkareboyutu();
     int oyunalaniyuksekligi = oyunalani.getsatirsayisi() * oyunalani.getbirimkareboyutu();
+
+    int bilgipaneligenisligi = bilgipaneli.getpanelgenisligi();
 
     int anapenceregenisligi = oyunalanigenisligi + bilgipaneligenisligi;
     int anapencereyuksekligi = oyunalaniyuksekligi;
 
-    int windowbaslangicdegerix = (window.getSize().x - anapenceregenisligi) / 2;
-    int windowbaslangicdegeriy = (window.getSize().y - anapencereyuksekligi) / 2;//kullanıcının ekran boyutu alınarak oyun alanının koordinatları hesaplandı.
+    int windowbaslangicdegerix = ((window.getSize().x - anapenceregenisligi) / 2) - 20;
+    int windowbaslangicdegeriy = (window.getSize().y - anapencereyuksekligi) / 2 ;//kullanıcının ekran boyutu alınarak oyun alanının koordinatları hesaplandı.
+
+    int bilgipanelibaslangicdegerix = windowbaslangicdegerix + oyunalanigenisligi + 18;
+    int bilgipanelibaslangicdegeriy = windowbaslangicdegeriy;
+
+
+    bilgipaneli.panelikonumlandir(bilgipanelibaslangicdegerix, bilgipanelibaslangicdegeriy);
+
 
     bool yeniBlokGerekiyor = true;
 
@@ -44,6 +54,9 @@ int main()
     float blokdusmeminimumgecikmesuresi = 0.2f;
 
     int gecicimatris [4][4];
+
+    Clock satirsilmefrekansisayaci;
+    float satirsilmefrekansizamansayaci = 0.0f;
 
 
     while (window.isOpen())
@@ -56,12 +69,17 @@ int main()
 
         Event olay;
 
+        RectangleShape bilgipanelidiscervceve(sf::Vector2f(bilgipaneligenisligi + 6, oyunalaniyuksekligi + 6));
+        bilgipanelidiscervceve.setPosition(bilgipanelibaslangicdegerix - 3, bilgipanelibaslangicdegeriy - 3);
+        bilgipanelidiscervceve.setFillColor(Color::Transparent);
+        bilgipanelidiscervceve.setOutlineThickness(10.0f);
+        bilgipanelidiscervceve.setOutlineColor(Color(90, 80, 100)); 
 
         RectangleShape oyunalanidiscerceve(sf::Vector2f(oyunalanigenisligi + 6, oyunalaniyuksekligi + 6));
         oyunalanidiscerceve.setPosition(windowbaslangicdegerix - 3, windowbaslangicdegeriy - 3);
-        oyunalanidiscerceve.setFillColor(sf::Color::Transparent);
+        oyunalanidiscerceve.setFillColor(Color::Transparent);
         oyunalanidiscerceve.setOutlineThickness(10.0f);
-        oyunalanidiscerceve.setOutlineColor(sf::Color(90, 80, 100)); 
+        oyunalanidiscerceve.setOutlineColor(Color(90, 80, 100)); 
 
         while (window.pollEvent(olay))
         {
@@ -90,7 +108,6 @@ int main()
                 }
                 if (olay.key.code == Keyboard::Right) 
                 {
-                    siradakiblok.sagagit(oyunalani);
                     siradakiblok.sagagit(oyunalani);
                 }
                 if (olay.key.code == Keyboard::Down) 
@@ -125,8 +142,18 @@ int main()
                 oyunalani.dusenbloksabitle(siradakiblok.getblokxdegeri(), siradakiblok.getblokydegeri(), gecicimatris, siradakiblok.getblokrengi());
                 
                 vector <int> silineceksatirlar = oyunalani.satirlarikontrolet();
+
+                bilgipaneli.dusenbloklaskorarttir();
+
+                int kacsatirsilindi = silineceksatirlar.size();
+
+                
                 if(!silineceksatirlar.empty())
                 {
+
+                    float satirsilmefrekansi = satirsilmefrekansisayaci.restart().asSeconds();
+                    satirsilmefrekansizamansayaci += satirsilmefrekansi;
+
                     Clock efektsuresi;
                     for(int m=0; m<silineceksatirlar.size(); m++)
                     {
@@ -137,6 +164,8 @@ int main()
                     while(efektsuresi.getElapsedTime().asMilliseconds() < 600)//satir silinmeden once efekt icin bekleme suresi ayarlandi.
                     {
                         ekraniguncelle(window, oyunalani, oyunalanidiscerceve, windowbaslangicdegerix, windowbaslangicdegeriy); //satir silinmeden once efektin gorunmesi icin ekran guncellendi.
+                        bilgipaneli.bilgialaniciz(window);
+                        window.draw(bilgipanelidiscervceve);
                         window.display();
                     }
 
@@ -146,6 +175,8 @@ int main()
                         oyunalani.satirsil(silineceksatiritut);
                     }
 
+                    bilgipaneli.skorarttir(kacsatirsilindi, satirsilmefrekansizamansayaci);
+                    satirsilmefrekansizamansayaci = 0.0f;
                 }
 
                 if (siradakiblok.oyunbittimi(siradakiblok.getblokxdegeri(), siradakiblok.getblokydegeri(), gecicimatris, oyunalani))
@@ -167,19 +198,24 @@ int main()
                 blokdusmegecikmesuresi -= blokdusmeminimumgecikmesuresi * 0.05f; //her  yeni blokta gecikme azaltildi, bloklar gittikce hizlanacak
             }
 
-            yenibloknumara = rand() % 6;
+            yenibloknumara = rand() % 7;
 
             siradakiblok.blokolustur(yenibloknumara, oyunalani); //7 bloktan biri rastgele olusturuldu
+            sonrakiblok.blokolustur(yenibloknumara, oyunalani);
 
             yeniBlokGerekiyor = false; 
         }
 
         hayaletblok = siradakiblok;
 
-        hayaletblok.hayaletblokolustur(yenibloknumara, oyunalani);
+        hayaletblok.hayaletblokolustur(oyunalani);
         
         siradakiblok.blokciz(window, windowbaslangicdegerix, windowbaslangicdegeriy, oyunalani);
         hayaletblok.hayaletblokciz(window, windowbaslangicdegerix, windowbaslangicdegeriy, oyunalani);
+
+        window.draw(bilgipanelidiscervceve);
+
+        bilgipaneli.bilgialaniciz(window);
 
         window.display();
 

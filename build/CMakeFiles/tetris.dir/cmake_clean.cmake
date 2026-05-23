@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/tetris.dir/BilgiAlani.cpp.obj"
+  "CMakeFiles/tetris.dir/BilgiAlani.cpp.obj.d"
   "CMakeFiles/tetris.dir/OyunAlani.cpp.obj"
   "CMakeFiles/tetris.dir/OyunAlani.cpp.obj.d"
   "CMakeFiles/tetris.dir/TetrisBloklari.cpp.obj"

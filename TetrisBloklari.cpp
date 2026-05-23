@@ -63,7 +63,7 @@ void TetrisBloklari::blokolustur(int bloknumarasi, const OyunAlani& oyunalani)
     }
 }
 
-void TetrisBloklari::hayaletblokolustur(int hayaletbloknumarasi, const OyunAlani& oyunalani)
+void TetrisBloklari::hayaletblokolustur(const OyunAlani& oyunalani)
 {
     /* for(int i=0; i<4; i++)
     {
@@ -73,7 +73,7 @@ void TetrisBloklari::hayaletblokolustur(int hayaletbloknumarasi, const OyunAlani
         }
     } */
 
-    this->hayaletbloknumarasi = hayaletbloknumarasi;
+    /* this->hayaletbloknumarasi = hayaletbloknumarasi;
 
     switch(hayaletbloknumarasi) 
     {
@@ -86,7 +86,7 @@ void TetrisBloklari::hayaletblokolustur(int hayaletbloknumarasi, const OyunAlani
         case 6:  blokrengi = Color(242, 255, 255, 30);   break; // 4'lu yatay blok
         
         default:                                        break;
-    }
+    } */
 
     while(blokdusur(oyunalani))
     {
@@ -135,9 +135,11 @@ void TetrisBloklari::hayaletblokciz(RenderWindow& pencere, int windowbaslangicde
                 int x = windowbaslangicdegerix + (blokxdegeri + j) * blokbirimkareboyutu;
                 int y = windowbaslangicdegeriy + (blokydegeri + i) * blokbirimkareboyutu;
 
+                blokrengi.a = 40;//blok renkleri şeffaflaştırıldı.
+
                 blokbirimkare.setPosition(x, y);
-                blokbirimkare.setFillColor(blokrengi);
-                blokbirimkare.setOutlineThickness(-2.0f);
+                blokbirimkare.setFillColor(blokrengi + Color(255,255,255,1));
+                blokbirimkare.setOutlineThickness(-1.0f);
                 blokbirimkare.setOutlineColor(Color(255, 255, 255, 1));
                 pencere.draw(blokbirimkare);
             }

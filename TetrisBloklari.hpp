@@ -13,7 +13,7 @@ public:
     TetrisBloklari();
 
     void blokolustur(int bloknumarasi, const OyunAlani& oyunalani);
-    void hayaletblokolustur(int bloknumarasi, const OyunAlani& oyunalani);
+    void hayaletblokolustur(const OyunAlani& oyunalani);
     void blokciz(RenderWindow& pencere, int windowbaslangicdegerix, int windowbaslangicdegeriy, const OyunAlani& oyunalani);
     void hayaletblokciz(RenderWindow& pencere, int windowbaslangicdegerix, int windowbaslangicdegeriy, const OyunAlani& oyunalani);
     void sagagit(const OyunAlani& oyunalani);

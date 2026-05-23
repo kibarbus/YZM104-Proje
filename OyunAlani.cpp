@@ -45,7 +45,6 @@ Color OyunAlani::getvarsayilangriddegeri() const
 void OyunAlani::oyunalaniolustur(RenderWindow& pencere, int baslangicdegerix, int baslangicdegeriy)
 {
     RectangleShape birimkare(Vector2f(BIRIMKAREBOYUTU-1, BIRIMKAREBOYUTU-1));//birim karelerin ayrılması için aralarında boşluk bırakıldı.
-    Color varsayilangridrengi(55,45,60);
 
     for(int i=0; i<satir; i++)
     {

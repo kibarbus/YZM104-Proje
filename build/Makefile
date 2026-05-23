@@ -271,6 +271,30 @@ sfml-audio/fast:
 	$(MAKE) $(MAKESILENT) -f _deps\sfml-build\src\SFML\Audio\CMakeFiles\sfml-audio.dir\build.make _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/build
 .PHONY : sfml-audio/fast
 
+BilgiAlani.obj: BilgiAlani.cpp.obj
+.PHONY : BilgiAlani.obj
+
+# target to build an object file
+BilgiAlani.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/BilgiAlani.cpp.obj
+.PHONY : BilgiAlani.cpp.obj
+
+BilgiAlani.i: BilgiAlani.cpp.i
+.PHONY : BilgiAlani.i
+
+# target to preprocess a source file
+BilgiAlani.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/BilgiAlani.cpp.i
+.PHONY : BilgiAlani.cpp.i
+
+BilgiAlani.s: BilgiAlani.cpp.s
+.PHONY : BilgiAlani.s
+
+# target to generate assembly for a file
+BilgiAlani.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/BilgiAlani.cpp.s
+.PHONY : BilgiAlani.cpp.s
+
 OyunAlani.obj: OyunAlani.cpp.obj
 .PHONY : OyunAlani.obj
 
@@ -364,6 +388,9 @@ help:
 	@echo ... sfml-system
 	@echo ... sfml-window
 	@echo ... tetris
+	@echo ... BilgiAlani.obj
+	@echo ... BilgiAlani.i
+	@echo ... BilgiAlani.s
 	@echo ... OyunAlani.obj
 	@echo ... OyunAlani.i
 	@echo ... OyunAlani.s
