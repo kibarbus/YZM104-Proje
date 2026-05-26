@@ -30,6 +30,8 @@ public:
 
     void satirefekt(int silineceksatir);
 
+    void oyunalanitemizle();
+
 private:
     static const int BIRIMKAREBOYUTU = 37;
     static const int satir = 20;

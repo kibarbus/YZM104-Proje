@@ -15,6 +15,8 @@ class BilgiAlani
 
 public:
 
+    void sifirliyazdir(int sayitut, Text& sayi);
+
     BilgiAlani(int xkoordinati,int ykoordinati, const OyunAlani& oyunalani);
 
     void panelikonumlandir(int xkoordinati, int ykoordinati);
@@ -23,6 +25,9 @@ public:
     void skorarttir(int silinensatirsayisi, float gecensure);
     void dusenbloklaskorarttir();
     void levelarttir();
+
+    void skortemizle();
+    void leveltemizle();
 
     void siradakiblokonizlemekutusuciz(RenderWindow& window, OyunAlani& oyunalani, int x, int y);
     void siradakiblokonizlemeciz(RenderWindow& window, const TetrisBloklari& sonrakiblok, const OyunAlani& oyunalani);
@@ -38,8 +43,8 @@ private:
     static const int siradakiblokonizlemekutusuyuksekligi = 6;
 
     int basamaksayisi = 8;
-    int yaziboyutu = 40;
-    int sayiboyutu = 45;
+    int yaziboyutu = 45;
+    int sayiboyutu = 55;
 
     int skortut;
     int leveltut;
@@ -63,5 +68,5 @@ private:
 
     Color yazirengi = Color(45,35,50,150);
 
-    Color yazidisrengi = Color(255,255,255);
+    Color yazidisrengi = Color(255,255,255,100);
 };

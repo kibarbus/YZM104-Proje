@@ -124,6 +124,17 @@ void OyunAlani::satirefekt(int silineceksatir)
     }
 }
 
+void OyunAlani::oyunalanitemizle()
+{
+    for(int i = 0; i < satir; i++)
+    {
+        for(int j = 0; j < sutun; j++)
+        {
+            grid[i][j] = varsayilangridrengi;
+        }
+    }
+}
+
 void OyunAlani::satirsil(int silineceksatir)
 {
     for(int i=silineceksatir; i>0; i--)//silinecek satirdan baslayarak yukari dogru cikiyor ve satirlari bir assagi kaydiriyor.

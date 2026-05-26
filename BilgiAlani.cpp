@@ -3,6 +3,20 @@
 using namespace sf;
 using namespace std;
 
+void BilgiAlani::sifirliyazdir(int sayitut, Text& sayi)
+{
+    string sifirlisayi = to_string(sayitut);
+
+    while(sifirlisayi.length() < basamaksayisi)
+    {
+        sifirlisayi = "0" + sifirlisayi;
+    }
+
+    sayi.setString(sifirlisayi);
+
+}
+
+
 
 BilgiAlani::BilgiAlani(int xkoordinati,int ykoordinati, const OyunAlani& oyunalani)
 {
@@ -13,6 +27,7 @@ BilgiAlani::BilgiAlani(int xkoordinati,int ykoordinati, const OyunAlani& oyunala
     bilgialanicerceve.setSize(Vector2f(genislik*birimkareboyutu, yukseklik*birimkareboyutu));
     bilgialanicerceve.setPosition(xkoordinati, ykoordinati);
     bilgialanicerceve.setFillColor(panelrengi);
+
     leveltut = 1;
     skortut = 0;
 
@@ -32,14 +47,7 @@ BilgiAlani::BilgiAlani(int xkoordinati,int ykoordinati, const OyunAlani& oyunala
     }
     rekoroku.close();
 
-    string sifirlirekor = to_string(rekortut);
-
-    while(sifirlirekor.length() < basamaksayisi)
-    {
-        sifirlirekor = "0" + sifirlirekor;
-    }
-
-    rekor.setString(sifirlirekor);
+    //sifirlisayi(rekortut, rekor);
 
     rekoryazisi.setFont(font);
     rekoryazisi.setCharacterSize(yaziboyutu);
@@ -50,7 +58,7 @@ BilgiAlani::BilgiAlani(int xkoordinati,int ykoordinati, const OyunAlani& oyunala
 
     rekor.setFont(font);
     rekor.setCharacterSize(sayiboyutu);
-    rekor.setString(sifirlirekor);
+    sifirliyazdir(rekortut, rekor);
     rekor.setFillColor(yazirengi);
     rekor.setOutlineThickness(-2.0f);
     rekor.setOutlineColor(yazidisrengi);
@@ -82,17 +90,28 @@ BilgiAlani::BilgiAlani(int xkoordinati,int ykoordinati, const OyunAlani& oyunala
     skor.setFillColor(yazirengi);
     skor.setOutlineThickness(-2.0f);
     skor.setOutlineColor(yazidisrengi);
+
+    siradakiblokonizlemekutusucerceve.setSize(Vector2f(siradakiblokonizlemekutusugenisligi*birimkareboyutu+2, siradakiblokonizlemekutusuyuksekligi*birimkareboyutu+2));
+    siradakiblokonizlemekutusucerceve.setFillColor(Color::Transparent);
+    siradakiblokonizlemekutusucerceve.setOutlineThickness(-2.0f);
+    siradakiblokonizlemekutusucerceve.setOutlineColor(Color(45,35,50,150));
+    
+
+    siradakiblokonizlemekutusu.setSize(Vector2f(siradakiblokonizlemekutusugenisligi*birimkareboyutu, siradakiblokonizlemekutusuyuksekligi*birimkareboyutu));
+    siradakiblokonizlemekutusu.setFillColor(Color(oyunalani.getvarsayilangriddegeri()));
+    siradakiblokonizlemekutusu.setOutlineThickness(-3.0f);
+    siradakiblokonizlemekutusu.setOutlineColor(Color(255, 255, 255, 20));
 }
 
 void BilgiAlani::panelikonumlandir(int xkoordinati, int ykoordinati)
 {
     bilgialanicerceve.setPosition(xkoordinati, ykoordinati);
-    rekoryazisi.setPosition(xkoordinati+20,ykoordinati+20);
-    rekor.setPosition(xkoordinati+20,ykoordinati+60);
-    levelyazisi.setPosition(xkoordinati+20,ykoordinati+110);
-    level.setPosition(xkoordinati+20,ykoordinati+150);
-    skoryazisi.setPosition(xkoordinati+20,ykoordinati+200);
-    skor.setPosition(xkoordinati+20,ykoordinati+240);
+    rekoryazisi.setPosition(xkoordinati+18,ykoordinati+20);
+    rekor.setPosition(xkoordinati+18,ykoordinati+60);
+    levelyazisi.setPosition(xkoordinati+18,ykoordinati+130);
+    level.setPosition(xkoordinati+18,ykoordinati+170);
+    skoryazisi.setPosition(xkoordinati+18,ykoordinati+240);
+    skor.setPosition(xkoordinati+18,ykoordinati+280);
     siradakiblokonizlemekutusucerceve.setPosition(xkoordinati+16,ykoordinati+449);
     siradakiblokonizlemekutusu.setPosition(xkoordinati+17,ykoordinati+450);
 }
@@ -127,14 +146,7 @@ void BilgiAlani::skorarttir(int silinensatirsayisi, float gecensure)
 
     skortut += (int)(skorarttir * silinensatirsayisi * silinensatirsayisi * silinensatirsayisi);
 
-    string sifirliskor = to_string(skortut);
-
-    while(sifirliskor.length() < basamaksayisi)
-    {
-        sifirliskor = "0" + sifirliskor;
-    }
-    
-    skor.setString(sifirliskor);
+    sifirliyazdir(skortut, skor);
     levelarttir();
 
     ifstream rekoroku("RekorListesi.txt");
@@ -154,43 +166,25 @@ void BilgiAlani::skorarttir(int silinensatirsayisi, float gecensure)
     else
     {
         rekoroku >> rekortut;
+        rekoroku.close();
 
         if(rekortut < skortut)
         {
-            rekoroku.close();
             ofstream rekoryaz("RekorListesi.txt");
             rekoryaz << skortut;
             rekoryaz.close();
             rekortut = skortut;
         }
-        else
-        {
-            rekoroku.close();
-        }
     }
 
-    string sifirlirekor = to_string(rekortut);
-
-    while(sifirlirekor.length() < basamaksayisi)
-    {
-        sifirlirekor = "0" + sifirlirekor;
-    }
-
-    rekor.setString(sifirlirekor);
+    sifirliyazdir(rekortut, rekor);
 }
 
 void BilgiAlani::dusenbloklaskorarttir()
 {
     skortut += 10;
     
-    string sifirliskor = to_string(skortut);
-
-    while(sifirliskor.length() < basamaksayisi)
-    {
-        sifirliskor = "0" + sifirliskor;
-    }
-    
-    skor.setString(sifirliskor);
+    sifirliyazdir(skortut, skor);
 
     ifstream rekoroku("RekorListesi.txt");
     if(!rekoroku)
@@ -209,29 +203,18 @@ void BilgiAlani::dusenbloklaskorarttir()
     else
     {
         rekoroku >> rekortut;
+        rekoroku.close();
 
         if(rekortut < skortut)
         {
-            rekoroku.close();
             ofstream rekoryaz("RekorListesi.txt");
             rekoryaz << skortut;
             rekoryaz.close();
             rekortut = skortut;
         }
-        else
-        {
-            rekoroku.close();
-        }
     }
 
-    string sifirlirekor = to_string(rekortut);
-
-    while(sifirlirekor.length() < basamaksayisi)
-    {
-        sifirlirekor = "0" + sifirlirekor;
-    }
-
-    rekor.setString(sifirlirekor);
+    sifirliyazdir(rekortut, rekor);
 }
 
 void BilgiAlani::levelarttir()
@@ -253,23 +236,20 @@ void BilgiAlani::levelarttir()
 
 }
 
+void BilgiAlani::skortemizle()
+{
+    skortut = 0;
+    sifirliyazdir(skortut, skor);
+}
+
+void BilgiAlani::leveltemizle()
+{
+    leveltut = 1;
+    level.setString("01");
+}
+
 void BilgiAlani::siradakiblokonizlemekutusuciz(RenderWindow& window, OyunAlani& oyunalani, int x, int y)
 {
-    int birimkareboyutu = oyunalani.getbirimkareboyutu();
-
-    RectangleShape siradakiblokonizlemekutusucerceve(Vector2f(siradakiblokonizlemekutusugenisligi*birimkareboyutu+2, siradakiblokonizlemekutusuyuksekligi*birimkareboyutu+2));
-    siradakiblokonizlemekutusucerceve.setPosition(x+16,y+449);
-    siradakiblokonizlemekutusucerceve.setFillColor(Color::Transparent);
-    siradakiblokonizlemekutusucerceve.setOutlineThickness(-2.0f);
-    siradakiblokonizlemekutusucerceve.setOutlineColor(Color(45,35,50,150));
-    
-
-    RectangleShape siradakiblokonizlemekutusu(Vector2f(siradakiblokonizlemekutusugenisligi*birimkareboyutu, siradakiblokonizlemekutusuyuksekligi*birimkareboyutu));
-    siradakiblokonizlemekutusu.setPosition(x+17,y+450);
-    siradakiblokonizlemekutusu.setFillColor(Color(oyunalani.getvarsayilangriddegeri()));
-    siradakiblokonizlemekutusu.setOutlineThickness(-3.0f);
-    siradakiblokonizlemekutusu.setOutlineColor(Color(255, 255, 255, 20));
-    
     window.draw(siradakiblokonizlemekutusu);
     window.draw(siradakiblokonizlemekutusucerceve);
 }
@@ -284,10 +264,10 @@ void BilgiAlani::siradakiblokonizlemeciz(RenderWindow& window, const TetrisBlokl
     sonrakiblokonizlemerengi.a = 220;
     sonrakiblokonizleme.setFillColor(sonrakiblokonizlemerengi/*  + Color(255,255,255,1) */);
 
-    int sagx = 4;
-    int solx = -1;
-    int usty = -1;
-    int alty = 4;
+    int solx = 4;
+    int sagx = -1;
+    int alty = -1;
+    int usty = 4;
 
     for (int i=0; i<4; i++)
     {
@@ -295,10 +275,10 @@ void BilgiAlani::siradakiblokonizlemeciz(RenderWindow& window, const TetrisBlokl
         {
             if(sonrakiblok.getblokmatrisi(i, j) == 1)
             {
-                if(sagx>j) sagx=j;
-                if(solx<j) solx=j;
-                if(usty<i) usty=i;
-                if(alty>i) alty=i;
+                if(solx>j) solx=j;
+                if(sagx<j) sagx=j;
+                if(alty<i) alty=i;
+                if(usty>i) usty=i;
             }
         }
     }

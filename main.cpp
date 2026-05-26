@@ -15,6 +15,64 @@ void ekraniguncelle(RenderWindow& window, OyunAlani& oyunalani, RectangleShape& 
     oyunalani.oyunalaniolustur(window, windowbaslangicdegerix,windowbaslangicdegeriy);
 }
 
+void oyunbittiekrani(RenderWindow& window, OyunAlani& oyunalani, BilgiAlani& bilgipaneli, int anapenceregenisligi, int anapencereyuksekligi, int windowbaslangicdegerix, int windowbaslangicdegeriy)
+{
+    RectangleShape oyunbittiekrani(Vector2f(anapenceregenisligi + 5.0f, anapencereyuksekligi + 5.0f));
+    oyunbittiekrani.setPosition(windowbaslangicdegerix, windowbaslangicdegeriy);
+    oyunbittiekrani.setFillColor(Color(0, 0, 0, 1));
+
+    Font gameoverfontu;
+    if(!gameoverfontu.loadFromFile("Blocktopia.ttf"))
+    {
+        cout<<"Font tipi yuklenemedi."<<endl;
+    }
+
+    Text gameoveryazisi ("GAME OVER", gameoverfontu, 80);
+    gameoveryazisi.setFillColor(Color(255, 255, 255, 100));
+    gameoveryazisi.setPosition(windowbaslangicdegerix + (anapenceregenisligi / 2) - (gameoveryazisi.getLocalBounds().width / 2),windowbaslangicdegeriy + (anapencereyuksekligi / 2) - 80);
+
+    Text tekraroynamakicinspaceyazisi ("Tekrar oynamak icin space tusuna basiniz.",gameoverfontu, 30);
+    tekraroynamakicinspaceyazisi.setFillColor(Color(255, 255, 255, 60));
+    tekraroynamakicinspaceyazisi.setPosition(windowbaslangicdegerix + (anapenceregenisligi / 2) - (tekraroynamakicinspaceyazisi.getLocalBounds().width / 2), windowbaslangicdegeriy + (anapencereyuksekligi / 2) + 20);
+
+    Text oyunukapatmakicinescyazisi ("Oyunu kapatmak icin esc tusuna basiniz.",gameoverfontu, 30);
+    oyunukapatmakicinescyazisi.setFillColor(Color(255, 255, 255, 60));
+    oyunukapatmakicinescyazisi.setPosition(windowbaslangicdegerix + (anapenceregenisligi / 2) - (oyunukapatmakicinescyazisi.getLocalBounds().width / 2), windowbaslangicdegeriy + (anapencereyuksekligi / 2) + 80);
+
+    while(window.isOpen())
+    {
+        window.draw(oyunbittiekrani);
+        window.draw(gameoveryazisi);
+        window.draw(tekraroynamakicinspaceyazisi);
+        window.draw(oyunukapatmakicinescyazisi);
+        window.display();
+
+        Event olay;
+        while (window.pollEvent(olay))
+        {
+            if (olay.type == Event::Closed)
+            {
+                window.close();
+                return;
+            }
+            if (olay.type == Event::KeyPressed) 
+            {
+                if(olay.key.code == Keyboard::Escape)
+                {
+                    window.close();
+                }
+                else if (olay.key.code == Keyboard::Space)
+                {
+                    oyunalani.oyunalanitemizle();
+                    bilgipaneli.skortemizle();
+                    bilgipaneli.leveltemizle();
+                    return;
+                }
+            }
+        }
+    }
+}
+
 int main()
 {
 
@@ -62,22 +120,21 @@ int main()
     siradakiblok.blokolustur((rand() % 7), oyunalani); //7 bloktan biri rastgele olusturuldu.
     sonrakiblok.blokolustur((rand() % 7), oyunalani);
 
+    RectangleShape bilgipanelidiscervceve(Vector2f(bilgipaneligenisligi + 6, oyunalaniyuksekligi + 6));
+    RectangleShape oyunalanidiscerceve(Vector2f(oyunalanigenisligi + 6, oyunalaniyuksekligi + 6));
 
     while (window.isOpen())
     {
-        
         float sonacilistangecenzaman = ekranacilissuresayaci.restart().asSeconds();//restart, pencerenin son acildigindan itibaren gecen sureyi tutar ve sifirlar, assecond ise saniye cinsinden tutar.
         dusurdongusuzamansayaci += sonacilistangecenzaman;
 
         Event olay;
 
-        RectangleShape bilgipanelidiscervceve(sf::Vector2f(bilgipaneligenisligi + 6, oyunalaniyuksekligi + 6));
         bilgipanelidiscervceve.setPosition(bilgipanelibaslangicdegerix - 3, bilgipanelibaslangicdegeriy - 3);
         bilgipanelidiscervceve.setFillColor(Color::Transparent);
         bilgipanelidiscervceve.setOutlineThickness(10.0f);
         bilgipanelidiscervceve.setOutlineColor(Color(90, 80, 100)); 
 
-        RectangleShape oyunalanidiscerceve(sf::Vector2f(oyunalanigenisligi + 6, oyunalaniyuksekligi + 6));
         oyunalanidiscerceve.setPosition(windowbaslangicdegerix - 3, windowbaslangicdegeriy - 3);
         oyunalanidiscerceve.setFillColor(Color::Transparent);
         oyunalanidiscerceve.setOutlineThickness(10.0f);
@@ -182,13 +239,14 @@ int main()
                     bilgipaneli.skorarttir(kacsatirsilindi, satirsilmefrekansizamansayaci);
                     satirsilmefrekansizamansayaci = 0.0f;
                 }
+                yeniBlokGerekiyor = true;
 
                 if (siradakiblok.oyunbittimi(siradakiblok.getblokxdegeri(), siradakiblok.getblokydegeri(), gecicimatris, oyunalani))
                 {                    
-                    window.close();
+                    oyunbittiekrani(window, oyunalani, bilgipaneli, anapenceregenisligi, anapencereyuksekligi, windowbaslangicdegerix, windowbaslangicdegeriy);
+                    blokdusmegecikmesuresi = 0.9f;
+                    yeniBlokGerekiyor = true;
                 }
-
-                yeniBlokGerekiyor = true;
             }
 
         }
