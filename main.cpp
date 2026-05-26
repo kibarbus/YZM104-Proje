@@ -4,7 +4,6 @@
 #include "BilgiAlani.hpp"
 #include <iostream>
 #include <vector>
-
 using namespace sf;
 using namespace std;
 
@@ -18,6 +17,7 @@ void ekraniguncelle(RenderWindow& window, OyunAlani& oyunalani, RectangleShape& 
 
 int main()
 {
+
     OyunAlani oyunalani;
     TetrisBloklari siradakiblok;
     TetrisBloklari sonrakiblok;
@@ -168,6 +168,8 @@ int main()
                         ekraniguncelle(window, oyunalani, oyunalanidiscerceve, windowbaslangicdegerix, windowbaslangicdegeriy); //satir silinmeden once efektin gorunmesi icin ekran guncellendi.
                         bilgipaneli.bilgialaniciz(window);
                         window.draw(bilgipanelidiscervceve);
+                        bilgipaneli.siradakiblokonizlemekutusuciz(window, oyunalani, bilgipanelibaslangicdegerix, bilgipanelibaslangicdegeriy);
+                        bilgipaneli.siradakiblokonizlemeciz(window, sonrakiblok, oyunalani);
                         window.display();
                     }
 
@@ -182,7 +184,7 @@ int main()
                 }
 
                 if (siradakiblok.oyunbittimi(siradakiblok.getblokxdegeri(), siradakiblok.getblokydegeri(), gecicimatris, oyunalani))
-                {
+                {                    
                     window.close();
                 }
 

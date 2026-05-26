@@ -16,47 +16,83 @@ BilgiAlani::BilgiAlani(int xkoordinati,int ykoordinati, const OyunAlani& oyunala
     leveltut = 1;
     skortut = 0;
 
-    if(!font.loadFromFile("Retro_Gaming.ttf"))
+    if(!font.loadFromFile("Blocktopia.ttf"))
     {
         cout<<"Font tipi yuklenemedi."<<endl;
     }
 
-    skoryazisi.setFont(font);
-    skoryazisi.setCharacterSize(40);
-    skoryazisi.setString("SKOR:");
-    skoryazisi.setPosition(xkoordinati+10,ykoordinati+140);
-    skoryazisi.setFillColor(Color(245,240,255,200));
-    skoryazisi.setOutlineColor(Color::Black);
+    ifstream rekoroku("RekorListesi.txt");
+    if(!rekoroku)
+    {
+        rekortut=0;
+    }
+    else
+    {
+        rekoroku >> rekortut;
+    }
+    rekoroku.close();
 
-    skor.setFont(font);
-    skor.setCharacterSize(45);
-    skor.setString("000000");
-    skor.setPosition(xkoordinati+163,ykoordinati+190);
-    skor.setFillColor(Color(245,240,255,200));
-    skor.setOutlineColor(Color::Black);
+    string sifirlirekor = to_string(rekortut);
+
+    while(sifirlirekor.length() < basamaksayisi)
+    {
+        sifirlirekor = "0" + sifirlirekor;
+    }
+
+    rekor.setString(sifirlirekor);
+
+    rekoryazisi.setFont(font);
+    rekoryazisi.setCharacterSize(yaziboyutu);
+    rekoryazisi.setString("REKOR");
+    rekoryazisi.setFillColor(yazirengi);
+    rekoryazisi.setOutlineThickness(-2.0f);
+    rekoryazisi.setOutlineColor(yazidisrengi);
+
+    rekor.setFont(font);
+    rekor.setCharacterSize(sayiboyutu);
+    rekor.setString(sifirlirekor);
+    rekor.setFillColor(yazirengi);
+    rekor.setOutlineThickness(-2.0f);
+    rekor.setOutlineColor(yazidisrengi);
 
     levelyazisi.setFont(font);
-    levelyazisi.setCharacterSize(40);
-    levelyazisi.setString("LEVEL:");
-    levelyazisi.setPosition(xkoordinati+10,ykoordinati+40);
-    levelyazisi.setFillColor(Color(245,240,255,200));
-    levelyazisi.setOutlineColor(Color::Black);
+    levelyazisi.setCharacterSize(yaziboyutu);
+    levelyazisi.setString("LEVEL");
+    levelyazisi.setFillColor(yazirengi);
+    levelyazisi.setOutlineThickness(-2.0f);
+    levelyazisi.setOutlineColor(yazidisrengi);
 
     level.setFont(font);
-    level.setCharacterSize(45);
+    level.setCharacterSize(sayiboyutu);
     level.setString("01");
-    level.setPosition(xkoordinati+300,ykoordinati+80);
-    level.setFillColor(Color(245,240,255,200));
-    level.setOutlineColor(Color::Black);
+    level.setFillColor(yazirengi);
+    level.setOutlineThickness(-2.0f);
+    level.setOutlineColor(yazidisrengi);
+
+    skoryazisi.setFont(font);
+    skoryazisi.setCharacterSize(yaziboyutu);
+    skoryazisi.setString("SKOR");
+    skoryazisi.setFillColor(yazirengi);
+    skoryazisi.setOutlineThickness(-2.0f);
+    skoryazisi.setOutlineColor(yazidisrengi);
+
+    skor.setFont(font);
+    skor.setCharacterSize(sayiboyutu);
+    skor.setString("00000000");
+    skor.setFillColor(yazirengi);
+    skor.setOutlineThickness(-2.0f);
+    skor.setOutlineColor(yazidisrengi);
 }
 
 void BilgiAlani::panelikonumlandir(int xkoordinati, int ykoordinati)
 {
     bilgialanicerceve.setPosition(xkoordinati, ykoordinati);
-    skoryazisi.setPosition(xkoordinati+10,ykoordinati+170);
-    skor.setPosition(xkoordinati+10,ykoordinati+220);
-    levelyazisi.setPosition(xkoordinati+10,ykoordinati+40);
-    level.setPosition(xkoordinati+10,ykoordinati+90);
+    rekoryazisi.setPosition(xkoordinati+20,ykoordinati+20);
+    rekor.setPosition(xkoordinati+20,ykoordinati+60);
+    levelyazisi.setPosition(xkoordinati+20,ykoordinati+110);
+    level.setPosition(xkoordinati+20,ykoordinati+150);
+    skoryazisi.setPosition(xkoordinati+20,ykoordinati+200);
+    skor.setPosition(xkoordinati+20,ykoordinati+240);
     siradakiblokonizlemekutusucerceve.setPosition(xkoordinati+16,ykoordinati+449);
     siradakiblokonizlemekutusu.setPosition(xkoordinati+17,ykoordinati+450);
 }
@@ -66,8 +102,10 @@ void BilgiAlani::bilgialaniciz(RenderWindow& window)
     window.draw(bilgialanicerceve);
     window.draw(skoryazisi);
     window.draw(levelyazisi);
+    window.draw(rekoryazisi);
     window.draw(skor);
     window.draw(level);
+    window.draw(rekor);
 }
 
 void BilgiAlani::skorarttir(int silinensatirsayisi, float gecensure)
@@ -91,13 +129,54 @@ void BilgiAlani::skorarttir(int silinensatirsayisi, float gecensure)
 
     string sifirliskor = to_string(skortut);
 
-    while(sifirliskor.length() < 6)
+    while(sifirliskor.length() < basamaksayisi)
     {
         sifirliskor = "0" + sifirliskor;
     }
     
     skor.setString(sifirliskor);
     levelarttir();
+
+    ifstream rekoroku("RekorListesi.txt");
+    if(!rekoroku)
+    {
+        ofstream ilkrekoruyaz("RekorListesi.txt");
+        if(!ilkrekoruyaz)
+        {
+            cout<<"Dosya acilamadi"<<endl;
+        }
+        else
+        {
+            ilkrekoruyaz << skortut;
+            ilkrekoruyaz.close();
+        }
+    }
+    else
+    {
+        rekoroku >> rekortut;
+
+        if(rekortut < skortut)
+        {
+            rekoroku.close();
+            ofstream rekoryaz("RekorListesi.txt");
+            rekoryaz << skortut;
+            rekoryaz.close();
+            rekortut = skortut;
+        }
+        else
+        {
+            rekoroku.close();
+        }
+    }
+
+    string sifirlirekor = to_string(rekortut);
+
+    while(sifirlirekor.length() < basamaksayisi)
+    {
+        sifirlirekor = "0" + sifirlirekor;
+    }
+
+    rekor.setString(sifirlirekor);
 }
 
 void BilgiAlani::dusenbloklaskorarttir()
@@ -106,12 +185,53 @@ void BilgiAlani::dusenbloklaskorarttir()
     
     string sifirliskor = to_string(skortut);
 
-    while(sifirliskor.length() < 6)
+    while(sifirliskor.length() < basamaksayisi)
     {
         sifirliskor = "0" + sifirliskor;
     }
     
     skor.setString(sifirliskor);
+
+    ifstream rekoroku("RekorListesi.txt");
+    if(!rekoroku)
+    {
+        ofstream ilkrekoruyaz("RekorListesi.txt");
+        if(!ilkrekoruyaz)
+        {
+            cout<<"Dosya acilamadi"<<endl;
+        }
+        else
+        {
+            ilkrekoruyaz << skortut;
+            ilkrekoruyaz.close();
+        }
+    }
+    else
+    {
+        rekoroku >> rekortut;
+
+        if(rekortut < skortut)
+        {
+            rekoroku.close();
+            ofstream rekoryaz("RekorListesi.txt");
+            rekoryaz << skortut;
+            rekoryaz.close();
+            rekortut = skortut;
+        }
+        else
+        {
+            rekoroku.close();
+        }
+    }
+
+    string sifirlirekor = to_string(rekortut);
+
+    while(sifirlirekor.length() < basamaksayisi)
+    {
+        sifirlirekor = "0" + sifirlirekor;
+    }
+
+    rekor.setString(sifirlirekor);
 }
 
 void BilgiAlani::levelarttir()

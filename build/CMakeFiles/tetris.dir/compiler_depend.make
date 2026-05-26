@@ -99,6 +99,7 @@ CMakeFiles/tetris.dir/BilgiAlani.cpp.obj: C:/Users/DellX/Desktop/programlama\ 2\
   C:/mingw64/include/c++/15.2.0/bits/exception.h \
   C:/mingw64/include/c++/15.2.0/bits/exception_defines.h \
   C:/mingw64/include/c++/15.2.0/bits/exception_ptr.h \
+  C:/mingw64/include/c++/15.2.0/bits/fstream.tcc \
   C:/mingw64/include/c++/15.2.0/bits/functexcept.h \
   C:/mingw64/include/c++/15.2.0/bits/functional_hash.h \
   C:/mingw64/include/c++/15.2.0/bits/hash_bytes.h \
@@ -175,6 +176,7 @@ CMakeFiles/tetris.dir/BilgiAlani.cpp.obj: C:/Users/DellX/Desktop/programlama\ 2\
   C:/mingw64/include/c++/15.2.0/ext/numeric_traits.h \
   C:/mingw64/include/c++/15.2.0/ext/string_conversions.h \
   C:/mingw64/include/c++/15.2.0/ext/type_traits.h \
+  C:/mingw64/include/c++/15.2.0/fstream \
   C:/mingw64/include/c++/15.2.0/initializer_list \
   C:/mingw64/include/c++/15.2.0/ios \
   C:/mingw64/include/c++/15.2.0/iosfwd \
@@ -199,8 +201,10 @@ CMakeFiles/tetris.dir/BilgiAlani.cpp.obj: C:/Users/DellX/Desktop/programlama\ 2\
   C:/mingw64/include/c++/15.2.0/typeinfo \
   C:/mingw64/include/c++/15.2.0/vector \
   C:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/atomic_word.h \
+  C:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/basic_file.h \
   C:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
   C:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h \
+  C:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++io.h \
   C:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++locale.h \
   C:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
   C:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/ctype_base.h \
@@ -880,6 +884,7 @@ CMakeFiles/tetris.dir/main.cpp.obj: C:/Users/DellX/Desktop/programlama\ 2\ proje
   C:/mingw64/include/c++/15.2.0/bits/exception.h \
   C:/mingw64/include/c++/15.2.0/bits/exception_defines.h \
   C:/mingw64/include/c++/15.2.0/bits/exception_ptr.h \
+  C:/mingw64/include/c++/15.2.0/bits/fstream.tcc \
   C:/mingw64/include/c++/15.2.0/bits/functexcept.h \
   C:/mingw64/include/c++/15.2.0/bits/functional_hash.h \
   C:/mingw64/include/c++/15.2.0/bits/hash_bytes.h \
@@ -956,6 +961,7 @@ CMakeFiles/tetris.dir/main.cpp.obj: C:/Users/DellX/Desktop/programlama\ 2\ proje
   C:/mingw64/include/c++/15.2.0/ext/numeric_traits.h \
   C:/mingw64/include/c++/15.2.0/ext/string_conversions.h \
   C:/mingw64/include/c++/15.2.0/ext/type_traits.h \
+  C:/mingw64/include/c++/15.2.0/fstream \
   C:/mingw64/include/c++/15.2.0/initializer_list \
   C:/mingw64/include/c++/15.2.0/ios \
   C:/mingw64/include/c++/15.2.0/iosfwd \
@@ -980,8 +986,10 @@ CMakeFiles/tetris.dir/main.cpp.obj: C:/Users/DellX/Desktop/programlama\ 2\ proje
   C:/mingw64/include/c++/15.2.0/typeinfo \
   C:/mingw64/include/c++/15.2.0/vector \
   C:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/atomic_word.h \
+  C:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/basic_file.h \
   C:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
   C:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h \
+  C:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++io.h \
   C:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++locale.h \
   C:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
   C:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/ctype_base.h \
@@ -1050,6 +1058,12 @@ C:/Users/DellX/Desktop/programlama\ 2\ proje/YZM104-Proje/TetrisBloklari.hpp:
 
 C:/Users/DellX/Desktop/programlama\ 2\ proje/YZM104-Proje/OyunAlani.hpp:
 
+C:/mingw64/x86_64-w64-mingw32/include/wctype.h:
+
+C:/mingw64/x86_64-w64-mingw32/include/vadefs.h:
+
+C:/mingw64/x86_64-w64-mingw32/include/time.h:
+
 C:/mingw64/include/c++/15.2.0/bits/range_access.h:
 
 C:/mingw64/include/c++/15.2.0/ostream:
@@ -1101,8 +1115,6 @@ C:/mingw64/include/c++/15.2.0/ios:
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h:
 
 C:/mingw64/include/c++/15.2.0/bits/concept_check.h:
-
-C:/mingw64/x86_64-w64-mingw32/include/vadefs.h:
 
 C:/mingw64/include/c++/15.2.0/bits/codecvt.h:
 
@@ -1212,11 +1224,13 @@ _deps/sfml-src/include/SFML/Graphics/Text.hpp:
 
 C:/mingw64/include/c++/15.2.0/bits/char_traits.h:
 
+C:/mingw64/x86_64-w64-mingw32/include/wchar.h:
+
+_deps/sfml-src/include/SFML/Graphics/Shape.hpp:
+
 _deps/sfml-src/include/SFML/System/Thread.hpp:
 
 _deps/sfml-src/include/SFML/System/Vector3.inl:
-
-C:/mingw64/x86_64-w64-mingw32/include/wctype.h:
 
 C:/mingw64/include/c++/15.2.0/bits/ostream.h:
 
@@ -1227,12 +1241,6 @@ _deps/sfml-src/include/SFML/Window/Keyboard.hpp:
 C:/mingw64/include/c++/15.2.0/ext/type_traits.h:
 
 _deps/sfml-src/include/SFML/Graphics/Image.hpp:
-
-C:/mingw64/include/c++/15.2.0/bits/requires_hosted.h:
-
-_deps/sfml-src/include/SFML/Graphics.hpp:
-
-C:/mingw64/include/c++/15.2.0/cstdio:
 
 _deps/sfml-src/include/SFML/System/MemoryInputStream.hpp:
 
@@ -1276,6 +1284,12 @@ C:/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h:
 
 _deps/sfml-src/include/SFML/System/ThreadLocal.hpp:
 
+_deps/sfml-src/include/SFML/System/Clock.hpp:
+
+C:/mingw64/include/c++/15.2.0/bits/move.h:
+
+C:/mingw64/include/c++/15.2.0/bits/node_handle.h:
+
 C:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/ctype_base.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/stdio.h:
@@ -1310,11 +1324,11 @@ C:/mingw64/include/c++/15.2.0/bits/invoke.h:
 
 _deps/sfml-src/include/SFML/Graphics/View.hpp:
 
-C:/mingw64/include/c++/15.2.0/bits/move.h:
+_deps/sfml-src/include/SFML/Graphics.hpp:
 
-C:/mingw64/include/c++/15.2.0/bits/node_handle.h:
+C:/mingw64/include/c++/15.2.0/bits/requires_hosted.h:
 
-_deps/sfml-src/include/SFML/System/Clock.hpp:
+C:/mingw64/include/c++/15.2.0/cstdio:
 
 _deps/sfml-src/include/SFML/System/Err.hpp:
 
@@ -1458,6 +1472,12 @@ C:/mingw64/include/c++/15.2.0/new:
 
 C:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/messages_members.h:
 
+C:/mingw64/include/c++/15.2.0/fstream:
+
+C:/mingw64/include/c++/15.2.0/map:
+
+C:/mingw64/include/c++/15.2.0/typeinfo:
+
 C:/mingw64/include/c++/15.2.0/initializer_list:
 
 C:/mingw64/include/c++/15.2.0/iostream:
@@ -1467,14 +1487,6 @@ C:/mingw64/include/c++/15.2.0/iterator:
 C:/mingw64/include/c++/15.2.0/locale:
 
 C:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/time_members.h:
-
-C:/mingw64/include/c++/15.2.0/map:
-
-C:/mingw64/include/c++/15.2.0/typeinfo:
-
-_deps/sfml-src/include/SFML/Graphics/Shape.hpp:
-
-C:/mingw64/x86_64-w64-mingw32/include/wchar.h:
 
 C:/mingw64/include/c++/15.2.0/bits/ios_base.h:
 
@@ -1493,6 +1505,16 @@ _deps/sfml-src/include/SFML/Window/WindowBase.hpp:
 _deps/sfml-src/include/SFML/Graphics/Sprite.hpp:
 
 C:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/atomic_word.h:
+
+C:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/basic_file.h:
+
+C:/mingw64/x86_64-w64-mingw32/include/sec_api/wconio_s.h:
+
+_deps/sfml-src/include/SFML/System/Utf.hpp:
+
+C:/mingw64/x86_64-w64-mingw32/include/stdlib.h:
+
+C:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++io.h:
 
 C:/mingw64/include/c++/15.2.0/bits/allocator.h:
 
@@ -1558,14 +1580,8 @@ C:/mingw64/x86_64-w64-mingw32/include/pthread_compat.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/pthread_unistd.h:
 
-C:/mingw64/x86_64-w64-mingw32/include/sec_api/wconio_s.h:
-
-_deps/sfml-src/include/SFML/System/Utf.hpp:
-
-C:/mingw64/x86_64-w64-mingw32/include/stdlib.h:
-
 C:/mingw64/x86_64-w64-mingw32/include/stddef.h:
 
-C:/mingw64/x86_64-w64-mingw32/include/swprintf.inl:
+C:/mingw64/include/c++/15.2.0/bits/fstream.tcc:
 
-C:/mingw64/x86_64-w64-mingw32/include/time.h:
+C:/mingw64/x86_64-w64-mingw32/include/swprintf.inl:

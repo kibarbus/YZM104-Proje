@@ -3,6 +3,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <fstream>
 #include "TetrisBloklari.hpp"
 #include "OyunAlani.hpp"
 
@@ -27,7 +28,7 @@ public:
     void siradakiblokonizlemeciz(RenderWindow& window, const TetrisBloklari& sonrakiblok, const OyunAlani& oyunalani);
 
     int getpanelgenisligi() const;
-
+   
 
 private:
     static const int genislik = 7;
@@ -36,9 +37,13 @@ private:
     static const int siradakiblokonizlemekutusugenisligi = 6;
     static const int siradakiblokonizlemekutusuyuksekligi = 6;
 
+    int basamaksayisi = 8;
+    int yaziboyutu = 40;
+    int sayiboyutu = 45;
 
     int skortut;
     int leveltut;
+    int rekortut;
 
     int panelgenisligi;
 
@@ -51,6 +56,12 @@ private:
     Text skor;
     Text levelyazisi;
     Text level;
-
+    Text rekoryazisi;
+    Text rekor;
+    
     Color panelrengi = Color(255,255,255,60);
+
+    Color yazirengi = Color(45,35,50,150);
+
+    Color yazidisrengi = Color(255,255,255);
 };
