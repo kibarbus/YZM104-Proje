@@ -224,11 +224,15 @@ int main()
                     {
                         ekraniguncelle(window, oyunalani, oyunalanidiscerceve, windowbaslangicdegerix, windowbaslangicdegeriy); //satir silinmeden once efektin gorunmesi icin ekran guncellendi.
                         bilgipaneli.bilgialaniciz(window);
+                        bilgipaneli.setskoryazirengi(Color::Transparent);
                         window.draw(bilgipanelidiscervceve);
                         bilgipaneli.siradakiblokonizlemekutusuciz(window, oyunalani, bilgipanelibaslangicdegerix, bilgipanelibaslangicdegeriy);
                         bilgipaneli.siradakiblokonizlemeciz(window, sonrakiblok, oyunalani);
                         window.display();
                     }
+
+                    bilgipaneli.setskoryazirengiback();
+                    bilgipaneli.bilgialaniciz(window);
 
                     for(int u=silineceksatirlar.size()-1; u>=0 ; u--)//asagidan yukari dogru alinan indeksleri yukaridan asagiya dogru siliyor cunku once alttakini silse usttekinin indeksi degisirdi.
                     {
@@ -244,7 +248,7 @@ int main()
                 if (siradakiblok.oyunbittimi(siradakiblok.getblokxdegeri(), siradakiblok.getblokydegeri(), gecicimatris, oyunalani))
                 {                    
                     oyunbittiekrani(window, oyunalani, bilgipaneli, anapenceregenisligi, anapencereyuksekligi, windowbaslangicdegerix, windowbaslangicdegeriy);
-                    blokdusmegecikmesuresi = 0.9f;
+                    blokdusmegecikmesuresi = 0.9f; //oyun yeniden basladiginda bloklarin hizli dusmesini engellemek icin sureyi basa alir.
                     yeniBlokGerekiyor = true;
                 }
             }

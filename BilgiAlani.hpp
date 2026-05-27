@@ -33,7 +33,9 @@ public:
     void siradakiblokonizlemeciz(RenderWindow& window, const TetrisBloklari& sonrakiblok, const OyunAlani& oyunalani);
 
     int getpanelgenisligi() const;
-   
+
+    void setskoryazirengi(Color renk); 
+    void setskoryazirengiback();  
 
 private:
     static const int genislik = 7;
@@ -69,4 +71,8 @@ private:
     Color yazirengi = Color(45,35,50,150);
 
     Color yazidisrengi = Color(255,255,255,100);
+
+    Color skoryazirengi = yazirengi;
+
+    Color skoryazidisrengi = yazidisrengi;
 };

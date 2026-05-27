@@ -312,3 +312,18 @@ int BilgiAlani::getpanelgenisligi() const
 {
     return panelgenisligi;
 }
+
+void BilgiAlani::setskoryazirengi(Color renk)
+{
+    skoryazirengi = renk;
+    skor.setFillColor(skoryazirengi);
+    skor.setOutlineColor(skoryazirengi);
+}
+
+void BilgiAlani::setskoryazirengiback()
+{
+    skoryazirengi = yazirengi;
+    skoryazidisrengi = yazidisrengi;
+    skor.setFillColor(skoryazirengi);
+    skor.setOutlineColor(skoryazidisrengi);
+}
