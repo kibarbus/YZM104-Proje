@@ -72,7 +72,7 @@ private:
 
     Color yazidisrengi = Color(255,255,255,100);
 
-    Color skoryazirengi = yazirengi;
-
-    Color skoryazidisrengi = yazidisrengi;
+    Color yazidisrenkyenile = yazidisrengi;
+    
+    Color rekoruastinrengi = Color(70,65,120,150);
 };

@@ -3,6 +3,23 @@
 
 CMakeFiles/tetris.dir/BilgiAlani.cpp.obj
  C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/BilgiAlani.cpp
+ C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/include/SFML/Audio.hpp
+ C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/include/SFML/Audio/AlResource.hpp
+ C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/include/SFML/Audio/Export.hpp
+ C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/include/SFML/Audio/InputSoundFile.hpp
+ C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/include/SFML/Audio/Listener.hpp
+ C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/include/SFML/Audio/Music.hpp
+ C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/include/SFML/Audio/OutputSoundFile.hpp
+ C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/include/SFML/Audio/Sound.hpp
+ C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/include/SFML/Audio/SoundBuffer.hpp
+ C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/include/SFML/Audio/SoundBufferRecorder.hpp
+ C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/include/SFML/Audio/SoundFileFactory.hpp
+ C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/include/SFML/Audio/SoundFileFactory.inl
+ C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/include/SFML/Audio/SoundFileReader.hpp
+ C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/include/SFML/Audio/SoundFileWriter.hpp
+ C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/include/SFML/Audio/SoundRecorder.hpp
+ C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/include/SFML/Audio/SoundSource.hpp
+ C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/include/SFML/Audio/SoundStream.hpp
  C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/include/SFML/Config.hpp
  C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/include/SFML/Graphics.hpp
  C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/include/SFML/Graphics/BlendMode.hpp
@@ -142,7 +159,9 @@ CMakeFiles/tetris.dir/BilgiAlani.cpp.obj
  C:/mingw64/include/c++/15.2.0/bits/stl_iterator_base_types.h
  C:/mingw64/include/c++/15.2.0/bits/stl_map.h
  C:/mingw64/include/c++/15.2.0/bits/stl_multimap.h
+ C:/mingw64/include/c++/15.2.0/bits/stl_multiset.h
  C:/mingw64/include/c++/15.2.0/bits/stl_pair.h
+ C:/mingw64/include/c++/15.2.0/bits/stl_set.h
  C:/mingw64/include/c++/15.2.0/bits/stl_tempbuf.h
  C:/mingw64/include/c++/15.2.0/bits/stl_tree.h
  C:/mingw64/include/c++/15.2.0/bits/stl_uninitialized.h
@@ -191,6 +210,7 @@ CMakeFiles/tetris.dir/BilgiAlani.cpp.obj
  C:/mingw64/include/c++/15.2.0/pstl/execution_defs.h
  C:/mingw64/include/c++/15.2.0/pstl/glue_algorithm_defs.h
  C:/mingw64/include/c++/15.2.0/pstl/pstl_config.h
+ C:/mingw64/include/c++/15.2.0/set
  C:/mingw64/include/c++/15.2.0/stdexcept
  C:/mingw64/include/c++/15.2.0/stdlib.h
  C:/mingw64/include/c++/15.2.0/streambuf
@@ -791,6 +811,23 @@ CMakeFiles/tetris.dir/TetrisBloklari.cpp.obj
 
 CMakeFiles/tetris.dir/main.cpp.obj
  C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/main.cpp
+ C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/include/SFML/Audio.hpp
+ C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/include/SFML/Audio/AlResource.hpp
+ C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/include/SFML/Audio/Export.hpp
+ C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/include/SFML/Audio/InputSoundFile.hpp
+ C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/include/SFML/Audio/Listener.hpp
+ C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/include/SFML/Audio/Music.hpp
+ C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/include/SFML/Audio/OutputSoundFile.hpp
+ C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/include/SFML/Audio/Sound.hpp
+ C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/include/SFML/Audio/SoundBuffer.hpp
+ C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/include/SFML/Audio/SoundBufferRecorder.hpp
+ C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/include/SFML/Audio/SoundFileFactory.hpp
+ C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/include/SFML/Audio/SoundFileFactory.inl
+ C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/include/SFML/Audio/SoundFileReader.hpp
+ C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/include/SFML/Audio/SoundFileWriter.hpp
+ C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/include/SFML/Audio/SoundRecorder.hpp
+ C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/include/SFML/Audio/SoundSource.hpp
+ C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/include/SFML/Audio/SoundStream.hpp
  C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/include/SFML/Config.hpp
  C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/include/SFML/Graphics.hpp
  C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/include/SFML/Graphics/BlendMode.hpp
@@ -930,7 +967,9 @@ CMakeFiles/tetris.dir/main.cpp.obj
  C:/mingw64/include/c++/15.2.0/bits/stl_iterator_base_types.h
  C:/mingw64/include/c++/15.2.0/bits/stl_map.h
  C:/mingw64/include/c++/15.2.0/bits/stl_multimap.h
+ C:/mingw64/include/c++/15.2.0/bits/stl_multiset.h
  C:/mingw64/include/c++/15.2.0/bits/stl_pair.h
+ C:/mingw64/include/c++/15.2.0/bits/stl_set.h
  C:/mingw64/include/c++/15.2.0/bits/stl_tempbuf.h
  C:/mingw64/include/c++/15.2.0/bits/stl_tree.h
  C:/mingw64/include/c++/15.2.0/bits/stl_uninitialized.h
@@ -979,6 +1018,7 @@ CMakeFiles/tetris.dir/main.cpp.obj
  C:/mingw64/include/c++/15.2.0/pstl/execution_defs.h
  C:/mingw64/include/c++/15.2.0/pstl/glue_algorithm_defs.h
  C:/mingw64/include/c++/15.2.0/pstl/pstl_config.h
+ C:/mingw64/include/c++/15.2.0/set
  C:/mingw64/include/c++/15.2.0/stdexcept
  C:/mingw64/include/c++/15.2.0/stdlib.h
  C:/mingw64/include/c++/15.2.0/streambuf

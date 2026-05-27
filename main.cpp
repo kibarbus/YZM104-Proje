@@ -66,6 +66,7 @@ void oyunbittiekrani(RenderWindow& window, OyunAlani& oyunalani, BilgiAlani& bil
                     oyunalani.oyunalanitemizle();
                     bilgipaneli.skortemizle();
                     bilgipaneli.leveltemizle();
+                    bilgipaneli.setskoryazirengiback();
                     return;
                 }
             }
@@ -213,6 +214,9 @@ int main()
                     float satirsilmefrekansi = satirsilmefrekansisayaci.restart().asSeconds();
                     satirsilmefrekansizamansayaci += satirsilmefrekansi;
 
+                    bilgipaneli.skorarttir(kacsatirsilindi, satirsilmefrekansizamansayaci);
+                    satirsilmefrekansizamansayaci = 0.0f;
+
                     Clock efektsuresi;
                     for(int m=0; m<silineceksatirlar.size(); m++)
                     {
@@ -220,12 +224,19 @@ int main()
                         oyunalani.satirefekt(efektekleneceksatiritut);
                     }
                     
-                    while(efektsuresi.getElapsedTime().asMilliseconds() < 600)//satir silinmeden once efekt icin bekleme suresi ayarlandi.
+                    while(efektsuresi.getElapsedTime().asMilliseconds() < 800)//satir silinmeden once efekt icin bekleme suresi ayarlandi.
                     {
                         ekraniguncelle(window, oyunalani, oyunalanidiscerceve, windowbaslangicdegerix, windowbaslangicdegeriy); //satir silinmeden once efektin gorunmesi icin ekran guncellendi.
+                        if(efektsuresi.getElapsedTime().asMilliseconds() < 300 || efektsuresi.getElapsedTime().asMilliseconds() > 500)
+                        {
+                            bilgipaneli.setskoryazirengi(Color::Transparent);
+                        }
+                        else
+                        {
+                            bilgipaneli.setskoryazirengiback();
+                        }
                         bilgipaneli.bilgialaniciz(window);
-                        bilgipaneli.setskoryazirengi(Color::Transparent);
-                        window.draw(bilgipanelidiscervceve);
+                        window.draw(bilgipanelidiscervceve) ;
                         bilgipaneli.siradakiblokonizlemekutusuciz(window, oyunalani, bilgipanelibaslangicdegerix, bilgipanelibaslangicdegeriy);
                         bilgipaneli.siradakiblokonizlemeciz(window, sonrakiblok, oyunalani);
                         window.display();
@@ -240,8 +251,7 @@ int main()
                         oyunalani.satirsil(silineceksatiritut);
                     }
 
-                    bilgipaneli.skorarttir(kacsatirsilindi, satirsilmefrekansizamansayaci);
-                    satirsilmefrekansizamansayaci = 0.0f;
+                    
                 }
                 yeniBlokGerekiyor = true;
 

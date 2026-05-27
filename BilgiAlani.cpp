@@ -132,49 +132,33 @@ void BilgiAlani::skorarttir(int silinensatirsayisi, float gecensure)
 
     float minimumskorarttir = 50.0f;
 
-    float skorarttir;
+    float skoruarttir;
 
     if(gecensure<30 && gecensure>0)
     {
         gecensure = gecensure / 60;
-        skorarttir = minimumskorarttir * (1.0f / gecensure)/2.0f;
+        skoruarttir = minimumskorarttir * (1.0f / gecensure)/2.0f;
     }
     else
     {
-        skorarttir = minimumskorarttir;
+        skoruarttir = minimumskorarttir;
     }
 
-    skortut += (int)(skorarttir * silinensatirsayisi * silinensatirsayisi * silinensatirsayisi);
+    skortut += (int)(skoruarttir * silinensatirsayisi * silinensatirsayisi * silinensatirsayisi);
 
     sifirliyazdir(skortut, skor);
     levelarttir();
 
-    ifstream rekoroku("RekorListesi.txt");
-    if(!rekoroku)
+    if(rekortut <= skortut)
     {
-        ofstream ilkrekoruyaz("RekorListesi.txt");
-        if(!ilkrekoruyaz)
-        {
-            cout<<"Dosya acilamadi"<<endl;
-        }
-        else
-        {
-            ilkrekoruyaz << skortut;
-            ilkrekoruyaz.close();
-        }
-    }
-    else
-    {
-        rekoroku >> rekortut;
-        rekoroku.close();
-
-        if(rekortut < skortut)
-        {
-            ofstream rekoryaz("RekorListesi.txt");
-            rekoryaz << skortut;
-            rekoryaz.close();
-            rekortut = skortut;
-        }
+        ofstream rekoryaz("RekorListesi.txt");
+        rekoryaz << skortut;
+        rekoryaz.close();
+        rekortut = skortut;
+        rekor.setFillColor(rekoruastinrengi);
+        rekor.setOutlineColor(yazidisrengi);
+        skor.setFillColor(rekoruastinrengi);
+        skor.setOutlineColor(yazidisrengi);
     }
 
     sifirliyazdir(rekortut, rekor);
@@ -186,34 +170,17 @@ void BilgiAlani::dusenbloklaskorarttir()
     
     sifirliyazdir(skortut, skor);
 
-    ifstream rekoroku("RekorListesi.txt");
-    if(!rekoroku)
+    if(rekortut <= skortut)
     {
-        ofstream ilkrekoruyaz("RekorListesi.txt");
-        if(!ilkrekoruyaz)
-        {
-            cout<<"Dosya acilamadi"<<endl;
-        }
-        else
-        {
-            ilkrekoruyaz << skortut;
-            ilkrekoruyaz.close();
-        }
+        ofstream rekoryaz("RekorListesi.txt");
+        rekoryaz << skortut;
+        rekoryaz.close();
+        rekortut = skortut;
+        rekor.setFillColor(rekoruastinrengi);
+        rekor.setOutlineColor(yazidisrengi);
+        skor.setFillColor(rekoruastinrengi);
+        skor.setOutlineColor(yazidisrengi);
     }
-    else
-    {
-        rekoroku >> rekortut;
-        rekoroku.close();
-
-        if(rekortut < skortut)
-        {
-            ofstream rekoryaz("RekorListesi.txt");
-            rekoryaz << skortut;
-            rekoryaz.close();
-            rekortut = skortut;
-        }
-    }
-
     sifirliyazdir(rekortut, rekor);
 }
 
@@ -240,6 +207,11 @@ void BilgiAlani::skortemizle()
 {
     skortut = 0;
     sifirliyazdir(skortut, skor);
+
+    skor.setFillColor(yazirengi);
+    skor.setOutlineColor(yazidisrengi);
+    rekor.setFillColor(yazirengi);
+    rekor.setOutlineColor(yazidisrengi);
 }
 
 void BilgiAlani::leveltemizle()
@@ -315,15 +287,32 @@ int BilgiAlani::getpanelgenisligi() const
 
 void BilgiAlani::setskoryazirengi(Color renk)
 {
-    skoryazirengi = renk;
-    skor.setFillColor(skoryazirengi);
-    skor.setOutlineColor(skoryazirengi);
+    if(skortut<rekortut)
+    {
+        skor.setFillColor(renk);
+        skor.setOutlineColor(renk);
+    }
+    else
+    {
+        skor.setFillColor(renk);
+        skor.setOutlineColor(renk);
+        rekor.setFillColor(renk);
+        rekor.setOutlineColor(renk);
+    }
 }
 
 void BilgiAlani::setskoryazirengiback()
 {
-    skoryazirengi = yazirengi;
-    skoryazidisrengi = yazidisrengi;
-    skor.setFillColor(skoryazirengi);
-    skor.setOutlineColor(skoryazidisrengi);
+    if(skortut<rekortut)
+    {
+        skor.setFillColor(yazirengi);
+        skor.setOutlineColor(yazidisrenkyenile);
+    }
+    else
+    {
+        skor.setFillColor(rekoruastinrengi);
+        skor.setOutlineColor(yazidisrengi);
+        rekor.setFillColor(rekoruastinrengi);
+        rekor.setOutlineColor(yazidisrengi);
+    }
 }
