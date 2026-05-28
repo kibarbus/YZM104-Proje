@@ -34,6 +34,9 @@ public:
     void siradakiblokonizlemeciz(RenderWindow& window, const TetrisBloklari& sonrakiblok, const OyunAlani& oyunalani);
 
     int getpanelgenisligi() const;
+    int getrekortut() const;
+    int getskortut() const;
+    int getleveltut() const;
 
     void setskoryazirengi(Color renk); 
     void setskoryazirengiback();  

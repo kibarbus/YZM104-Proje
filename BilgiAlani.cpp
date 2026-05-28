@@ -334,6 +334,21 @@ int BilgiAlani::getpanelgenisligi() const
     return panelgenisligi;
 }
 
+int BilgiAlani::getrekortut() const
+{
+    return rekortut;
+}
+
+int BilgiAlani::getskortut() const
+{
+    return skortut;
+}
+
+int BilgiAlani::getleveltut() const
+{
+    return leveltut;
+}
+
 void BilgiAlani::setskoryazirengi(Color renk)
 {
     if(skortut<rekortut)

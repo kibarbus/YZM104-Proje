@@ -67,6 +67,22 @@ void oyunbittiekrani(RenderWindow& window, OyunAlani& oyunalani, BilgiAlani& bil
         cout<<"Game over font tipi yuklenemedi."<<endl;
     }
 
+    Text tebrikleryazisi ("TEBRIKLER! YENİ REKORUNUZ:" + to_string(bilgipaneli.getrekortut()), gameoverfontu, 80);
+    tebrikleryazisi.setFillColor(Color(255, 255, 255, 100));
+    tebrikleryazisi.setPosition(windowbaslangicdegerix + (anapenceregenisligi / 2) - (tebrikleryazisi.getLocalBounds().width / 2), windowbaslangicdegeriy - 200);
+
+    Text rekoryazisi("REKOR:" + to_string(bilgipaneli.getrekortut()), gameoverfontu, 30);
+    rekoryazisi.setFillColor(Color(255, 255, 255, 100));
+    rekoryazisi.setPosition(windowbaslangicdegerix + (anapenceregenisligi / 2) - (rekoryazisi.getLocalBounds().width / 2), windowbaslangicdegeriy - 200);
+
+    Text levelyazisi("LEVEL:" + to_string(bilgipaneli.getleveltut()), gameoverfontu, 30);
+    levelyazisi.setFillColor(Color(255, 255, 255, 100));
+    levelyazisi.setPosition(windowbaslangicdegerix + (anapenceregenisligi / 2) - (levelyazisi.getLocalBounds().width / 2), windowbaslangicdegeriy - 140);
+
+    Text skoryazisi("SKOR:" + to_string(bilgipaneli.getskortut()), gameoverfontu, 30);
+    skoryazisi.setFillColor(Color(255, 255, 255, 100));
+    skoryazisi.setPosition(windowbaslangicdegerix + (anapenceregenisligi / 2) - (skoryazisi.getLocalBounds().width / 2), windowbaslangicdegeriy - 170);
+
     Text gameoveryazisi ("GAME OVER", gameoverfontu, 80);
     gameoveryazisi.setFillColor(Color(255, 255, 255, 100));
     gameoveryazisi.setPosition(windowbaslangicdegerix + (anapenceregenisligi / 2) - (gameoveryazisi.getLocalBounds().width / 2),windowbaslangicdegeriy + (anapencereyuksekligi / 2) - 80);
@@ -82,9 +98,21 @@ void oyunbittiekrani(RenderWindow& window, OyunAlani& oyunalani, BilgiAlani& bil
     while(window.isOpen())
     {
         window.draw(oyunbittiekrani);
+        window.draw(skoryazisi);
+        window.draw(levelyazisi);
         window.draw(gameoveryazisi);
         window.draw(tekraroynamakicinspaceyazisi);
         window.draw(oyunukapatmakicinescyazisi);
+        
+        if(bilgipaneli.getskortut() == bilgipaneli.getrekortut())
+        {
+            window.draw(tebrikleryazisi);
+        }
+        else
+        {
+            window.draw(rekoryazisi);
+        }
+
         window.display();
 
         Event olay;
@@ -182,6 +210,24 @@ int main()
     }
     satirsilmuzigi.setVolume(50.0f);
     satirsilmuzigi.setLoop(false);
+
+    SoundBuffer gameoverbuffer;
+    Sound gameoversesi;
+    if(!gameoverbuffer.loadFromFile("gameover.ogg"))
+    {
+        cout<<"Game over muzik dosyasi acilamadi."<<endl;
+    }
+    gameoversesi.setBuffer(gameoverbuffer);
+    gameoversesi.setVolume(100.0f);
+
+    SoundBuffer oyunbaslatbuffer;
+    Sound oyunbaslatsesi;
+    if(!oyunbaslatbuffer.loadFromFile("oyunbaslat.ogg"))
+    {
+        cout<<"Oyun baslat muzik dosyasi acilamadi."<<endl;
+    }
+    oyunbaslatsesi.setBuffer(oyunbaslatbuffer);
+    oyunbaslatsesi.setVolume(100.0f);
 
     while (window.isOpen())
     {
@@ -322,7 +368,11 @@ int main()
 
                 if (siradakiblok.oyunbittimi(siradakiblok.getblokxdegeri(), siradakiblok.getblokydegeri(), gecicimatris, oyunalani))
                 {                    
+                    tetrismuzigi.stop();
+                    gameoversesi.play();
                     oyunbittiekrani(window, oyunalani, bilgipaneli, anapenceregenisligi, anapencereyuksekligi, windowbaslangicdegerix, windowbaslangicdegeriy);
+                    oyunbaslatsesi.play();
+                    tetrismuzigi.play();
                     blokdusmegecikmesuresi = 0.9f; //oyun yeniden basladiginda bloklarin hizli dusmesini engellemek icin sureyi basa alir.
                     yeniBlokGerekiyor = true;
                 }
