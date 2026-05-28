@@ -131,7 +131,7 @@ int main()
     {
         cout<<"Muzik dosyasi acilamadi."<<endl;
     }
-    tetrismuzigi.setVolume(10.0f);
+    tetrismuzigi.setVolume(5.0f);
     tetrismuzigi.setLoop(true);
     tetrismuzigi.play();
 

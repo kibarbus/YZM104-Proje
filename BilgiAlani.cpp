@@ -35,6 +35,16 @@ BilgiAlani::BilgiAlani(int xkoordinati,int ykoordinati, const OyunAlani& oyunala
         cout<<"Muzik dosyasi acilamadi."<<endl;
     }
 
+    if(blokdusmesesibuffer.loadFromFile("blokdusmesesi.ogg"))
+    {
+        blokdusmesesi.setBuffer(blokdusmesesibuffer);
+        blokdusmesesi.setVolume(10.0f);
+    }
+    else
+    {
+        cout<<"Blok dusme muzik dosyasi acilamadi."<<endl;
+    }
+
     
     int birimkareboyutu = oyunalani.getbirimkareboyutu();
 
@@ -184,6 +194,9 @@ void BilgiAlani::skorarttir(int silinensatirsayisi, float gecensure)
 
 void BilgiAlani::dusenbloklaskorarttir()
 {
+    blokdusmesesi.stop();
+    blokdusmesesi.play();
+
     skortut += 10;
     
     sifirliyazdir(skortut, skor);
@@ -204,7 +217,7 @@ void BilgiAlani::dusenbloklaskorarttir()
 
 void BilgiAlani::levelarttir()
 {
-    if(skortut>leveltut*500)
+    if(skortut>(leveltut*500))
     {
         levelartmasesi.stop();
         levelartmasesi.play();

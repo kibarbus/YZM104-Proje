@@ -77,5 +77,12 @@ private:
     
     Color rekoruastinrengi = Color(70,65,120,150);
 
-    Music levelmuzigi;
+    SoundBuffer levelartmabuffer;
+    Sound levelartmasesi;
+
+    SoundBuffer satirsilmebuffer;
+    Sound satirsilmesesi;
+
+    SoundBuffer blokdusmesesibuffer;
+    Sound blokdusmesesi;
 };
