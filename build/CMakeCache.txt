@@ -30,8 +30,8 @@ CMAKE_BUILD_TYPE:STRING=Debug
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
-//No help, variable specified on the command line.
-CMAKE_CXX_COMPILER:FILEPATH=C:/mingw64/bin/g++.exe
+//CXX compiler
+CMAKE_CXX_COMPILER:STRING=C:/mingw64/bin/g++.exe
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -59,8 +59,8 @@ CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 //Libraries linked by default with all C++ applications.
 CMAKE_CXX_STANDARD_LIBRARIES:STRING=-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
 
-//No help, variable specified on the command line.
-CMAKE_C_COMPILER:FILEPATH=C:/mingw64/bin/gcc.exe
+//C compiler
+CMAKE_C_COMPILER:STRING=C:/mingw64/bin/gcc.exe
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -386,7 +386,7 @@ OPENGL_glu_LIBRARY:STRING=glu32
 SFML_BINARY_DIR:STATIC=C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-build
 
 //TRUE to build SFML's Audio module.
-SFML_BUILD_AUDIO:BOOL=TRUE
+SFML_BUILD_AUDIO:BOOL=ON
 
 //TRUE to generate the API documentation, FALSE to ignore it
 SFML_BUILD_DOC:BOOL=FALSE
@@ -451,6 +451,21 @@ VORBIS_LIBRARY:FILEPATH=C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/
 
 //Treat compiler warnings as errors
 WARNINGS_AS_ERRORS:BOOL=OFF
+
+//Dependencies for the target
+sfml-audio_LIB_DEPENDS:STATIC=general;sfml-system;
+
+//Dependencies for the target
+sfml-graphics_LIB_DEPENDS:STATIC=general;sfml-window;
+
+//Dependencies for the target
+sfml-network_LIB_DEPENDS:STATIC=general;sfml-system;general;ws2_32;
+
+//Dependencies for the target
+sfml-system_LIB_DEPENDS:STATIC=general;winmm;
+
+//Dependencies for the target
+sfml-window_LIB_DEPENDS:STATIC=general;sfml-system;general;winmm;general;gdi32;
 
 
 ########################

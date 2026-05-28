@@ -15,7 +15,8 @@
 		[
 			"add_executable",
 			"target_link_libraries",
-			"add_custom_command"
+			"add_custom_command",
+			"target_include_directories"
 		],
 		"files" : 
 		[
@@ -29,17 +30,23 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 14,
+				"line" : 16,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 16,
+				"line" : 20,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
+				"file" : 0,
+				"line" : 23,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
 				"file" : 0,
 				"line" : 18,
 				"parent" : 0
@@ -64,6 +71,10 @@
 		{
 			"backtrace" : 2,
 			"id" : "sfml-system::@8cb1db2982443611e568"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "sfml-audio::@a153e5727587c53fce98"
 		}
 	],
 	"compileGroups" : 
@@ -78,7 +89,7 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 2,
+					"backtrace" : 4,
 					"path" : "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/include"
 				}
 			],
@@ -113,6 +124,10 @@
 		{
 			"backtrace" : 2,
 			"id" : "sfml-graphics::@98af38147d5fa7e70f61"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "sfml-audio::@a153e5727587c53fce98"
 		}
 	],
 	"id" : "tetris::@6890427a1f51a3e7e1df",
@@ -140,6 +155,11 @@
 			},
 			{
 				"backtrace" : 2,
+				"fragment" : "_deps\\sfml-build\\lib\\libsfml-audio-d.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
 				"fragment" : "_deps\\sfml-build\\lib\\libsfml-system-d.a",
 				"role" : "libraries"
 			},
@@ -163,6 +183,10 @@
 		{
 			"backtrace" : 2,
 			"id" : "sfml-system::@8cb1db2982443611e568"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "sfml-audio::@a153e5727587c53fce98"
 		}
 	],
 	"name" : "tetris",

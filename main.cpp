@@ -1,4 +1,5 @@
 #include <SFML/Graphics.hpp>
+#include <SFML/Audio.hpp>
 #include "OyunAlani.hpp"
 #include "TetrisBloklari.hpp"
 #include "BilgiAlani.hpp"
@@ -124,6 +125,25 @@ int main()
     RectangleShape bilgipanelidiscervceve(Vector2f(bilgipaneligenisligi + 6, oyunalaniyuksekligi + 6));
     RectangleShape oyunalanidiscerceve(Vector2f(oyunalanigenisligi + 6, oyunalaniyuksekligi + 6));
 
+    Music tetrismuzigi;
+
+    if(!tetrismuzigi.openFromFile("hizli.ogg"))
+    {
+        cout<<"Muzik dosyasi acilamadi."<<endl;
+    }
+    tetrismuzigi.setVolume(10.0f);
+    tetrismuzigi.setLoop(true);
+    tetrismuzigi.play();
+
+     Music satirsilmuzigi;
+
+    if(!satirsilmuzigi.openFromFile("satirsilmemuzigi.ogg"))
+    {
+        cout<<"Muzik dosyasi acilamadi."<<endl;
+    }
+    satirsilmuzigi.setVolume(50.0f);
+    satirsilmuzigi.setLoop(false);
+
     while (window.isOpen())
     {
         float sonacilistangecenzaman = ekranacilissuresayaci.restart().asSeconds();//restart, pencerenin son acildigindan itibaren gecen sureyi tutar ve sifirlar, assecond ise saniye cinsinden tutar.
@@ -210,6 +230,7 @@ int main()
                 
                 if(!silineceksatirlar.empty())
                 {
+                    satirsilmuzigi.play();
 
                     float satirsilmefrekansi = satirsilmefrekansisayaci.restart().asSeconds();
                     satirsilmefrekansizamansayaci += satirsilmefrekansi;

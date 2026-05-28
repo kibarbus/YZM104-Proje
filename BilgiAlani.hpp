@@ -1,5 +1,6 @@
 #pragma once
 #include <SFML/Graphics.hpp>
+#include <SFML/Audio.hpp>
 #include <iostream>
 #include <vector>
 #include <string>
@@ -75,4 +76,6 @@ private:
     Color yazidisrenkyenile = yazidisrengi;
     
     Color rekoruastinrengi = Color(70,65,120,150);
+
+    Music levelmuzigi;
 };

@@ -20,6 +20,22 @@ void BilgiAlani::sifirliyazdir(int sayitut, Text& sayi)
 
 BilgiAlani::BilgiAlani(int xkoordinati,int ykoordinati, const OyunAlani& oyunalani)
 {
+    if(satirsilmebuffer.loadFromFile("satirsilmemuzigi.ogg"))
+    {
+        satirsilmesesi.setBuffer(satirsilmebuffer);
+        satirsilmesesi.setVolume(50.0f);
+    }
+    if(levelartmabuffer.loadFromFile("levelmuzigi.ogg"))
+    {
+        levelartmasesi.setBuffer(levelartmabuffer);
+        levelartmasesi.setVolume(100.0f);
+    }
+    else
+    {
+        cout<<"Muzik dosyasi acilamadi."<<endl;
+    }
+
+    
     int birimkareboyutu = oyunalani.getbirimkareboyutu();
 
     panelgenisligi = genislik * birimkareboyutu;
@@ -129,6 +145,8 @@ void BilgiAlani::bilgialaniciz(RenderWindow& window)
 
 void BilgiAlani::skorarttir(int silinensatirsayisi, float gecensure)
 {
+    satirsilmesesi.stop();
+    satirsilmesesi.play();
 
     float minimumskorarttir = 50.0f;
 
@@ -186,9 +204,11 @@ void BilgiAlani::dusenbloklaskorarttir()
 
 void BilgiAlani::levelarttir()
 {
-
     if(skortut>leveltut*500)
     {
+        levelartmasesi.stop();
+        levelartmasesi.play();
+
         leveltut++;
 
         string sifirlilevel = to_string(leveltut);

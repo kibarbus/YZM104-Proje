@@ -29,7 +29,6 @@ events:
     candidate_directories:
       - "C:/mingw64/bin/"
       - "C:/usr/bin/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -54,19 +53,18 @@ events:
         - "C:\\mingw64\\bin"
         - "C:\\mingw64\\bin"
         - "C:\\usr\\bin"
-        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code"
-        - "C:\\Windows\\system32"
-        - "C:/Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\MinGW\\bin"
-        - "C:/Program Files/Git/cmd"
-        - "C:\\Users\\DellX\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/DellX/.dotnet/tools"
-        - "C:\\Users\\DellX\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/mingw64/bin"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/MinGW/bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/Users/DellX/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\DellX\\.dotnet\\tools"
+        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\mingw64\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -98,19 +96,18 @@ events:
         - "C:\\mingw64\\bin"
         - "C:\\mingw64\\bin"
         - "C:\\usr\\bin"
-        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code"
-        - "C:\\Windows\\system32"
-        - "C:/Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\MinGW\\bin"
-        - "C:/Program Files/Git/cmd"
-        - "C:\\Users\\DellX\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/DellX/.dotnet/tools"
-        - "C:\\Users\\DellX\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/mingw64/bin"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/MinGW/bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/Users/DellX/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\DellX\\.dotnet\\tools"
+        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\mingw64\\bin"
   -
     kind: "message-v1"
     backtrace:
@@ -155,7 +152,6 @@ events:
     candidate_directories:
       - "C:/mingw64/bin/"
       - "C:/usr/bin/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -176,19 +172,18 @@ events:
         - "C:\\mingw64\\bin"
         - "C:\\mingw64\\bin"
         - "C:\\usr\\bin"
-        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code"
-        - "C:\\Windows\\system32"
-        - "C:/Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\MinGW\\bin"
-        - "C:/Program Files/Git/cmd"
-        - "C:\\Users\\DellX\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/DellX/.dotnet/tools"
-        - "C:\\Users\\DellX\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/mingw64/bin"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/MinGW/bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/Users/DellX/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\DellX\\.dotnet\\tools"
+        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\mingw64\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -211,7 +206,6 @@ events:
     candidate_directories:
       - "C:/mingw64/bin/"
       - "C:/usr/bin/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -232,19 +226,18 @@ events:
         - "C:\\mingw64\\bin"
         - "C:\\mingw64\\bin"
         - "C:\\usr\\bin"
-        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code"
-        - "C:\\Windows\\system32"
-        - "C:/Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\MinGW\\bin"
-        - "C:/Program Files/Git/cmd"
-        - "C:\\Users\\DellX\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/DellX/.dotnet/tools"
-        - "C:\\Users\\DellX\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/mingw64/bin"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/MinGW/bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/Users/DellX/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\DellX\\.dotnet\\tools"
+        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\mingw64\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -267,7 +260,6 @@ events:
     candidate_directories:
       - "C:/mingw64/bin/"
       - "C:/usr/bin/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -288,19 +280,18 @@ events:
         - "C:\\mingw64\\bin"
         - "C:\\mingw64\\bin"
         - "C:\\usr\\bin"
-        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code"
-        - "C:\\Windows\\system32"
-        - "C:/Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\MinGW\\bin"
-        - "C:/Program Files/Git/cmd"
-        - "C:\\Users\\DellX\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/DellX/.dotnet/tools"
-        - "C:\\Users\\DellX\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/mingw64/bin"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/MinGW/bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/Users/DellX/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\DellX\\.dotnet\\tools"
+        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\mingw64\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -323,7 +314,6 @@ events:
     candidate_directories:
       - "C:/mingw64/bin/"
       - "C:/usr/bin/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -344,19 +334,18 @@ events:
         - "C:\\mingw64\\bin"
         - "C:\\mingw64\\bin"
         - "C:\\usr\\bin"
-        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code"
-        - "C:\\Windows\\system32"
-        - "C:/Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\MinGW\\bin"
-        - "C:/Program Files/Git/cmd"
-        - "C:\\Users\\DellX\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/DellX/.dotnet/tools"
-        - "C:\\Users\\DellX\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/mingw64/bin"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/MinGW/bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/Users/DellX/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\DellX\\.dotnet\\tools"
+        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\mingw64\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -379,7 +368,6 @@ events:
     candidate_directories:
       - "C:/mingw64/bin/"
       - "C:/usr/bin/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -400,19 +388,18 @@ events:
         - "C:\\mingw64\\bin"
         - "C:\\mingw64\\bin"
         - "C:\\usr\\bin"
-        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code"
-        - "C:\\Windows\\system32"
-        - "C:/Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\MinGW\\bin"
-        - "C:/Program Files/Git/cmd"
-        - "C:\\Users\\DellX\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/DellX/.dotnet/tools"
-        - "C:\\Users\\DellX\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/mingw64/bin"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/MinGW/bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/Users/DellX/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\DellX\\.dotnet\\tools"
+        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\mingw64\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -435,7 +422,6 @@ events:
     candidate_directories:
       - "C:/mingw64/bin/"
       - "C:/usr/bin/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -456,19 +442,18 @@ events:
         - "C:\\mingw64\\bin"
         - "C:\\mingw64\\bin"
         - "C:\\usr\\bin"
-        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code"
-        - "C:\\Windows\\system32"
-        - "C:/Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\MinGW\\bin"
-        - "C:/Program Files/Git/cmd"
-        - "C:\\Users\\DellX\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/DellX/.dotnet/tools"
-        - "C:\\Users\\DellX\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/mingw64/bin"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/MinGW/bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/Users/DellX/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\DellX\\.dotnet\\tools"
+        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\mingw64\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -491,7 +476,6 @@ events:
     candidate_directories:
       - "C:/mingw64/bin/"
       - "C:/usr/bin/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -512,19 +496,18 @@ events:
         - "C:\\mingw64\\bin"
         - "C:\\mingw64\\bin"
         - "C:\\usr\\bin"
-        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code"
-        - "C:\\Windows\\system32"
-        - "C:/Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\MinGW\\bin"
-        - "C:/Program Files/Git/cmd"
-        - "C:\\Users\\DellX\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/DellX/.dotnet/tools"
-        - "C:\\Users\\DellX\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/mingw64/bin"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/MinGW/bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/Users/DellX/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\DellX\\.dotnet\\tools"
+        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\mingw64\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -547,7 +530,6 @@ events:
     candidate_directories:
       - "C:/mingw64/bin/"
       - "C:/usr/bin/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -568,19 +550,18 @@ events:
         - "C:\\mingw64\\bin"
         - "C:\\mingw64\\bin"
         - "C:\\usr\\bin"
-        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code"
-        - "C:\\Windows\\system32"
-        - "C:/Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\MinGW\\bin"
-        - "C:/Program Files/Git/cmd"
-        - "C:\\Users\\DellX\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/DellX/.dotnet/tools"
-        - "C:\\Users\\DellX\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/mingw64/bin"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/MinGW/bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/Users/DellX/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\DellX\\.dotnet\\tools"
+        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\mingw64\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -603,7 +584,6 @@ events:
     candidate_directories:
       - "C:/mingw64/bin/"
       - "C:/usr/bin/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -624,19 +604,18 @@ events:
         - "C:\\mingw64\\bin"
         - "C:\\mingw64\\bin"
         - "C:\\usr\\bin"
-        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code"
-        - "C:\\Windows\\system32"
-        - "C:/Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\MinGW\\bin"
-        - "C:/Program Files/Git/cmd"
-        - "C:\\Users\\DellX\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/DellX/.dotnet/tools"
-        - "C:\\Users\\DellX\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/mingw64/bin"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/MinGW/bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/Users/DellX/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\DellX\\.dotnet\\tools"
+        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\mingw64\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -659,7 +638,6 @@ events:
     candidate_directories:
       - "C:/mingw64/bin/"
       - "C:/usr/bin/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -680,19 +658,18 @@ events:
         - "C:\\mingw64\\bin"
         - "C:\\mingw64\\bin"
         - "C:\\usr\\bin"
-        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code"
-        - "C:\\Windows\\system32"
-        - "C:/Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\MinGW\\bin"
-        - "C:/Program Files/Git/cmd"
-        - "C:\\Users\\DellX\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/DellX/.dotnet/tools"
-        - "C:\\Users\\DellX\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/mingw64/bin"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/MinGW/bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/Users/DellX/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\DellX\\.dotnet\\tools"
+        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\mingw64\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -715,7 +692,6 @@ events:
     candidate_directories:
       - "C:/mingw64/bin/"
       - "C:/usr/bin/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -734,9 +710,6 @@ events:
       - "C:/usr/bin/tapi.com"
       - "C:/usr/bin/tapi.exe"
       - "C:/usr/bin/tapi"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/tapi.com"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/tapi.exe"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/tapi"
       - "C:/Windows/System32/tapi.com"
       - "C:/Windows/System32/tapi.exe"
       - "C:/Windows/System32/tapi"
@@ -777,19 +750,18 @@ events:
         - "C:\\mingw64\\bin"
         - "C:\\mingw64\\bin"
         - "C:\\usr\\bin"
-        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code"
-        - "C:\\Windows\\system32"
-        - "C:/Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\MinGW\\bin"
-        - "C:/Program Files/Git/cmd"
-        - "C:\\Users\\DellX\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/DellX/.dotnet/tools"
-        - "C:\\Users\\DellX\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/mingw64/bin"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/MinGW/bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/Users/DellX/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\DellX\\.dotnet\\tools"
+        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\mingw64\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -815,7 +787,6 @@ events:
     candidate_directories:
       - "C:/mingw64/bin/"
       - "C:/usr/bin/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -834,9 +805,6 @@ events:
       - "C:/usr/bin/gcc-ar-15.2.com"
       - "C:/usr/bin/gcc-ar-15.2.exe"
       - "C:/usr/bin/gcc-ar-15.2"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/gcc-ar-15.2.com"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/gcc-ar-15.2.exe"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/gcc-ar-15.2"
       - "C:/Windows/System32/gcc-ar-15.2.com"
       - "C:/Windows/System32/gcc-ar-15.2.exe"
       - "C:/Windows/System32/gcc-ar-15.2"
@@ -876,9 +844,6 @@ events:
       - "C:/usr/bin/gcc-ar-15.com"
       - "C:/usr/bin/gcc-ar-15.exe"
       - "C:/usr/bin/gcc-ar-15"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/gcc-ar-15.com"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/gcc-ar-15.exe"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/gcc-ar-15"
       - "C:/Windows/System32/gcc-ar-15.com"
       - "C:/Windows/System32/gcc-ar-15.exe"
       - "C:/Windows/System32/gcc-ar-15"
@@ -918,9 +883,6 @@ events:
       - "C:/usr/bin/gcc-ar15.com"
       - "C:/usr/bin/gcc-ar15.exe"
       - "C:/usr/bin/gcc-ar15"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/gcc-ar15.com"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/gcc-ar15.exe"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/gcc-ar15"
       - "C:/Windows/System32/gcc-ar15.com"
       - "C:/Windows/System32/gcc-ar15.exe"
       - "C:/Windows/System32/gcc-ar15"
@@ -962,19 +924,18 @@ events:
         - "C:\\mingw64\\bin"
         - "C:\\mingw64\\bin"
         - "C:\\usr\\bin"
-        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code"
-        - "C:\\Windows\\system32"
-        - "C:/Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\MinGW\\bin"
-        - "C:/Program Files/Git/cmd"
-        - "C:\\Users\\DellX\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/DellX/.dotnet/tools"
-        - "C:\\Users\\DellX\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/mingw64/bin"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/MinGW/bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/Users/DellX/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\DellX\\.dotnet\\tools"
+        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\mingw64\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -1000,7 +961,6 @@ events:
     candidate_directories:
       - "C:/mingw64/bin/"
       - "C:/usr/bin/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -1019,9 +979,6 @@ events:
       - "C:/usr/bin/gcc-ranlib-15.2.com"
       - "C:/usr/bin/gcc-ranlib-15.2.exe"
       - "C:/usr/bin/gcc-ranlib-15.2"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-15.2.com"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-15.2.exe"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-15.2"
       - "C:/Windows/System32/gcc-ranlib-15.2.com"
       - "C:/Windows/System32/gcc-ranlib-15.2.exe"
       - "C:/Windows/System32/gcc-ranlib-15.2"
@@ -1061,9 +1018,6 @@ events:
       - "C:/usr/bin/gcc-ranlib-15.com"
       - "C:/usr/bin/gcc-ranlib-15.exe"
       - "C:/usr/bin/gcc-ranlib-15"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-15.com"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-15.exe"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-15"
       - "C:/Windows/System32/gcc-ranlib-15.com"
       - "C:/Windows/System32/gcc-ranlib-15.exe"
       - "C:/Windows/System32/gcc-ranlib-15"
@@ -1103,9 +1057,6 @@ events:
       - "C:/usr/bin/gcc-ranlib15.com"
       - "C:/usr/bin/gcc-ranlib15.exe"
       - "C:/usr/bin/gcc-ranlib15"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib15.com"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib15.exe"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib15"
       - "C:/Windows/System32/gcc-ranlib15.com"
       - "C:/Windows/System32/gcc-ranlib15.exe"
       - "C:/Windows/System32/gcc-ranlib15"
@@ -1147,19 +1098,18 @@ events:
         - "C:\\mingw64\\bin"
         - "C:\\mingw64\\bin"
         - "C:\\usr\\bin"
-        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code"
-        - "C:\\Windows\\system32"
-        - "C:/Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\MinGW\\bin"
-        - "C:/Program Files/Git/cmd"
-        - "C:\\Users\\DellX\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/DellX/.dotnet/tools"
-        - "C:\\Users\\DellX\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/mingw64/bin"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/MinGW/bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/Users/DellX/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\DellX\\.dotnet\\tools"
+        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\mingw64\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -1191,19 +1141,18 @@ events:
         - "C:\\mingw64\\bin"
         - "C:\\mingw64\\bin"
         - "C:\\usr\\bin"
-        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code"
-        - "C:\\Windows\\system32"
-        - "C:/Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\MinGW\\bin"
-        - "C:/Program Files/Git/cmd"
-        - "C:\\Users\\DellX\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/DellX/.dotnet/tools"
-        - "C:\\Users\\DellX\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/mingw64/bin"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/MinGW/bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/Users/DellX/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\DellX\\.dotnet\\tools"
+        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\mingw64\\bin"
   -
     kind: "message-v1"
     backtrace:
@@ -1251,7 +1200,6 @@ events:
     candidate_directories:
       - "C:/mingw64/bin/"
       - "C:/usr/bin/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -1270,9 +1218,6 @@ events:
       - "C:/usr/bin/gcc-ar-15.2.com"
       - "C:/usr/bin/gcc-ar-15.2.exe"
       - "C:/usr/bin/gcc-ar-15.2"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/gcc-ar-15.2.com"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/gcc-ar-15.2.exe"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/gcc-ar-15.2"
       - "C:/Windows/System32/gcc-ar-15.2.com"
       - "C:/Windows/System32/gcc-ar-15.2.exe"
       - "C:/Windows/System32/gcc-ar-15.2"
@@ -1312,9 +1257,6 @@ events:
       - "C:/usr/bin/gcc-ar-15.com"
       - "C:/usr/bin/gcc-ar-15.exe"
       - "C:/usr/bin/gcc-ar-15"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/gcc-ar-15.com"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/gcc-ar-15.exe"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/gcc-ar-15"
       - "C:/Windows/System32/gcc-ar-15.com"
       - "C:/Windows/System32/gcc-ar-15.exe"
       - "C:/Windows/System32/gcc-ar-15"
@@ -1354,9 +1296,6 @@ events:
       - "C:/usr/bin/gcc-ar15.com"
       - "C:/usr/bin/gcc-ar15.exe"
       - "C:/usr/bin/gcc-ar15"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/gcc-ar15.com"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/gcc-ar15.exe"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/gcc-ar15"
       - "C:/Windows/System32/gcc-ar15.com"
       - "C:/Windows/System32/gcc-ar15.exe"
       - "C:/Windows/System32/gcc-ar15"
@@ -1398,19 +1337,18 @@ events:
         - "C:\\mingw64\\bin"
         - "C:\\mingw64\\bin"
         - "C:\\usr\\bin"
-        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code"
-        - "C:\\Windows\\system32"
-        - "C:/Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\MinGW\\bin"
-        - "C:/Program Files/Git/cmd"
-        - "C:\\Users\\DellX\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/DellX/.dotnet/tools"
-        - "C:\\Users\\DellX\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/mingw64/bin"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/MinGW/bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/Users/DellX/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\DellX\\.dotnet\\tools"
+        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\mingw64\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -1436,7 +1374,6 @@ events:
     candidate_directories:
       - "C:/mingw64/bin/"
       - "C:/usr/bin/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -1455,9 +1392,6 @@ events:
       - "C:/usr/bin/gcc-ranlib-15.2.com"
       - "C:/usr/bin/gcc-ranlib-15.2.exe"
       - "C:/usr/bin/gcc-ranlib-15.2"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-15.2.com"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-15.2.exe"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-15.2"
       - "C:/Windows/System32/gcc-ranlib-15.2.com"
       - "C:/Windows/System32/gcc-ranlib-15.2.exe"
       - "C:/Windows/System32/gcc-ranlib-15.2"
@@ -1497,9 +1431,6 @@ events:
       - "C:/usr/bin/gcc-ranlib-15.com"
       - "C:/usr/bin/gcc-ranlib-15.exe"
       - "C:/usr/bin/gcc-ranlib-15"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-15.com"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-15.exe"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-15"
       - "C:/Windows/System32/gcc-ranlib-15.com"
       - "C:/Windows/System32/gcc-ranlib-15.exe"
       - "C:/Windows/System32/gcc-ranlib-15"
@@ -1539,9 +1470,6 @@ events:
       - "C:/usr/bin/gcc-ranlib15.com"
       - "C:/usr/bin/gcc-ranlib15.exe"
       - "C:/usr/bin/gcc-ranlib15"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib15.com"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib15.exe"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib15"
       - "C:/Windows/System32/gcc-ranlib15.com"
       - "C:/Windows/System32/gcc-ranlib15.exe"
       - "C:/Windows/System32/gcc-ranlib15"
@@ -1583,19 +1511,18 @@ events:
         - "C:\\mingw64\\bin"
         - "C:\\mingw64\\bin"
         - "C:\\usr\\bin"
-        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code"
-        - "C:\\Windows\\system32"
-        - "C:/Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\MinGW\\bin"
-        - "C:/Program Files/Git/cmd"
-        - "C:\\Users\\DellX\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/DellX/.dotnet/tools"
-        - "C:\\Users\\DellX\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/mingw64/bin"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/MinGW/bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/Users/DellX/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\DellX\\.dotnet\\tools"
+        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\mingw64\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -1621,7 +1548,6 @@ events:
     candidate_directories:
       - "C:/mingw64/bin/"
       - "C:/usr/bin/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -1657,19 +1583,18 @@ events:
         - "C:\\mingw64\\bin"
         - "C:\\mingw64\\bin"
         - "C:\\usr\\bin"
-        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code"
-        - "C:\\Windows\\system32"
-        - "C:/Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\MinGW\\bin"
-        - "C:/Program Files/Git/cmd"
-        - "C:\\Users\\DellX\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/DellX/.dotnet/tools"
-        - "C:\\Users\\DellX\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/mingw64/bin"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/MinGW/bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/Users/DellX/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\DellX\\.dotnet\\tools"
+        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\mingw64\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/TetrisProjesi"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/mingw64"
@@ -1686,8 +1611,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-098ypf"
-      binary: "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-098ypf"
+      source: "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-jgulrk"
+      binary: "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-jgulrk"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: ""
@@ -1697,13 +1622,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-098ypf'
+        Change Dir: 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-jgulrk'
         
-        Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_5cf92/fast
-        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_5cf92.dir\\build.make CMakeFiles/cmTC_5cf92.dir/build
-        mingw32-make[1]: Entering directory 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-098ypf'
-        Building C object CMakeFiles/cmTC_5cf92.dir/CMakeCCompilerABI.c.obj
-        C:\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_5cf92.dir\\CMakeCCompilerABI.c.obj -c C:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c
+        Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_a2cd1/fast
+        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_a2cd1.dir\\build.make CMakeFiles/cmTC_a2cd1.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-jgulrk'
+        Building C object CMakeFiles/cmTC_a2cd1.dir/CMakeCCompilerABI.c.obj
+        C:\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_a2cd1.dir\\CMakeCCompilerABI.c.obj -c C:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=C:\\mingw64\\bin\\gcc.exe
         OFFLOAD_TARGET_NAMES=nvptx-none
@@ -1712,8 +1637,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.0 (MinGW-W64 x86_64-msvcrt-posix-seh, built by Brecht Sanders, r7) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_5cf92.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_5cf92.dir\\'
-         C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1.exe -quiet -v -iprefix C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_5cf92.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\DellX\\AppData\\Local\\Temp\\ccE73Nwi.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a2cd1.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_a2cd1.dir\\'
+         C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1.exe -quiet -v -iprefix C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_a2cd1.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\DellX\\AppData\\Local\\Temp\\cc4QjQrn.s
         GNU C23 (MinGW-W64 x86_64-msvcrt-posix-seh, built by Brecht Sanders, r7) version 15.2.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.0, isl version isl-0.27-GMP
         
@@ -1732,14 +1657,14 @@ events:
          C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include
         End of search list.
         Compiler executable checksum: ecb64d7e6c3e53914f040367aa295c7c
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_5cf92.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_5cf92.dir\\'
-         C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_5cf92.dir\\CMakeCCompilerABI.c.obj C:\\Users\\DellX\\AppData\\Local\\Temp\\ccE73Nwi.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a2cd1.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_a2cd1.dir\\'
+         C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_a2cd1.dir\\CMakeCCompilerABI.c.obj C:\\Users\\DellX\\AppData\\Local\\Temp\\cc4QjQrn.s
         GNU assembler version 2.46.0 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r7) 2.46.0.20260210
         COMPILER_PATH=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/;C:/mingw64/bin/../libexec/gcc/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/mingw64/bin/../lib/gcc/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_5cf92.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_5cf92.dir\\CMakeCCompilerABI.c.'
-        Linking C executable cmTC_5cf92.exe
-        C:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_5cf92.dir\\link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a2cd1.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_a2cd1.dir\\CMakeCCompilerABI.c.'
+        Linking C executable cmTC_a2cd1.exe
+        C:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_a2cd1.dir\\link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=C:\\mingw64\\bin\\gcc.exe
         COLLECT_LTO_WRAPPER=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe
@@ -1751,16 +1676,16 @@ events:
         gcc version 15.2.0 (MinGW-W64 x86_64-msvcrt-posix-seh, built by Brecht Sanders, r7) 
         COMPILER_PATH=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/;C:/mingw64/bin/../libexec/gcc/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/mingw64/bin/../lib/gcc/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5cf92.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5cf92.'
-         C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\DellX\\AppData\\Local\\Temp\\cc8MWjGX.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_5cf92.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_5cf92.dir/objects.a --no-whole-archive --out-implib libcmTC_5cf92.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a2cd1.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a2cd1.'
+         C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\DellX\\AppData\\Local\\Temp\\ccfcv2cz.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_a2cd1.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_a2cd1.dir/objects.a --no-whole-archive --out-implib libcmTC_a2cd1.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
         collect2 version 15.2.0
-        C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\DellX\\AppData\\Local\\Temp\\cc8MWjGX.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_5cf92.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_5cf92.dir/objects.a --no-whole-archive --out-implib libcmTC_5cf92.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\DellX\\AppData\\Local\\Temp\\ccfcv2cz.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_a2cd1.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_a2cd1.dir/objects.a --no-whole-archive --out-implib libcmTC_a2cd1.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
         GNU ld (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r7) 2.46.0.20260210
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5cf92.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5cf92.'
-        C:\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_5cf92.dir/objects.a
-        C:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_5cf92.dir/objects.a @CMakeFiles\\cmTC_5cf92.dir\\objects1.rsp
-        C:\\mingw64\\bin\\gcc.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_5cf92.dir/objects.a -Wl,--no-whole-archive -o cmTC_5cf92.exe -Wl,--out-implib,libcmTC_5cf92.dll.a -Wl,--major-image-version,0,--minor-image-version,0
-        mingw32-make[1]: Leaving directory 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-098ypf'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a2cd1.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a2cd1.'
+        C:\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_a2cd1.dir/objects.a
+        C:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_a2cd1.dir/objects.a @CMakeFiles\\cmTC_a2cd1.dir\\objects1.rsp
+        C:\\mingw64\\bin\\gcc.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_a2cd1.dir/objects.a -Wl,--no-whole-archive -o cmTC_a2cd1.exe -Wl,--out-implib,libcmTC_a2cd1.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-jgulrk'
         
       exitCode: 0
   -
@@ -1795,13 +1720,13 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-098ypf']
+        ignore line: [Change Dir: 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-jgulrk']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_5cf92/fast]
-        ignore line: [C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_5cf92.dir\\build.make CMakeFiles/cmTC_5cf92.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-098ypf']
-        ignore line: [Building C object CMakeFiles/cmTC_5cf92.dir/CMakeCCompilerABI.c.obj]
-        ignore line: [C:\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_5cf92.dir\\CMakeCCompilerABI.c.obj -c C:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_a2cd1/fast]
+        ignore line: [C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_a2cd1.dir\\build.make CMakeFiles/cmTC_a2cd1.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-jgulrk']
+        ignore line: [Building C object CMakeFiles/cmTC_a2cd1.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [C:\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_a2cd1.dir\\CMakeCCompilerABI.c.obj -c C:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\mingw64\\bin\\gcc.exe]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
@@ -1810,8 +1735,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.0 (MinGW-W64 x86_64-msvcrt-posix-seh  built by Brecht Sanders  r7) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_5cf92.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_5cf92.dir\\']
-        ignore line: [ C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1.exe -quiet -v -iprefix C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_5cf92.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\DellX\\AppData\\Local\\Temp\\ccE73Nwi.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a2cd1.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_a2cd1.dir\\']
+        ignore line: [ C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1.exe -quiet -v -iprefix C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_a2cd1.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\DellX\\AppData\\Local\\Temp\\cc4QjQrn.s]
         ignore line: [GNU C23 (MinGW-W64 x86_64-msvcrt-posix-seh  built by Brecht Sanders  r7) version 15.2.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.0  isl version isl-0.27-GMP]
         ignore line: []
@@ -1830,8 +1755,8 @@ events:
         ignore line: [ C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: ecb64d7e6c3e53914f040367aa295c7c]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_5cf92.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_5cf92.dir\\']
-        ignore line: [ C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_5cf92.dir\\CMakeCCompilerABI.c.obj C:\\Users\\DellX\\AppData\\Local\\Temp\\ccE73Nwi.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a2cd1.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_a2cd1.dir\\']
+        ignore line: [ C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_a2cd1.dir\\CMakeCCompilerABI.c.obj C:\\Users\\DellX\\AppData\\Local\\Temp\\cc4QjQrn.s]
         ignore line: [GNU assembler version 2.46.0 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64  built by Brecht Sanders  r7) 2.46.0.20260210]
         ignore line: [COMPILER_PATH=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/]
         ignore line: [C:/mingw64/bin/../libexec/gcc/]
@@ -1842,9 +1767,9 @@ events:
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_5cf92.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_5cf92.dir\\CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_5cf92.exe]
-        ignore line: [C:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_5cf92.dir\\link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a2cd1.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_a2cd1.dir\\CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_a2cd1.exe]
+        ignore line: [C:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_a2cd1.dir\\link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\mingw64\\bin\\gcc.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe]
@@ -1863,13 +1788,13 @@ events:
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5cf92.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5cf92.']
-        link line: [ C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\DellX\\AppData\\Local\\Temp\\cc8MWjGX.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_5cf92.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_5cf92.dir/objects.a --no-whole-archive --out-implib libcmTC_5cf92.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a2cd1.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a2cd1.']
+        link line: [ C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\DellX\\AppData\\Local\\Temp\\ccfcv2cz.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_a2cd1.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_a2cd1.dir/objects.a --no-whole-archive --out-implib libcmTC_a2cd1.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
           arg [C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\DellX\\AppData\\Local\\Temp\\cc8MWjGX.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\DellX\\AppData\\Local\\Temp\\ccfcv2cz.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
@@ -1891,7 +1816,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_5cf92.exe] ==> ignore
+          arg [cmTC_a2cd1.exe] ==> ignore
           arg [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
           arg [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o] ==> obj [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o]
           arg [-LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0] ==> dir [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0]
@@ -1902,10 +1827,10 @@ events:
           arg [-LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..] ==> dir [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_5cf92.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_a2cd1.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_5cf92.dll.a] ==> ignore
+          arg [libcmTC_a2cd1.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -1987,8 +1912,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-ys3s1h"
-      binary: "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-ys3s1h"
+      source: "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-yadof1"
+      binary: "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-yadof1"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1999,13 +1924,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-ys3s1h'
+        Change Dir: 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-yadof1'
         
-        Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_2ebc7/fast
-        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_2ebc7.dir\\build.make CMakeFiles/cmTC_2ebc7.dir/build
-        mingw32-make[1]: Entering directory 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-ys3s1h'
-        Building CXX object CMakeFiles/cmTC_2ebc7.dir/CMakeCXXCompilerABI.cpp.obj
-        C:\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_2ebc7.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp
+        Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_3f696/fast
+        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_3f696.dir\\build.make CMakeFiles/cmTC_3f696.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-yadof1'
+        Building CXX object CMakeFiles/cmTC_3f696.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_3f696.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=C:\\mingw64\\bin\\g++.exe
         OFFLOAD_TARGET_NAMES=nvptx-none
@@ -2014,8 +1939,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.0 (MinGW-W64 x86_64-msvcrt-posix-seh, built by Brecht Sanders, r7) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_2ebc7.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_2ebc7.dir\\'
-         C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_2ebc7.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\DellX\\AppData\\Local\\Temp\\ccU0WTWd.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_3f696.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_3f696.dir\\'
+         C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_3f696.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\DellX\\AppData\\Local\\Temp\\ccM4p3rr.s
         GNU C++17 (MinGW-W64 x86_64-msvcrt-posix-seh, built by Brecht Sanders, r7) version 15.2.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.0, isl version isl-0.27-GMP
         
@@ -2040,14 +1965,14 @@ events:
          C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include
         End of search list.
         Compiler executable checksum: 9bd10ef57c4553cbdfb62b3e644d24ce
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_2ebc7.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_2ebc7.dir\\'
-         C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_2ebc7.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\DellX\\AppData\\Local\\Temp\\ccU0WTWd.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_3f696.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_3f696.dir\\'
+         C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_3f696.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\DellX\\AppData\\Local\\Temp\\ccM4p3rr.s
         GNU assembler version 2.46.0 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r7) 2.46.0.20260210
         COMPILER_PATH=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/;C:/mingw64/bin/../libexec/gcc/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/mingw64/bin/../lib/gcc/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_2ebc7.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_2ebc7.dir\\CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_2ebc7.exe
-        C:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_2ebc7.dir\\link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_3f696.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_3f696.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_3f696.exe
+        C:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_3f696.dir\\link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=C:\\mingw64\\bin\\g++.exe
         COLLECT_LTO_WRAPPER=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe
@@ -2059,16 +1984,16 @@ events:
         gcc version 15.2.0 (MinGW-W64 x86_64-msvcrt-posix-seh, built by Brecht Sanders, r7) 
         COMPILER_PATH=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/;C:/mingw64/bin/../libexec/gcc/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/mingw64/bin/../lib/gcc/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2ebc7.exe' '-foffload-options=-l_GCC_stdc++' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2ebc7.'
-         C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\DellX\\AppData\\Local\\Temp\\ccxeeW8P.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_2ebc7.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_2ebc7.dir/objects.a --no-whole-archive --out-implib libcmTC_2ebc7.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3f696.exe' '-foffload-options=-l_GCC_stdc++' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_3f696.'
+         C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\DellX\\AppData\\Local\\Temp\\cchO4QQf.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_3f696.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_3f696.dir/objects.a --no-whole-archive --out-implib libcmTC_3f696.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
         collect2 version 15.2.0
-        C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\DellX\\AppData\\Local\\Temp\\ccxeeW8P.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_2ebc7.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_2ebc7.dir/objects.a --no-whole-archive --out-implib libcmTC_2ebc7.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\DellX\\AppData\\Local\\Temp\\cchO4QQf.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_3f696.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_3f696.dir/objects.a --no-whole-archive --out-implib libcmTC_3f696.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
         GNU ld (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r7) 2.46.0.20260210
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2ebc7.exe' '-foffload-options=-l_GCC_stdc++' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2ebc7.'
-        C:\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_2ebc7.dir/objects.a
-        C:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_2ebc7.dir/objects.a @CMakeFiles\\cmTC_2ebc7.dir\\objects1.rsp
-        C:\\mingw64\\bin\\g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_2ebc7.dir/objects.a -Wl,--no-whole-archive -o cmTC_2ebc7.exe -Wl,--out-implib,libcmTC_2ebc7.dll.a -Wl,--major-image-version,0,--minor-image-version,0
-        mingw32-make[1]: Leaving directory 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-ys3s1h'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3f696.exe' '-foffload-options=-l_GCC_stdc++' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_3f696.'
+        C:\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_3f696.dir/objects.a
+        C:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_3f696.dir/objects.a @CMakeFiles\\cmTC_3f696.dir\\objects1.rsp
+        C:\\mingw64\\bin\\g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_3f696.dir/objects.a -Wl,--no-whole-archive -o cmTC_3f696.exe -Wl,--out-implib,libcmTC_3f696.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-yadof1'
         
       exitCode: 0
   -
@@ -2109,13 +2034,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-ys3s1h']
+        ignore line: [Change Dir: 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-yadof1']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_2ebc7/fast]
-        ignore line: [C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_2ebc7.dir\\build.make CMakeFiles/cmTC_2ebc7.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-ys3s1h']
-        ignore line: [Building CXX object CMakeFiles/cmTC_2ebc7.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [C:\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_2ebc7.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_3f696/fast]
+        ignore line: [C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_3f696.dir\\build.make CMakeFiles/cmTC_3f696.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-yadof1']
+        ignore line: [Building CXX object CMakeFiles/cmTC_3f696.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_3f696.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\mingw64\\bin\\g++.exe]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
@@ -2124,8 +2049,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.0 (MinGW-W64 x86_64-msvcrt-posix-seh  built by Brecht Sanders  r7) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_2ebc7.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_2ebc7.dir\\']
-        ignore line: [ C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_2ebc7.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\DellX\\AppData\\Local\\Temp\\ccU0WTWd.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_3f696.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_3f696.dir\\']
+        ignore line: [ C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\mingw64\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_3f696.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\DellX\\AppData\\Local\\Temp\\ccM4p3rr.s]
         ignore line: [GNU C++17 (MinGW-W64 x86_64-msvcrt-posix-seh  built by Brecht Sanders  r7) version 15.2.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.0  isl version isl-0.27-GMP]
         ignore line: []
@@ -2150,8 +2075,8 @@ events:
         ignore line: [ C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 9bd10ef57c4553cbdfb62b3e644d24ce]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_2ebc7.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_2ebc7.dir\\']
-        ignore line: [ C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_2ebc7.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\DellX\\AppData\\Local\\Temp\\ccU0WTWd.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_3f696.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_3f696.dir\\']
+        ignore line: [ C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_3f696.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\DellX\\AppData\\Local\\Temp\\ccM4p3rr.s]
         ignore line: [GNU assembler version 2.46.0 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64  built by Brecht Sanders  r7) 2.46.0.20260210]
         ignore line: [COMPILER_PATH=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/]
         ignore line: [C:/mingw64/bin/../libexec/gcc/]
@@ -2162,9 +2087,9 @@ events:
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_2ebc7.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_2ebc7.dir\\CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_2ebc7.exe]
-        ignore line: [C:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_2ebc7.dir\\link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_3f696.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_3f696.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_3f696.exe]
+        ignore line: [C:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_3f696.dir\\link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\mingw64\\bin\\g++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe]
@@ -2183,13 +2108,13 @@ events:
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2ebc7.exe' '-foffload-options=-l_GCC_stdc++' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2ebc7.']
-        link line: [ C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\DellX\\AppData\\Local\\Temp\\ccxeeW8P.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_2ebc7.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_2ebc7.dir/objects.a --no-whole-archive --out-implib libcmTC_2ebc7.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3f696.exe' '-foffload-options=-l_GCC_stdc++' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_3f696.']
+        link line: [ C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\DellX\\AppData\\Local\\Temp\\cchO4QQf.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_3f696.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_3f696.dir/objects.a --no-whole-archive --out-implib libcmTC_3f696.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
           arg [C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\DellX\\AppData\\Local\\Temp\\ccxeeW8P.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\DellX\\AppData\\Local\\Temp\\cchO4QQf.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -2211,7 +2136,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_2ebc7.exe] ==> ignore
+          arg [cmTC_3f696.exe] ==> ignore
           arg [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
           arg [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o] ==> obj [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o]
           arg [-LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0] ==> dir [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0]
@@ -2222,10 +2147,10 @@ events:
           arg [-LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..] ==> dir [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_2ebc7.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_3f696.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_2ebc7.dll.a] ==> ignore
+          arg [libcmTC_3f696.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -2324,7 +2249,6 @@ events:
     candidate_directories:
       - "C:/mingw64/bin/"
       - "C:/usr/bin/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -2359,9 +2283,6 @@ events:
       - "C:/usr/bin/git.cmd.com"
       - "C:/usr/bin/git.cmd.exe"
       - "C:/usr/bin/git.cmd"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/git.cmd.com"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/git.cmd.exe"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/git.cmd"
       - "C:/Windows/System32/git.cmd.com"
       - "C:/Windows/System32/git.cmd.exe"
       - "C:/Windows/System32/git.cmd"
@@ -2449,9 +2370,6 @@ events:
       - "C:/usr/bin/git.com"
       - "C:/usr/bin/git.exe"
       - "C:/usr/bin/git"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/git.com"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/git.exe"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/git"
       - "C:/Windows/System32/git.com"
       - "C:/Windows/System32/git.exe"
       - "C:/Windows/System32/git"
@@ -2481,19 +2399,18 @@ events:
         - "C:\\mingw64\\bin"
         - "C:\\mingw64\\bin"
         - "C:\\usr\\bin"
-        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code"
-        - "C:\\Windows\\system32"
-        - "C:/Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\MinGW\\bin"
-        - "C:/Program Files/Git/cmd"
-        - "C:\\Users\\DellX\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/DellX/.dotnet/tools"
-        - "C:\\Users\\DellX\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/mingw64/bin"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/MinGW/bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/Users/DellX/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\DellX\\.dotnet\\tools"
+        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\mingw64\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/TetrisProjesi"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/mingw64"
@@ -2511,8 +2428,8 @@ events:
     checks:
       - "Looking for sys/types.h"
     directories:
-      source: "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-bd99mt"
-      binary: "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-bd99mt"
+      source: "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-p5gs8x"
+      binary: "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-p5gs8x"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: ""
@@ -2524,19 +2441,19 @@ events:
       variable: "HAVE_SYS_TYPES_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-bd99mt'
+        Change Dir: 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-p5gs8x'
         
-        Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_8ce72/fast
-        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_8ce72.dir\\build.make CMakeFiles/cmTC_8ce72.dir/build
-        mingw32-make[1]: Entering directory 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-bd99mt'
-        Building C object CMakeFiles/cmTC_8ce72.dir/CheckIncludeFile.c.obj
-        C:\\mingw64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_8ce72.dir\\CheckIncludeFile.c.obj -c "C:\\Users\\DellX\\Desktop\\programlama 2 proje\\YZM104-Proje\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bd99mt\\CheckIncludeFile.c"
-        Linking C executable cmTC_8ce72.exe
-        C:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_8ce72.dir\\link.txt --verbose=1
-        C:\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_8ce72.dir/objects.a
-        C:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_8ce72.dir/objects.a @CMakeFiles\\cmTC_8ce72.dir\\objects1.rsp
-        C:\\mingw64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_8ce72.dir/objects.a -Wl,--no-whole-archive -o cmTC_8ce72.exe -Wl,--out-implib,libcmTC_8ce72.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_8ce72.dir\\linkLibs.rsp
-        mingw32-make[1]: Leaving directory 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-bd99mt'
+        Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_ae371/fast
+        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_ae371.dir\\build.make CMakeFiles/cmTC_ae371.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-p5gs8x'
+        Building C object CMakeFiles/cmTC_ae371.dir/CheckIncludeFile.c.obj
+        C:\\mingw64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_ae371.dir\\CheckIncludeFile.c.obj -c "C:\\Users\\DellX\\Desktop\\programlama 2 proje\\YZM104-Proje\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p5gs8x\\CheckIncludeFile.c"
+        Linking C executable cmTC_ae371.exe
+        C:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_ae371.dir\\link.txt --verbose=1
+        C:\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_ae371.dir/objects.a
+        C:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_ae371.dir/objects.a @CMakeFiles\\cmTC_ae371.dir\\objects1.rsp
+        C:\\mingw64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_ae371.dir/objects.a -Wl,--no-whole-archive -o cmTC_ae371.exe -Wl,--out-implib,libcmTC_ae371.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_ae371.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-p5gs8x'
         
       exitCode: 0
   -
@@ -2549,8 +2466,8 @@ events:
     checks:
       - "Looking for stdint.h"
     directories:
-      source: "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-wi5io7"
-      binary: "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-wi5io7"
+      source: "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-oi1gyy"
+      binary: "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-oi1gyy"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: ""
@@ -2562,19 +2479,19 @@ events:
       variable: "HAVE_STDINT_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-wi5io7'
+        Change Dir: 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-oi1gyy'
         
-        Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_c7976/fast
-        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_c7976.dir\\build.make CMakeFiles/cmTC_c7976.dir/build
-        mingw32-make[1]: Entering directory 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-wi5io7'
-        Building C object CMakeFiles/cmTC_c7976.dir/CheckIncludeFile.c.obj
-        C:\\mingw64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_c7976.dir\\CheckIncludeFile.c.obj -c "C:\\Users\\DellX\\Desktop\\programlama 2 proje\\YZM104-Proje\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wi5io7\\CheckIncludeFile.c"
-        Linking C executable cmTC_c7976.exe
-        C:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_c7976.dir\\link.txt --verbose=1
-        C:\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_c7976.dir/objects.a
-        C:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_c7976.dir/objects.a @CMakeFiles\\cmTC_c7976.dir\\objects1.rsp
-        C:\\mingw64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_c7976.dir/objects.a -Wl,--no-whole-archive -o cmTC_c7976.exe -Wl,--out-implib,libcmTC_c7976.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_c7976.dir\\linkLibs.rsp
-        mingw32-make[1]: Leaving directory 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-wi5io7'
+        Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_8bd3c/fast
+        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_8bd3c.dir\\build.make CMakeFiles/cmTC_8bd3c.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-oi1gyy'
+        Building C object CMakeFiles/cmTC_8bd3c.dir/CheckIncludeFile.c.obj
+        C:\\mingw64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_8bd3c.dir\\CheckIncludeFile.c.obj -c "C:\\Users\\DellX\\Desktop\\programlama 2 proje\\YZM104-Proje\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oi1gyy\\CheckIncludeFile.c"
+        Linking C executable cmTC_8bd3c.exe
+        C:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_8bd3c.dir\\link.txt --verbose=1
+        C:\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_8bd3c.dir/objects.a
+        C:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_8bd3c.dir/objects.a @CMakeFiles\\cmTC_8bd3c.dir\\objects1.rsp
+        C:\\mingw64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_8bd3c.dir/objects.a -Wl,--no-whole-archive -o cmTC_8bd3c.exe -Wl,--out-implib,libcmTC_8bd3c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_8bd3c.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-oi1gyy'
         
       exitCode: 0
   -
@@ -2587,8 +2504,8 @@ events:
     checks:
       - "Looking for stddef.h"
     directories:
-      source: "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-4u5f0g"
-      binary: "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-4u5f0g"
+      source: "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-xocapl"
+      binary: "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-xocapl"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: ""
@@ -2600,19 +2517,19 @@ events:
       variable: "HAVE_STDDEF_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-4u5f0g'
+        Change Dir: 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-xocapl'
         
-        Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_4d5d7/fast
-        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_4d5d7.dir\\build.make CMakeFiles/cmTC_4d5d7.dir/build
-        mingw32-make[1]: Entering directory 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-4u5f0g'
-        Building C object CMakeFiles/cmTC_4d5d7.dir/CheckIncludeFile.c.obj
-        C:\\mingw64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_4d5d7.dir\\CheckIncludeFile.c.obj -c "C:\\Users\\DellX\\Desktop\\programlama 2 proje\\YZM104-Proje\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4u5f0g\\CheckIncludeFile.c"
-        Linking C executable cmTC_4d5d7.exe
-        C:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_4d5d7.dir\\link.txt --verbose=1
-        C:\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_4d5d7.dir/objects.a
-        C:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_4d5d7.dir/objects.a @CMakeFiles\\cmTC_4d5d7.dir\\objects1.rsp
-        C:\\mingw64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_4d5d7.dir/objects.a -Wl,--no-whole-archive -o cmTC_4d5d7.exe -Wl,--out-implib,libcmTC_4d5d7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_4d5d7.dir\\linkLibs.rsp
-        mingw32-make[1]: Leaving directory 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-4u5f0g'
+        Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_18e93/fast
+        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_18e93.dir\\build.make CMakeFiles/cmTC_18e93.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-xocapl'
+        Building C object CMakeFiles/cmTC_18e93.dir/CheckIncludeFile.c.obj
+        C:\\mingw64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_18e93.dir\\CheckIncludeFile.c.obj -c "C:\\Users\\DellX\\Desktop\\programlama 2 proje\\YZM104-Proje\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xocapl\\CheckIncludeFile.c"
+        Linking C executable cmTC_18e93.exe
+        C:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_18e93.dir\\link.txt --verbose=1
+        C:\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_18e93.dir/objects.a
+        C:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_18e93.dir/objects.a @CMakeFiles\\cmTC_18e93.dir\\objects1.rsp
+        C:\\mingw64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_18e93.dir/objects.a -Wl,--no-whole-archive -o cmTC_18e93.exe -Wl,--out-implib,libcmTC_18e93.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_18e93.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-xocapl'
         
       exitCode: 0
   -
@@ -2625,8 +2542,8 @@ events:
     checks:
       - "Check size of void*"
     directories:
-      source: "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-j93x4p"
-      binary: "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-j93x4p"
+      source: "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-vbzz20"
+      binary: "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-vbzz20"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: ""
@@ -2638,19 +2555,19 @@ events:
       variable: "HAVE_SIZEOF_VOID_PTR"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-j93x4p'
+        Change Dir: 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-vbzz20'
         
-        Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_2689d/fast
-        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_2689d.dir\\build.make CMakeFiles/cmTC_2689d.dir/build
-        mingw32-make[1]: Entering directory 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-j93x4p'
-        Building C object CMakeFiles/cmTC_2689d.dir/SIZEOF_VOID_PTR.c.obj
-        C:\\mingw64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_2689d.dir\\SIZEOF_VOID_PTR.c.obj -c "C:\\Users\\DellX\\Desktop\\programlama 2 proje\\YZM104-Proje\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j93x4p\\SIZEOF_VOID_PTR.c"
-        Linking C executable cmTC_2689d.exe
-        C:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_2689d.dir\\link.txt --verbose=1
-        C:\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_2689d.dir/objects.a
-        C:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_2689d.dir/objects.a @CMakeFiles\\cmTC_2689d.dir\\objects1.rsp
-        C:\\mingw64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_2689d.dir/objects.a -Wl,--no-whole-archive -o cmTC_2689d.exe -Wl,--out-implib,libcmTC_2689d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_2689d.dir\\linkLibs.rsp
-        mingw32-make[1]: Leaving directory 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-j93x4p'
+        Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_8ae1e/fast
+        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_8ae1e.dir\\build.make CMakeFiles/cmTC_8ae1e.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-vbzz20'
+        Building C object CMakeFiles/cmTC_8ae1e.dir/SIZEOF_VOID_PTR.c.obj
+        C:\\mingw64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_8ae1e.dir\\SIZEOF_VOID_PTR.c.obj -c "C:\\Users\\DellX\\Desktop\\programlama 2 proje\\YZM104-Proje\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vbzz20\\SIZEOF_VOID_PTR.c"
+        Linking C executable cmTC_8ae1e.exe
+        C:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_8ae1e.dir\\link.txt --verbose=1
+        C:\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_8ae1e.dir/objects.a
+        C:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_8ae1e.dir/objects.a @CMakeFiles\\cmTC_8ae1e.dir\\objects1.rsp
+        C:\\mingw64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_8ae1e.dir/objects.a -Wl,--no-whole-archive -o cmTC_8ae1e.exe -Wl,--out-implib,libcmTC_8ae1e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_8ae1e.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-vbzz20'
         
       exitCode: 0
   -
@@ -2661,8 +2578,8 @@ events:
     checks:
       - "Looking for dinput.h"
     directories:
-      source: "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-niloyi"
-      binary: "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-niloyi"
+      source: "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-kzxojj"
+      binary: "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-kzxojj"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: ""
@@ -2675,19 +2592,19 @@ events:
       variable: "DINPUT_H_FOUND"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-niloyi'
+        Change Dir: 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-kzxojj'
         
-        Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_9b9d4/fast
-        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_9b9d4.dir\\build.make CMakeFiles/cmTC_9b9d4.dir/build
-        mingw32-make[1]: Entering directory 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-niloyi'
-        Building C object CMakeFiles/cmTC_9b9d4.dir/CheckIncludeFile.c.obj
-        C:\\mingw64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_9b9d4.dir\\CheckIncludeFile.c.obj -c "C:\\Users\\DellX\\Desktop\\programlama 2 proje\\YZM104-Proje\\build\\CMakeFiles\\CMakeScratch\\TryCompile-niloyi\\CheckIncludeFile.c"
-        Linking C executable cmTC_9b9d4.exe
-        C:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_9b9d4.dir\\link.txt --verbose=1
-        C:\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_9b9d4.dir/objects.a
-        C:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_9b9d4.dir/objects.a @CMakeFiles\\cmTC_9b9d4.dir\\objects1.rsp
-        C:\\mingw64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_9b9d4.dir/objects.a -Wl,--no-whole-archive -o cmTC_9b9d4.exe -Wl,--out-implib,libcmTC_9b9d4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_9b9d4.dir\\linkLibs.rsp
-        mingw32-make[1]: Leaving directory 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-niloyi'
+        Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_d5677/fast
+        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_d5677.dir\\build.make CMakeFiles/cmTC_d5677.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-kzxojj'
+        Building C object CMakeFiles/cmTC_d5677.dir/CheckIncludeFile.c.obj
+        C:\\mingw64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_d5677.dir\\CheckIncludeFile.c.obj -c "C:\\Users\\DellX\\Desktop\\programlama 2 proje\\YZM104-Proje\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kzxojj\\CheckIncludeFile.c"
+        Linking C executable cmTC_d5677.exe
+        C:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_d5677.dir\\link.txt --verbose=1
+        C:\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_d5677.dir/objects.a
+        C:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_d5677.dir/objects.a @CMakeFiles\\cmTC_d5677.dir\\objects1.rsp
+        C:\\mingw64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_d5677.dir/objects.a -Wl,--no-whole-archive -o cmTC_d5677.exe -Wl,--out-implib,libcmTC_d5677.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_d5677.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/CMakeFiles/CMakeScratch/TryCompile-kzxojj'
         
       exitCode: 0
   -
@@ -2726,10 +2643,6 @@ events:
       - "C:/usr/bin/include/"
       - "C:/usr/bin/freetype2/"
       - "C:/usr/bin/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/include/freetype2/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/include/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/freetype2/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Windows/System32/include/freetype2/"
       - "C:/Windows/System32/include/"
       - "C:/Windows/System32/freetype2/"
@@ -2847,19 +2760,18 @@ events:
         - "C:\\mingw64\\bin"
         - "C:\\mingw64\\bin"
         - "C:\\usr\\bin"
-        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code"
-        - "C:\\Windows\\system32"
-        - "C:/Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\MinGW\\bin"
-        - "C:/Program Files/Git/cmd"
-        - "C:\\Users\\DellX\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/DellX/.dotnet/tools"
-        - "C:\\Users\\DellX\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/mingw64/bin"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/MinGW/bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/Users/DellX/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\DellX\\.dotnet\\tools"
+        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\mingw64\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/TetrisProjesi"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/mingw64"
@@ -2904,10 +2816,6 @@ events:
       - "C:/usr/bin/include/"
       - "C:/usr/bin/freetype2/"
       - "C:/usr/bin/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/include/freetype2/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/include/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/freetype2/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Windows/System32/include/freetype2/"
       - "C:/Windows/System32/include/"
       - "C:/Windows/System32/freetype2/"
@@ -3029,10 +2937,6 @@ events:
       - "C:/usr/bin/include/freetype/config/ftheader.h"
       - "C:/usr/bin/freetype2/freetype/config/ftheader.h"
       - "C:/usr/bin/freetype/config/ftheader.h"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/include/freetype2/freetype/config/ftheader.h"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/include/freetype/config/ftheader.h"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/freetype2/freetype/config/ftheader.h"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/freetype/config/ftheader.h"
       - "C:/Windows/System32/include/freetype2/freetype/config/ftheader.h"
       - "C:/Windows/System32/include/freetype/config/ftheader.h"
       - "C:/Windows/System32/freetype2/freetype/config/ftheader.h"
@@ -3149,19 +3053,18 @@ events:
         - "C:\\mingw64\\bin"
         - "C:\\mingw64\\bin"
         - "C:\\usr\\bin"
-        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code"
-        - "C:\\Windows\\system32"
-        - "C:/Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\MinGW\\bin"
-        - "C:/Program Files/Git/cmd"
-        - "C:\\Users\\DellX\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/DellX/.dotnet/tools"
-        - "C:\\Users\\DellX\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/mingw64/bin"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/MinGW/bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/Users/DellX/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\DellX\\.dotnet\\tools"
+        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\mingw64\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/TetrisProjesi"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/mingw64"
@@ -3199,8 +3102,6 @@ events:
       - "C:/mingw64/bin/"
       - "C:/usr/bin/lib/"
       - "C:/usr/bin/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/lib/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Windows/System32/lib/"
       - "C:/Windows/System32/"
       - "C:/Windows/lib/"
@@ -3269,19 +3170,18 @@ events:
         - "C:\\mingw64\\bin"
         - "C:\\mingw64\\bin"
         - "C:\\usr\\bin"
-        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code"
-        - "C:\\Windows\\system32"
-        - "C:/Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\MinGW\\bin"
-        - "C:/Program Files/Git/cmd"
-        - "C:\\Users\\DellX\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/DellX/.dotnet/tools"
-        - "C:\\Users\\DellX\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/mingw64/bin"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/MinGW/bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/Users/DellX/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\DellX\\.dotnet\\tools"
+        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\mingw64\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/TetrisProjesi"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/mingw64"
@@ -3337,12 +3237,6 @@ events:
       - "C:/usr/bin/AL/"
       - "C:/usr/bin/OpenAL/"
       - "C:/usr/bin/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/include/AL/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/include/OpenAL/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/include/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/AL/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/OpenAL/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Windows/System32/include/AL/"
       - "C:/Windows/System32/include/OpenAL/"
       - "C:/Windows/System32/include/"
@@ -3507,19 +3401,18 @@ events:
         - "C:\\mingw64\\bin"
         - "C:\\mingw64\\bin"
         - "C:\\usr\\bin"
-        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code"
-        - "C:\\Windows\\system32"
-        - "C:/Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\MinGW\\bin"
-        - "C:/Program Files/Git/cmd"
-        - "C:\\Users\\DellX\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/DellX/.dotnet/tools"
-        - "C:\\Users\\DellX\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/mingw64/bin"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/MinGW/bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/Users/DellX/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\DellX\\.dotnet\\tools"
+        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\mingw64\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/TetrisProjesi"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/mingw64"
@@ -3578,13 +3471,6 @@ events:
       - "C:/usr/bin/libs/"
       - "C:/usr/bin/libs/Win64/"
       - "C:/usr/bin/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/libx32/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/lib64/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/lib/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/libs64/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/libs/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/libs/Win64/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Windows/System32/libx32/"
       - "C:/Windows/System32/lib64/"
       - "C:/Windows/System32/lib/"
@@ -3803,13 +3689,6 @@ events:
       - "C:/usr/bin/libs/"
       - "C:/usr/bin/libs/Win64/"
       - "C:/usr/bin/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/libx32/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/lib64/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/lib/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/libs64/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/libs/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/libs/Win64/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Windows/System32/libx32/"
       - "C:/Windows/System32/lib64/"
       - "C:/Windows/System32/lib/"
@@ -4027,13 +3906,6 @@ events:
       - "C:/usr/bin/libs/"
       - "C:/usr/bin/libs/Win64/"
       - "C:/usr/bin/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/libx32/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/lib64/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/lib/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/libs64/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/libs/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/libs/Win64/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Windows/System32/libx32/"
       - "C:/Windows/System32/lib64/"
       - "C:/Windows/System32/lib/"
@@ -4251,13 +4123,6 @@ events:
       - "C:/usr/bin/libs/"
       - "C:/usr/bin/libs/Win64/"
       - "C:/usr/bin/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/libx32/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/lib64/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/lib/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/libs64/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/libs/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/libs/Win64/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Windows/System32/libx32/"
       - "C:/Windows/System32/lib64/"
       - "C:/Windows/System32/lib/"
@@ -4463,19 +4328,18 @@ events:
         - "C:\\mingw64\\bin"
         - "C:\\mingw64\\bin"
         - "C:\\usr\\bin"
-        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code"
-        - "C:\\Windows\\system32"
-        - "C:/Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\MinGW\\bin"
-        - "C:/Program Files/Git/cmd"
-        - "C:\\Users\\DellX\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/DellX/.dotnet/tools"
-        - "C:\\Users\\DellX\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/mingw64/bin"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/MinGW/bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/Users/DellX/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\DellX\\.dotnet\\tools"
+        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\mingw64\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/TetrisProjesi"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/mingw64"
@@ -4511,7 +4375,6 @@ events:
       - "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/extlibs/headers/AL/"
       - "C:/mingw64/bin/"
       - "C:/usr/bin/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -4543,19 +4406,18 @@ events:
         - "C:\\mingw64\\bin"
         - "C:\\mingw64\\bin"
         - "C:\\usr\\bin"
-        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code"
-        - "C:\\Windows\\system32"
-        - "C:/Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\MinGW\\bin"
-        - "C:/Program Files/Git/cmd"
-        - "C:\\Users\\DellX\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/DellX/.dotnet/tools"
-        - "C:\\Users\\DellX\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/mingw64/bin"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/MinGW/bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/Users/DellX/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\DellX\\.dotnet\\tools"
+        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\mingw64\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/TetrisProjesi"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/mingw64"
@@ -4587,7 +4449,6 @@ events:
       - "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/extlibs/headers/AL/"
       - "C:/mingw64/bin/"
       - "C:/usr/bin/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -4619,19 +4480,18 @@ events:
         - "C:\\mingw64\\bin"
         - "C:\\mingw64\\bin"
         - "C:\\usr\\bin"
-        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code"
-        - "C:\\Windows\\system32"
-        - "C:/Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\MinGW\\bin"
-        - "C:/Program Files/Git/cmd"
-        - "C:\\Users\\DellX\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/DellX/.dotnet/tools"
-        - "C:\\Users\\DellX\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/mingw64/bin"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/MinGW/bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/Users/DellX/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\DellX\\.dotnet\\tools"
+        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\mingw64\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/TetrisProjesi"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/mingw64"
@@ -4663,7 +4523,6 @@ events:
       - "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/extlibs/bin/x64/"
       - "C:/mingw64/bin/"
       - "C:/usr/bin/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -4697,19 +4556,18 @@ events:
         - "C:\\mingw64\\bin"
         - "C:\\mingw64\\bin"
         - "C:\\usr\\bin"
-        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code"
-        - "C:\\Windows\\system32"
-        - "C:/Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\MinGW\\bin"
-        - "C:/Program Files/Git/cmd"
-        - "C:\\Users\\DellX\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/DellX/.dotnet/tools"
-        - "C:\\Users\\DellX\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/mingw64/bin"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/MinGW/bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/Users/DellX/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\DellX\\.dotnet\\tools"
+        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\mingw64\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/TetrisProjesi"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/mingw64"
@@ -4745,7 +4603,6 @@ events:
       - "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/extlibs/bin/x64/"
       - "C:/mingw64/bin/"
       - "C:/usr/bin/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -4779,19 +4636,18 @@ events:
         - "C:\\mingw64\\bin"
         - "C:\\mingw64\\bin"
         - "C:\\usr\\bin"
-        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code"
-        - "C:\\Windows\\system32"
-        - "C:/Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\MinGW\\bin"
-        - "C:/Program Files/Git/cmd"
-        - "C:\\Users\\DellX\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/DellX/.dotnet/tools"
-        - "C:\\Users\\DellX\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/mingw64/bin"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/MinGW/bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/Users/DellX/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\DellX\\.dotnet\\tools"
+        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\mingw64\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/TetrisProjesi"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/mingw64"
@@ -4827,7 +4683,6 @@ events:
       - "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/extlibs/bin/x64/"
       - "C:/mingw64/bin/"
       - "C:/usr/bin/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -4861,19 +4716,18 @@ events:
         - "C:\\mingw64\\bin"
         - "C:\\mingw64\\bin"
         - "C:\\usr\\bin"
-        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code"
-        - "C:\\Windows\\system32"
-        - "C:/Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\MinGW\\bin"
-        - "C:/Program Files/Git/cmd"
-        - "C:\\Users\\DellX\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/DellX/.dotnet/tools"
-        - "C:\\Users\\DellX\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/mingw64/bin"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/MinGW/bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/Users/DellX/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\DellX\\.dotnet\\tools"
+        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\mingw64\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/TetrisProjesi"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/mingw64"
@@ -4909,7 +4763,6 @@ events:
       - "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/extlibs/bin/x64/"
       - "C:/mingw64/bin/"
       - "C:/usr/bin/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -4943,19 +4796,18 @@ events:
         - "C:\\mingw64\\bin"
         - "C:\\mingw64\\bin"
         - "C:\\usr\\bin"
-        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code"
-        - "C:\\Windows\\system32"
-        - "C:/Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\MinGW\\bin"
-        - "C:/Program Files/Git/cmd"
-        - "C:\\Users\\DellX\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/DellX/.dotnet/tools"
-        - "C:\\Users\\DellX\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/mingw64/bin"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/MinGW/bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/Users/DellX/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\DellX\\.dotnet\\tools"
+        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\mingw64\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/TetrisProjesi"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/mingw64"
@@ -4991,7 +4843,6 @@ events:
       - "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/extlibs/headers/AL/"
       - "C:/mingw64/bin/"
       - "C:/usr/bin/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -5023,19 +4874,18 @@ events:
         - "C:\\mingw64\\bin"
         - "C:\\mingw64\\bin"
         - "C:\\usr\\bin"
-        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code"
-        - "C:\\Windows\\system32"
-        - "C:/Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\MinGW\\bin"
-        - "C:/Program Files/Git/cmd"
-        - "C:\\Users\\DellX\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/DellX/.dotnet/tools"
-        - "C:\\Users\\DellX\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/mingw64/bin"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/MinGW/bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/Users/DellX/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\DellX\\.dotnet\\tools"
+        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\mingw64\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/TetrisProjesi"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/mingw64"
@@ -5067,7 +4917,6 @@ events:
       - "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/extlibs/bin/x64/"
       - "C:/mingw64/bin/"
       - "C:/usr/bin/"
-      - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -5101,19 +4950,18 @@ events:
         - "C:\\mingw64\\bin"
         - "C:\\mingw64\\bin"
         - "C:\\usr\\bin"
-        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code"
-        - "C:\\Windows\\system32"
-        - "C:/Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\MinGW\\bin"
-        - "C:/Program Files/Git/cmd"
-        - "C:\\Users\\DellX\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/DellX/.dotnet/tools"
-        - "C:\\Users\\DellX\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/mingw64/bin"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/MinGW/bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:/Users/DellX/AppData/Local/Microsoft/WindowsApps"
+        - "C:\\Users\\DellX\\.dotnet\\tools"
+        - "C:/Users/DellX/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\mingw64\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/TetrisProjesi"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/mingw64"
