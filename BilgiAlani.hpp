@@ -85,4 +85,7 @@ private:
 
     SoundBuffer blokdusmesesibuffer;
     Sound blokdusmesesi;
+
+    SoundBuffer rekorugectinsesibuffer;
+    Sound rekorugectinsesi;
 };

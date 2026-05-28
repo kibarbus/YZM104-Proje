@@ -8,6 +8,45 @@
 using namespace sf;
 using namespace std;
 
+void oyunduraklatildi(RenderWindow& window, OyunAlani& oyunalani, BilgiAlani& bilgipaneli, int anapenceregenisligi, int anapencereyuksekligi, int windowbaslangicdegerix, int windowbaslangicdegeriy)
+{
+    RectangleShape oyunpauseekrani(Vector2f(anapenceregenisligi + 5.0f, anapencereyuksekligi + 5.0f));
+    oyunpauseekrani.setPosition(windowbaslangicdegerix, windowbaslangicdegeriy);
+    oyunpauseekrani.setFillColor(Color(0, 0, 0, 1));
+
+    Font pausefontu;
+    if(!pausefontu.loadFromFile("Blocktopia.ttf"))
+    {
+        cout<<"Pause font tipi yuklenemedi."<<endl;
+    }
+
+    Text pauseyazisi ("PAUSE", pausefontu, 80);
+    pauseyazisi.setFillColor(Color(255, 255, 255, 100));
+    pauseyazisi.setPosition(windowbaslangicdegerix + (anapenceregenisligi / 2) - (pauseyazisi.getLocalBounds().width / 2), windowbaslangicdegeriy + (anapencereyuksekligi / 2)-20);
+    
+    while(window.isOpen())
+    {
+        window.draw(oyunpauseekrani);
+        window.draw(pauseyazisi);
+        window.display();
+        
+        Event olay;
+        while (window.pollEvent(olay))
+        {
+            if (olay.type == Event::KeyPressed)
+            {
+                if(olay.key.code == Keyboard::Escape)
+                {
+                    window.close();
+                }
+                else if (olay.key.code == Keyboard::P)
+                {
+                    return;
+                }
+            }
+        }
+    }
+}
 
 void ekraniguncelle(RenderWindow& window, OyunAlani& oyunalani, RectangleShape& oyunalanidiscerceve ,int windowbaslangicdegerix, int windowbaslangicdegeriy)
 {
@@ -25,7 +64,7 @@ void oyunbittiekrani(RenderWindow& window, OyunAlani& oyunalani, BilgiAlani& bil
     Font gameoverfontu;
     if(!gameoverfontu.loadFromFile("Blocktopia.ttf"))
     {
-        cout<<"Font tipi yuklenemedi."<<endl;
+        cout<<"Game over font tipi yuklenemedi."<<endl;
     }
 
     Text gameoveryazisi ("GAME OVER", gameoverfontu, 80);
@@ -201,6 +240,12 @@ int main()
                         
                     }
                 }
+                if (olay.key.code == Keyboard::P)
+                {
+                    tetrismuzigi.stop();
+                    oyunduraklatildi(window, oyunalani, bilgipaneli, anapenceregenisligi, anapencereyuksekligi, windowbaslangicdegerix, windowbaslangicdegeriy);
+                    tetrismuzigi.play();
+                }
             }
         }
 
@@ -227,7 +272,6 @@ int main()
 
                 int kacsatirsilindi = silineceksatirlar.size();
 
-                
                 if(!silineceksatirlar.empty())
                 {
                     satirsilmuzigi.play();

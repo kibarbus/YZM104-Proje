@@ -38,11 +38,21 @@ BilgiAlani::BilgiAlani(int xkoordinati,int ykoordinati, const OyunAlani& oyunala
     if(blokdusmesesibuffer.loadFromFile("blokdusmesesi.ogg"))
     {
         blokdusmesesi.setBuffer(blokdusmesesibuffer);
-        blokdusmesesi.setVolume(10.0f);
+        blokdusmesesi.setVolume(17.0f);
     }
     else
     {
         cout<<"Blok dusme muzik dosyasi acilamadi."<<endl;
+    }
+
+    if(rekorugectinsesibuffer.loadFromFile("rekorugectinsesi.ogg"))
+    {
+        rekorugectinsesi.setBuffer(rekorugectinsesibuffer);
+        rekorugectinsesi.setVolume(2.0f);
+    }
+    else
+    {
+        cout<<"Rekoru gectin muzik dosyasi acilamadi."<<endl;
     }
 
     
@@ -179,6 +189,9 @@ void BilgiAlani::skorarttir(int silinensatirsayisi, float gecensure)
 
     if(rekortut <= skortut)
     {
+        rekorugectinsesi.stop();
+        rekorugectinsesi.play();
+
         ofstream rekoryaz("RekorListesi.txt");
         rekoryaz << skortut;
         rekoryaz.close();
@@ -203,6 +216,9 @@ void BilgiAlani::dusenbloklaskorarttir()
 
     if(rekortut <= skortut)
     {
+        rekorugectinsesi.stop();
+        rekorugectinsesi.play();
+
         ofstream rekoryaz("RekorListesi.txt");
         rekoryaz << skortut;
         rekoryaz.close();
@@ -217,7 +233,7 @@ void BilgiAlani::dusenbloklaskorarttir()
 
 void BilgiAlani::levelarttir()
 {
-    if(skortut>(leveltut*500))
+    if(skortut>(leveltut*leveltut*500))//level arttikca sinir da artacak sekilde ayarlandi.
     {
         levelartmasesi.stop();
         levelartmasesi.play();
