@@ -37,6 +37,11 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "C:/mingw64/bin/objdump.exe")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-build/src/SFML/cmake_install.cmake")
+endif()
+
 if(CMAKE_INSTALL_COMPONENT STREQUAL "devel" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY FILES "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/include" FILES_MATCHING REGEX "/[^/]*\\.hpp$" REGEX "/[^/]*\\.inl$")
 endif()
@@ -86,12 +91,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "devel" OR NOT CMAKE_INSTALL_COMPONENT)
     "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-build/SFMLConfigDependencies.cmake"
     "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-build/SFMLConfigVersion.cmake"
     )
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
-  include("C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-build/src/SFML/cmake_install.cmake")
-
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT

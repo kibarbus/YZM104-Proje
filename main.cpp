@@ -8,6 +8,42 @@
 using namespace sf;
 using namespace std;
 
+void yonergeciz(RenderWindow& window, OyunAlani& oyunalani, int windowbaslangicdegeriy)
+{
+    Font font;
+    if(!font.loadFromFile("presstart.ttf"))
+    {
+        cout<<"Yonerge font tipi yuklenemedi."<<endl;
+    }
+
+    Text yonergeler;
+    yonergeler.setFont(font);
+    yonergeler.setCharacterSize(10);
+    yonergeler.setFillColor(Color(180,165,200,100));
+    yonergeler.setPosition(5, 10);
+    //ok isaretlerinin duzgun cikmasi icin L, birden fazla satir girebilmek icin R.
+    yonergeler.setString(LR"(
+KONTROLLER 
+
+
+P/p: Duraklat/Devam et
+
+←: Sola ilerlet
+
+→: Saga ilerlet
+
+↓: Asagi ilerlet
+
+↑: 90 derece dondur
+
+Space: Blok dusur
+
+ESC: Oyunu kapat
+
+    )"
+    );
+    window.draw(yonergeler);
+}
 void oyunduraklatildi(RenderWindow& window, OyunAlani& oyunalani, BilgiAlani& bilgipaneli, int anapenceregenisligi, int anapencereyuksekligi, int windowbaslangicdegerix, int windowbaslangicdegeriy)
 {
     RectangleShape oyunpauseekrani(Vector2f(anapenceregenisligi + 5.0f, anapencereyuksekligi + 5.0f));
@@ -69,19 +105,19 @@ void oyunbittiekrani(RenderWindow& window, OyunAlani& oyunalani, BilgiAlani& bil
 
     Text tebrikleryazisi ("TEBRIKLER! YENİ REKORUNUZ:" + to_string(bilgipaneli.getrekortut()), gameoverfontu, 80);
     tebrikleryazisi.setFillColor(Color(255, 255, 255, 100));
-    tebrikleryazisi.setPosition(windowbaslangicdegerix + (anapenceregenisligi / 2) - (tebrikleryazisi.getLocalBounds().width / 2), windowbaslangicdegeriy - 200);
+    tebrikleryazisi.setPosition(windowbaslangicdegerix + (anapenceregenisligi / 2) - (tebrikleryazisi.getLocalBounds().width / 2), windowbaslangicdegeriy + (anapencereyuksekligi/2) - 300);
 
-    Text rekoryazisi("REKOR:" + to_string(bilgipaneli.getrekortut()), gameoverfontu, 30);
+    Text rekoryazisi("REKOR:" + to_string(bilgipaneli.getrekortut()), gameoverfontu, 40);
     rekoryazisi.setFillColor(Color(255, 255, 255, 100));
-    rekoryazisi.setPosition(windowbaslangicdegerix + (anapenceregenisligi / 2) - (rekoryazisi.getLocalBounds().width / 2), windowbaslangicdegeriy - 200);
+    rekoryazisi.setPosition(windowbaslangicdegerix + (anapenceregenisligi / 2) - (rekoryazisi.getLocalBounds().width / 2), windowbaslangicdegeriy + (anapencereyuksekligi/2) - 300);
 
-    Text levelyazisi("LEVEL:" + to_string(bilgipaneli.getleveltut()), gameoverfontu, 30);
+    Text levelyazisi("LEVEL:" + to_string(bilgipaneli.getleveltut()), gameoverfontu, 40);
     levelyazisi.setFillColor(Color(255, 255, 255, 100));
-    levelyazisi.setPosition(windowbaslangicdegerix + (anapenceregenisligi / 2) - (levelyazisi.getLocalBounds().width / 2), windowbaslangicdegeriy - 140);
+    levelyazisi.setPosition(windowbaslangicdegerix + (anapenceregenisligi / 2) - (levelyazisi.getLocalBounds().width / 2), windowbaslangicdegeriy + (anapencereyuksekligi/2) - 230);
 
-    Text skoryazisi("SKOR:" + to_string(bilgipaneli.getskortut()), gameoverfontu, 30);
+    Text skoryazisi("SKOR:" + to_string(bilgipaneli.getskortut()), gameoverfontu, 40);
     skoryazisi.setFillColor(Color(255, 255, 255, 100));
-    skoryazisi.setPosition(windowbaslangicdegerix + (anapenceregenisligi / 2) - (skoryazisi.getLocalBounds().width / 2), windowbaslangicdegeriy - 170);
+    skoryazisi.setPosition(windowbaslangicdegerix + (anapenceregenisligi / 2) - (skoryazisi.getLocalBounds().width / 2), windowbaslangicdegeriy + (anapencereyuksekligi/2) - 160);
 
     Text gameoveryazisi ("GAME OVER", gameoverfontu, 80);
     gameoveryazisi.setFillColor(Color(255, 255, 255, 100));
@@ -406,6 +442,8 @@ int main()
         window.draw(bilgipanelidiscervceve);
 
         bilgipaneli.bilgialaniciz(window);
+
+        yonergeciz(window, oyunalani, windowbaslangicdegeriy);
 
         bilgipaneli.siradakiblokonizlemekutusuciz(window, oyunalani, bilgipanelibaslangicdegerix, bilgipanelibaslangicdegeriy);
 

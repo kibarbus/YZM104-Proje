@@ -452,21 +452,6 @@ VORBIS_LIBRARY:FILEPATH=C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/
 //Treat compiler warnings as errors
 WARNINGS_AS_ERRORS:BOOL=OFF
 
-//Dependencies for the target
-sfml-audio_LIB_DEPENDS:STATIC=general;sfml-system;
-
-//Dependencies for the target
-sfml-graphics_LIB_DEPENDS:STATIC=general;sfml-window;
-
-//Dependencies for the target
-sfml-network_LIB_DEPENDS:STATIC=general;sfml-system;general;ws2_32;
-
-//Dependencies for the target
-sfml-system_LIB_DEPENDS:STATIC=general;winmm;
-
-//Dependencies for the target
-sfml-window_LIB_DEPENDS:STATIC=general;sfml-system;general;winmm;general;gdi32;
-
 
 ########################
 # INTERNAL cache entries

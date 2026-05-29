@@ -2396,66 +2396,6 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "C:/Program Files (x86)/TetrisProjesi"
-		},
-		{
-			"name" : "sfml-audio_LIB_DEPENDS",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Dependencies for the target"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "general;sfml-system;"
-		},
-		{
-			"name" : "sfml-graphics_LIB_DEPENDS",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Dependencies for the target"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "general;sfml-window;"
-		},
-		{
-			"name" : "sfml-network_LIB_DEPENDS",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Dependencies for the target"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "general;sfml-system;general;ws2_32;"
-		},
-		{
-			"name" : "sfml-system_LIB_DEPENDS",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Dependencies for the target"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "general;winmm;"
-		},
-		{
-			"name" : "sfml-window_LIB_DEPENDS",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Dependencies for the target"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "general;sfml-system;general;winmm;general;gdi32;"
 		}
 	],
 	"kind" : "cache",

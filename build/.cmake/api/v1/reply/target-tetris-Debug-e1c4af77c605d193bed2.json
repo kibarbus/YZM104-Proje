@@ -15,8 +15,7 @@
 		[
 			"add_executable",
 			"target_link_libraries",
-			"add_custom_command",
-			"target_include_directories"
+			"add_custom_command"
 		],
 		"files" : 
 		[
@@ -36,19 +35,13 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 20,
+				"line" : 18,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 23,
-				"parent" : 0
-			},
-			{
-				"command" : 3,
-				"file" : 0,
-				"line" : 18,
+				"line" : 21,
 				"parent" : 0
 			}
 		]
@@ -89,7 +82,7 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 4,
+					"backtrace" : 2,
 					"path" : "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-src/include"
 				}
 			],

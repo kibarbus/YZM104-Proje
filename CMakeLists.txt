@@ -15,8 +15,6 @@ FetchContent_MakeAvailable(SFML)
 
 add_executable(tetris main.cpp OyunAlani.cpp TetrisBloklari.cpp BilgiAlani.cpp)
 
-target_include_directories(tetris PRIVATE ${sfml_SOURCE_DIR}/include)
-
 target_link_libraries(tetris sfml-graphics sfml-window sfml-system sfml-audio)
 
 if(WIN32)
