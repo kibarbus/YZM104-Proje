@@ -397,6 +397,7 @@ int main()
                         }
                         bilgipaneli.bilgialaniciz(window);
                         window.draw(bilgipanelidiscervceve) ;
+                        yonergeciz(window, oyunalani, windowbaslangicdegeriy);
                         bilgipaneli.siradakiblokonizlemekutusuciz(window, oyunalani, bilgipanelibaslangicdegerix, bilgipanelibaslangicdegeriy);
                         bilgipaneli.siradakiblokonizlemeciz(window, sonrakiblok, oyunalani);
                         window.display();
