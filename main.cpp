@@ -28,6 +28,8 @@ KONTROLLER
 
 P/p: Duraklat/Devam et
 
+R/r: Yeniden baslat
+
 ←: Sola ilerlet
 
 →: Saga ilerlet
@@ -44,6 +46,7 @@ ESC: Oyunu kapat
     );
     window.draw(yonergeler);
 }
+
 void oyunduraklatildi(RenderWindow& window, OyunAlani& oyunalani, BilgiAlani& bilgipaneli, int anapenceregenisligi, int anapencereyuksekligi, int windowbaslangicdegerix, int windowbaslangicdegeriy)
 {
     RectangleShape oyunpauseekrani(Vector2f(anapenceregenisligi + 5.0f, anapencereyuksekligi + 5.0f));
@@ -328,6 +331,16 @@ int main()
                     oyunduraklatildi(window, oyunalani, bilgipaneli, anapenceregenisligi, anapencereyuksekligi, windowbaslangicdegerix, windowbaslangicdegeriy);
                     tetrismuzigi.play();
                 }
+                if(olay.key.code == Keyboard::R)
+                {
+                    oyunalani.oyunalanitemizle();
+                    bilgipaneli.skortemizle();
+                    bilgipaneli.leveltemizle();
+                    bilgipaneli.setskoryazirengiback();
+                    blokdusmegecikmesuresi = 0.9f;
+                    dusurdongusuzamansayaci = 0.0f;
+                    yeniBlokGerekiyor = true;
+                }
             }
         }
 
@@ -410,6 +423,7 @@ int main()
                     oyunbaslatsesi.play();
                     tetrismuzigi.play();
                     blokdusmegecikmesuresi = 0.9f; //oyun yeniden basladiginda bloklarin hizli dusmesini engellemek icin sureyi basa alir.
+                    dusurdongusuzamansayaci = 0.0f; 
                     yeniBlokGerekiyor = true;
                 }
             }
