@@ -192,7 +192,7 @@ int main()
 
     VideoMode kullaniciEkranBoyutu = VideoMode::getFullscreenModes()[0];//kullanıcının ekran boyutu alındı.
 
-    RenderWindow window(kullaniciEkranBoyutu, "Tetris", Style::Fullscreen);//oyun default olarak tam ekran başlamaya ayarlandı.
+    RenderWindow window(kullaniciEkranBoyutu, "Tetris", Style::None);//oyun default olarak tam ekran başlamaya ayarlandı.
 
     int oyunalanigenisligi = oyunalani.getsutunsayisi() * oyunalani.getbirimkareboyutu();
     int oyunalaniyuksekligi = oyunalani.getsatirsayisi() * oyunalani.getbirimkareboyutu();
