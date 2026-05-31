@@ -71,80 +71,80 @@ include CMakeFiles/tetris.dir/flags.make
 CMakeFiles/tetris.dir/codegen:
 .PHONY : CMakeFiles/tetris.dir/codegen
 
-CMakeFiles/tetris.dir/main.cpp.obj: CMakeFiles/tetris.dir/flags.make
-CMakeFiles/tetris.dir/main.cpp.obj: CMakeFiles/tetris.dir/includes_CXX.rsp
-CMakeFiles/tetris.dir/main.cpp.obj: C:/Users/DellX/Desktop/programlama\ 2\ proje/YZM104-Proje/main.cpp
-CMakeFiles/tetris.dir/main.cpp.obj: CMakeFiles/tetris.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\DellX\Desktop\programlama 2 proje\YZM104-Proje\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tetris.dir/main.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tetris.dir/main.cpp.obj -MF CMakeFiles\tetris.dir\main.cpp.obj.d -o CMakeFiles\tetris.dir\main.cpp.obj -c "C:\Users\DellX\Desktop\programlama 2 proje\YZM104-Proje\main.cpp"
+CMakeFiles/tetris.dir/src/main.cpp.obj: CMakeFiles/tetris.dir/flags.make
+CMakeFiles/tetris.dir/src/main.cpp.obj: CMakeFiles/tetris.dir/includes_CXX.rsp
+CMakeFiles/tetris.dir/src/main.cpp.obj: C:/Users/DellX/Desktop/programlama\ 2\ proje/YZM104-Proje/src/main.cpp
+CMakeFiles/tetris.dir/src/main.cpp.obj: CMakeFiles/tetris.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\DellX\Desktop\programlama 2 proje\YZM104-Proje\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tetris.dir/src/main.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tetris.dir/src/main.cpp.obj -MF CMakeFiles\tetris.dir\src\main.cpp.obj.d -o CMakeFiles\tetris.dir\src\main.cpp.obj -c "C:\Users\DellX\Desktop\programlama 2 proje\YZM104-Proje\src\main.cpp"
 
-CMakeFiles/tetris.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tetris.dir/main.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\DellX\Desktop\programlama 2 proje\YZM104-Proje\main.cpp" > CMakeFiles\tetris.dir\main.cpp.i
+CMakeFiles/tetris.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tetris.dir/src/main.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\DellX\Desktop\programlama 2 proje\YZM104-Proje\src\main.cpp" > CMakeFiles\tetris.dir\src\main.cpp.i
 
-CMakeFiles/tetris.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tetris.dir/main.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\DellX\Desktop\programlama 2 proje\YZM104-Proje\main.cpp" -o CMakeFiles\tetris.dir\main.cpp.s
+CMakeFiles/tetris.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tetris.dir/src/main.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\DellX\Desktop\programlama 2 proje\YZM104-Proje\src\main.cpp" -o CMakeFiles\tetris.dir\src\main.cpp.s
 
-CMakeFiles/tetris.dir/OyunAlani.cpp.obj: CMakeFiles/tetris.dir/flags.make
-CMakeFiles/tetris.dir/OyunAlani.cpp.obj: CMakeFiles/tetris.dir/includes_CXX.rsp
-CMakeFiles/tetris.dir/OyunAlani.cpp.obj: C:/Users/DellX/Desktop/programlama\ 2\ proje/YZM104-Proje/OyunAlani.cpp
-CMakeFiles/tetris.dir/OyunAlani.cpp.obj: CMakeFiles/tetris.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\DellX\Desktop\programlama 2 proje\YZM104-Proje\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tetris.dir/OyunAlani.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tetris.dir/OyunAlani.cpp.obj -MF CMakeFiles\tetris.dir\OyunAlani.cpp.obj.d -o CMakeFiles\tetris.dir\OyunAlani.cpp.obj -c "C:\Users\DellX\Desktop\programlama 2 proje\YZM104-Proje\OyunAlani.cpp"
+CMakeFiles/tetris.dir/src/OyunAlani.cpp.obj: CMakeFiles/tetris.dir/flags.make
+CMakeFiles/tetris.dir/src/OyunAlani.cpp.obj: CMakeFiles/tetris.dir/includes_CXX.rsp
+CMakeFiles/tetris.dir/src/OyunAlani.cpp.obj: C:/Users/DellX/Desktop/programlama\ 2\ proje/YZM104-Proje/src/OyunAlani.cpp
+CMakeFiles/tetris.dir/src/OyunAlani.cpp.obj: CMakeFiles/tetris.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\DellX\Desktop\programlama 2 proje\YZM104-Proje\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tetris.dir/src/OyunAlani.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tetris.dir/src/OyunAlani.cpp.obj -MF CMakeFiles\tetris.dir\src\OyunAlani.cpp.obj.d -o CMakeFiles\tetris.dir\src\OyunAlani.cpp.obj -c "C:\Users\DellX\Desktop\programlama 2 proje\YZM104-Proje\src\OyunAlani.cpp"
 
-CMakeFiles/tetris.dir/OyunAlani.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tetris.dir/OyunAlani.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\DellX\Desktop\programlama 2 proje\YZM104-Proje\OyunAlani.cpp" > CMakeFiles\tetris.dir\OyunAlani.cpp.i
+CMakeFiles/tetris.dir/src/OyunAlani.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tetris.dir/src/OyunAlani.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\DellX\Desktop\programlama 2 proje\YZM104-Proje\src\OyunAlani.cpp" > CMakeFiles\tetris.dir\src\OyunAlani.cpp.i
 
-CMakeFiles/tetris.dir/OyunAlani.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tetris.dir/OyunAlani.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\DellX\Desktop\programlama 2 proje\YZM104-Proje\OyunAlani.cpp" -o CMakeFiles\tetris.dir\OyunAlani.cpp.s
+CMakeFiles/tetris.dir/src/OyunAlani.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tetris.dir/src/OyunAlani.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\DellX\Desktop\programlama 2 proje\YZM104-Proje\src\OyunAlani.cpp" -o CMakeFiles\tetris.dir\src\OyunAlani.cpp.s
 
-CMakeFiles/tetris.dir/TetrisBloklari.cpp.obj: CMakeFiles/tetris.dir/flags.make
-CMakeFiles/tetris.dir/TetrisBloklari.cpp.obj: CMakeFiles/tetris.dir/includes_CXX.rsp
-CMakeFiles/tetris.dir/TetrisBloklari.cpp.obj: C:/Users/DellX/Desktop/programlama\ 2\ proje/YZM104-Proje/TetrisBloklari.cpp
-CMakeFiles/tetris.dir/TetrisBloklari.cpp.obj: CMakeFiles/tetris.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\DellX\Desktop\programlama 2 proje\YZM104-Proje\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tetris.dir/TetrisBloklari.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tetris.dir/TetrisBloklari.cpp.obj -MF CMakeFiles\tetris.dir\TetrisBloklari.cpp.obj.d -o CMakeFiles\tetris.dir\TetrisBloklari.cpp.obj -c "C:\Users\DellX\Desktop\programlama 2 proje\YZM104-Proje\TetrisBloklari.cpp"
+CMakeFiles/tetris.dir/src/TetrisBloklari.cpp.obj: CMakeFiles/tetris.dir/flags.make
+CMakeFiles/tetris.dir/src/TetrisBloklari.cpp.obj: CMakeFiles/tetris.dir/includes_CXX.rsp
+CMakeFiles/tetris.dir/src/TetrisBloklari.cpp.obj: C:/Users/DellX/Desktop/programlama\ 2\ proje/YZM104-Proje/src/TetrisBloklari.cpp
+CMakeFiles/tetris.dir/src/TetrisBloklari.cpp.obj: CMakeFiles/tetris.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\DellX\Desktop\programlama 2 proje\YZM104-Proje\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tetris.dir/src/TetrisBloklari.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tetris.dir/src/TetrisBloklari.cpp.obj -MF CMakeFiles\tetris.dir\src\TetrisBloklari.cpp.obj.d -o CMakeFiles\tetris.dir\src\TetrisBloklari.cpp.obj -c "C:\Users\DellX\Desktop\programlama 2 proje\YZM104-Proje\src\TetrisBloklari.cpp"
 
-CMakeFiles/tetris.dir/TetrisBloklari.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tetris.dir/TetrisBloklari.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\DellX\Desktop\programlama 2 proje\YZM104-Proje\TetrisBloklari.cpp" > CMakeFiles\tetris.dir\TetrisBloklari.cpp.i
+CMakeFiles/tetris.dir/src/TetrisBloklari.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tetris.dir/src/TetrisBloklari.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\DellX\Desktop\programlama 2 proje\YZM104-Proje\src\TetrisBloklari.cpp" > CMakeFiles\tetris.dir\src\TetrisBloklari.cpp.i
 
-CMakeFiles/tetris.dir/TetrisBloklari.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tetris.dir/TetrisBloklari.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\DellX\Desktop\programlama 2 proje\YZM104-Proje\TetrisBloklari.cpp" -o CMakeFiles\tetris.dir\TetrisBloklari.cpp.s
+CMakeFiles/tetris.dir/src/TetrisBloklari.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tetris.dir/src/TetrisBloklari.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\DellX\Desktop\programlama 2 proje\YZM104-Proje\src\TetrisBloklari.cpp" -o CMakeFiles\tetris.dir\src\TetrisBloklari.cpp.s
 
-CMakeFiles/tetris.dir/BilgiAlani.cpp.obj: CMakeFiles/tetris.dir/flags.make
-CMakeFiles/tetris.dir/BilgiAlani.cpp.obj: CMakeFiles/tetris.dir/includes_CXX.rsp
-CMakeFiles/tetris.dir/BilgiAlani.cpp.obj: C:/Users/DellX/Desktop/programlama\ 2\ proje/YZM104-Proje/BilgiAlani.cpp
-CMakeFiles/tetris.dir/BilgiAlani.cpp.obj: CMakeFiles/tetris.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\DellX\Desktop\programlama 2 proje\YZM104-Proje\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tetris.dir/BilgiAlani.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tetris.dir/BilgiAlani.cpp.obj -MF CMakeFiles\tetris.dir\BilgiAlani.cpp.obj.d -o CMakeFiles\tetris.dir\BilgiAlani.cpp.obj -c "C:\Users\DellX\Desktop\programlama 2 proje\YZM104-Proje\BilgiAlani.cpp"
+CMakeFiles/tetris.dir/src/BilgiAlani.cpp.obj: CMakeFiles/tetris.dir/flags.make
+CMakeFiles/tetris.dir/src/BilgiAlani.cpp.obj: CMakeFiles/tetris.dir/includes_CXX.rsp
+CMakeFiles/tetris.dir/src/BilgiAlani.cpp.obj: C:/Users/DellX/Desktop/programlama\ 2\ proje/YZM104-Proje/src/BilgiAlani.cpp
+CMakeFiles/tetris.dir/src/BilgiAlani.cpp.obj: CMakeFiles/tetris.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\DellX\Desktop\programlama 2 proje\YZM104-Proje\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tetris.dir/src/BilgiAlani.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tetris.dir/src/BilgiAlani.cpp.obj -MF CMakeFiles\tetris.dir\src\BilgiAlani.cpp.obj.d -o CMakeFiles\tetris.dir\src\BilgiAlani.cpp.obj -c "C:\Users\DellX\Desktop\programlama 2 proje\YZM104-Proje\src\BilgiAlani.cpp"
 
-CMakeFiles/tetris.dir/BilgiAlani.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tetris.dir/BilgiAlani.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\DellX\Desktop\programlama 2 proje\YZM104-Proje\BilgiAlani.cpp" > CMakeFiles\tetris.dir\BilgiAlani.cpp.i
+CMakeFiles/tetris.dir/src/BilgiAlani.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tetris.dir/src/BilgiAlani.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\DellX\Desktop\programlama 2 proje\YZM104-Proje\src\BilgiAlani.cpp" > CMakeFiles\tetris.dir\src\BilgiAlani.cpp.i
 
-CMakeFiles/tetris.dir/BilgiAlani.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tetris.dir/BilgiAlani.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\DellX\Desktop\programlama 2 proje\YZM104-Proje\BilgiAlani.cpp" -o CMakeFiles\tetris.dir\BilgiAlani.cpp.s
+CMakeFiles/tetris.dir/src/BilgiAlani.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tetris.dir/src/BilgiAlani.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\DellX\Desktop\programlama 2 proje\YZM104-Proje\src\BilgiAlani.cpp" -o CMakeFiles\tetris.dir\src\BilgiAlani.cpp.s
 
 # Object files for target tetris
 tetris_OBJECTS = \
-"CMakeFiles/tetris.dir/main.cpp.obj" \
-"CMakeFiles/tetris.dir/OyunAlani.cpp.obj" \
-"CMakeFiles/tetris.dir/TetrisBloklari.cpp.obj" \
-"CMakeFiles/tetris.dir/BilgiAlani.cpp.obj"
+"CMakeFiles/tetris.dir/src/main.cpp.obj" \
+"CMakeFiles/tetris.dir/src/OyunAlani.cpp.obj" \
+"CMakeFiles/tetris.dir/src/TetrisBloklari.cpp.obj" \
+"CMakeFiles/tetris.dir/src/BilgiAlani.cpp.obj"
 
 # External object files for target tetris
 tetris_EXTERNAL_OBJECTS =
 
-tetris.exe: CMakeFiles/tetris.dir/main.cpp.obj
-tetris.exe: CMakeFiles/tetris.dir/OyunAlani.cpp.obj
-tetris.exe: CMakeFiles/tetris.dir/TetrisBloklari.cpp.obj
-tetris.exe: CMakeFiles/tetris.dir/BilgiAlani.cpp.obj
+tetris.exe: CMakeFiles/tetris.dir/src/main.cpp.obj
+tetris.exe: CMakeFiles/tetris.dir/src/OyunAlani.cpp.obj
+tetris.exe: CMakeFiles/tetris.dir/src/TetrisBloklari.cpp.obj
+tetris.exe: CMakeFiles/tetris.dir/src/BilgiAlani.cpp.obj
 tetris.exe: CMakeFiles/tetris.dir/build.make
 tetris.exe: _deps/sfml-build/lib/libsfml-graphics-d.a
 tetris.exe: _deps/sfml-build/lib/libsfml-window-d.a

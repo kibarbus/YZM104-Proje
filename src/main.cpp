@@ -11,7 +11,7 @@ using namespace std;
 void yonergeciz(RenderWindow& window, OyunAlani& oyunalani, int windowbaslangicdegeriy)
 {
     Font font;
-    if(!font.loadFromFile("presstart.ttf"))
+    if(!font.loadFromFile("assets/presstart.ttf"))
     {
         cout<<"Yonerge font tipi yuklenemedi."<<endl;
     }
@@ -233,17 +233,17 @@ int main()
 
     Music tetrismuzigi;
 
-    if(!tetrismuzigi.openFromFile("hizli.ogg"))
+    if(!tetrismuzigi.openFromFile("assets/tetrismuzigi.ogg"))
     {
         cout<<"Muzik dosyasi acilamadi."<<endl;
     }
-    tetrismuzigi.setVolume(5.0f);
+    tetrismuzigi.setVolume(10.0f);
     tetrismuzigi.setLoop(true);
     tetrismuzigi.play();
 
      Music satirsilmuzigi;
 
-    if(!satirsilmuzigi.openFromFile("satirsilmemuzigi.ogg"))
+    if(!satirsilmuzigi.openFromFile("assets/satirsilmemuzigi.ogg"))
     {
         cout<<"Muzik dosyasi acilamadi."<<endl;
     }
@@ -252,7 +252,7 @@ int main()
 
     SoundBuffer gameoverbuffer;
     Sound gameoversesi;
-    if(!gameoverbuffer.loadFromFile("gameover.ogg"))
+    if(!gameoverbuffer.loadFromFile("assets/gameover.ogg"))
     {
         cout<<"Game over muzik dosyasi acilamadi."<<endl;
     }
@@ -261,7 +261,7 @@ int main()
 
     SoundBuffer oyunbaslatbuffer;
     Sound oyunbaslatsesi;
-    if(!oyunbaslatbuffer.loadFromFile("oyunbaslat.ogg"))
+    if(!oyunbaslatbuffer.loadFromFile("assets/oyunbaslat.ogg"))
     {
         cout<<"Oyun baslat muzik dosyasi acilamadi."<<endl;
     }

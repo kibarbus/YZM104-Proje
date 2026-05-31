@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/BilgiAlani.cpp" "CMakeFiles/tetris.dir/BilgiAlani.cpp.obj" "gcc" "CMakeFiles/tetris.dir/BilgiAlani.cpp.obj.d"
-  "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/OyunAlani.cpp" "CMakeFiles/tetris.dir/OyunAlani.cpp.obj" "gcc" "CMakeFiles/tetris.dir/OyunAlani.cpp.obj.d"
-  "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/TetrisBloklari.cpp" "CMakeFiles/tetris.dir/TetrisBloklari.cpp.obj" "gcc" "CMakeFiles/tetris.dir/TetrisBloklari.cpp.obj.d"
-  "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/main.cpp" "CMakeFiles/tetris.dir/main.cpp.obj" "gcc" "CMakeFiles/tetris.dir/main.cpp.obj.d"
+  "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/src/BilgiAlani.cpp" "CMakeFiles/tetris.dir/src/BilgiAlani.cpp.obj" "gcc" "CMakeFiles/tetris.dir/src/BilgiAlani.cpp.obj.d"
+  "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/src/OyunAlani.cpp" "CMakeFiles/tetris.dir/src/OyunAlani.cpp.obj" "gcc" "CMakeFiles/tetris.dir/src/OyunAlani.cpp.obj.d"
+  "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/src/TetrisBloklari.cpp" "CMakeFiles/tetris.dir/src/TetrisBloklari.cpp.obj" "gcc" "CMakeFiles/tetris.dir/src/TetrisBloklari.cpp.obj.d"
+  "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/src/main.cpp" "CMakeFiles/tetris.dir/src/main.cpp.obj" "gcc" "CMakeFiles/tetris.dir/src/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

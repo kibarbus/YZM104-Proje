@@ -20,12 +20,12 @@ void BilgiAlani::sifirliyazdir(int sayitut, Text& sayi)
 
 BilgiAlani::BilgiAlani(int xkoordinati,int ykoordinati, const OyunAlani& oyunalani)
 {
-    if(satirsilmebuffer.loadFromFile("satirsilmemuzigi.ogg"))
+    if(satirsilmebuffer.loadFromFile("assets/satirsilmemuzigi.ogg"))
     {
         satirsilmesesi.setBuffer(satirsilmebuffer);
         satirsilmesesi.setVolume(50.0f);
     }
-    if(levelartmabuffer.loadFromFile("levelmuzigi.ogg"))
+    if(levelartmabuffer.loadFromFile("assets/levelmuzigi.ogg"))
     {
         levelartmasesi.setBuffer(levelartmabuffer);
         levelartmasesi.setVolume(100.0f);
@@ -35,7 +35,7 @@ BilgiAlani::BilgiAlani(int xkoordinati,int ykoordinati, const OyunAlani& oyunala
         cout<<"Muzik dosyasi acilamadi."<<endl;
     }
 
-    if(blokdusmesesibuffer.loadFromFile("blokdusmesesi.ogg"))
+    if(blokdusmesesibuffer.loadFromFile("assets/blokdusmesesi.ogg"))
     {
         blokdusmesesi.setBuffer(blokdusmesesibuffer);
         blokdusmesesi.setVolume(17.0f);
@@ -45,7 +45,7 @@ BilgiAlani::BilgiAlani(int xkoordinati,int ykoordinati, const OyunAlani& oyunala
         cout<<"Blok dusme muzik dosyasi acilamadi."<<endl;
     }
 
-    if(rekorugectinsesibuffer.loadFromFile("rekorugectinsesi.ogg"))
+    if(rekorugectinsesibuffer.loadFromFile("assets/rekorugectinsesi.ogg"))
     {
         rekorugectinsesi.setBuffer(rekorugectinsesibuffer);
         rekorugectinsesi.setVolume(2.0f);
@@ -67,7 +67,7 @@ BilgiAlani::BilgiAlani(int xkoordinati,int ykoordinati, const OyunAlani& oyunala
     leveltut = 1;
     skortut = 0;
 
-    if(!font.loadFromFile("Blocktopia.ttf"))
+    if(!font.loadFromFile("assets/Blocktopia.ttf"))
     {
         cout<<"Font tipi yuklenemedi."<<endl;
     }

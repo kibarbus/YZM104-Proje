@@ -271,101 +271,101 @@ sfml-audio/fast:
 	$(MAKE) $(MAKESILENT) -f _deps\sfml-build\src\SFML\Audio\CMakeFiles\sfml-audio.dir\build.make _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/build
 .PHONY : sfml-audio/fast
 
-BilgiAlani.obj: BilgiAlani.cpp.obj
-.PHONY : BilgiAlani.obj
+src/BilgiAlani.obj: src/BilgiAlani.cpp.obj
+.PHONY : src/BilgiAlani.obj
 
 # target to build an object file
-BilgiAlani.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/BilgiAlani.cpp.obj
-.PHONY : BilgiAlani.cpp.obj
+src/BilgiAlani.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/src/BilgiAlani.cpp.obj
+.PHONY : src/BilgiAlani.cpp.obj
 
-BilgiAlani.i: BilgiAlani.cpp.i
-.PHONY : BilgiAlani.i
+src/BilgiAlani.i: src/BilgiAlani.cpp.i
+.PHONY : src/BilgiAlani.i
 
 # target to preprocess a source file
-BilgiAlani.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/BilgiAlani.cpp.i
-.PHONY : BilgiAlani.cpp.i
+src/BilgiAlani.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/src/BilgiAlani.cpp.i
+.PHONY : src/BilgiAlani.cpp.i
 
-BilgiAlani.s: BilgiAlani.cpp.s
-.PHONY : BilgiAlani.s
+src/BilgiAlani.s: src/BilgiAlani.cpp.s
+.PHONY : src/BilgiAlani.s
 
 # target to generate assembly for a file
-BilgiAlani.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/BilgiAlani.cpp.s
-.PHONY : BilgiAlani.cpp.s
+src/BilgiAlani.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/src/BilgiAlani.cpp.s
+.PHONY : src/BilgiAlani.cpp.s
 
-OyunAlani.obj: OyunAlani.cpp.obj
-.PHONY : OyunAlani.obj
+src/OyunAlani.obj: src/OyunAlani.cpp.obj
+.PHONY : src/OyunAlani.obj
 
 # target to build an object file
-OyunAlani.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/OyunAlani.cpp.obj
-.PHONY : OyunAlani.cpp.obj
+src/OyunAlani.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/src/OyunAlani.cpp.obj
+.PHONY : src/OyunAlani.cpp.obj
 
-OyunAlani.i: OyunAlani.cpp.i
-.PHONY : OyunAlani.i
+src/OyunAlani.i: src/OyunAlani.cpp.i
+.PHONY : src/OyunAlani.i
 
 # target to preprocess a source file
-OyunAlani.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/OyunAlani.cpp.i
-.PHONY : OyunAlani.cpp.i
+src/OyunAlani.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/src/OyunAlani.cpp.i
+.PHONY : src/OyunAlani.cpp.i
 
-OyunAlani.s: OyunAlani.cpp.s
-.PHONY : OyunAlani.s
+src/OyunAlani.s: src/OyunAlani.cpp.s
+.PHONY : src/OyunAlani.s
 
 # target to generate assembly for a file
-OyunAlani.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/OyunAlani.cpp.s
-.PHONY : OyunAlani.cpp.s
+src/OyunAlani.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/src/OyunAlani.cpp.s
+.PHONY : src/OyunAlani.cpp.s
 
-TetrisBloklari.obj: TetrisBloklari.cpp.obj
-.PHONY : TetrisBloklari.obj
+src/TetrisBloklari.obj: src/TetrisBloklari.cpp.obj
+.PHONY : src/TetrisBloklari.obj
 
 # target to build an object file
-TetrisBloklari.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/TetrisBloklari.cpp.obj
-.PHONY : TetrisBloklari.cpp.obj
+src/TetrisBloklari.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/src/TetrisBloklari.cpp.obj
+.PHONY : src/TetrisBloklari.cpp.obj
 
-TetrisBloklari.i: TetrisBloklari.cpp.i
-.PHONY : TetrisBloklari.i
+src/TetrisBloklari.i: src/TetrisBloklari.cpp.i
+.PHONY : src/TetrisBloklari.i
 
 # target to preprocess a source file
-TetrisBloklari.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/TetrisBloklari.cpp.i
-.PHONY : TetrisBloklari.cpp.i
+src/TetrisBloklari.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/src/TetrisBloklari.cpp.i
+.PHONY : src/TetrisBloklari.cpp.i
 
-TetrisBloklari.s: TetrisBloklari.cpp.s
-.PHONY : TetrisBloklari.s
+src/TetrisBloklari.s: src/TetrisBloklari.cpp.s
+.PHONY : src/TetrisBloklari.s
 
 # target to generate assembly for a file
-TetrisBloklari.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/TetrisBloklari.cpp.s
-.PHONY : TetrisBloklari.cpp.s
+src/TetrisBloklari.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/src/TetrisBloklari.cpp.s
+.PHONY : src/TetrisBloklari.cpp.s
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+src/main.obj: src/main.cpp.obj
+.PHONY : src/main.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+src/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/src/main.cpp.obj
+.PHONY : src/main.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make CMakeFiles/tetris.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -388,18 +388,18 @@ help:
 	@echo ... sfml-system
 	@echo ... sfml-window
 	@echo ... tetris
-	@echo ... BilgiAlani.obj
-	@echo ... BilgiAlani.i
-	@echo ... BilgiAlani.s
-	@echo ... OyunAlani.obj
-	@echo ... OyunAlani.i
-	@echo ... OyunAlani.s
-	@echo ... TetrisBloklari.obj
-	@echo ... TetrisBloklari.i
-	@echo ... TetrisBloklari.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... src/BilgiAlani.obj
+	@echo ... src/BilgiAlani.i
+	@echo ... src/BilgiAlani.s
+	@echo ... src/OyunAlani.obj
+	@echo ... src/OyunAlani.i
+	@echo ... src/OyunAlani.s
+	@echo ... src/TetrisBloklari.obj
+	@echo ... src/TetrisBloklari.i
+	@echo ... src/TetrisBloklari.s
+	@echo ... src/main.obj
+	@echo ... src/main.i
+	@echo ... src/main.s
 .PHONY : help
 
 

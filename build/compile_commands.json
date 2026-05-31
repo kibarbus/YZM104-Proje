@@ -1,27 +1,27 @@
 [
 {
   "directory": "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/tetris.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\tetris.dir\\main.cpp.obj -c \"C:\\Users\\DellX\\Desktop\\programlama 2 proje\\YZM104-Proje\\main.cpp\"",
-  "file": "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/main.cpp",
-  "output": "CMakeFiles/tetris.dir/main.cpp.obj"
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/tetris.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\tetris.dir\\src\\main.cpp.obj -c \"C:\\Users\\DellX\\Desktop\\programlama 2 proje\\YZM104-Proje\\src\\main.cpp\"",
+  "file": "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/src/main.cpp",
+  "output": "CMakeFiles/tetris.dir/src/main.cpp.obj"
 },
 {
   "directory": "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/tetris.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\tetris.dir\\OyunAlani.cpp.obj -c \"C:\\Users\\DellX\\Desktop\\programlama 2 proje\\YZM104-Proje\\OyunAlani.cpp\"",
-  "file": "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/OyunAlani.cpp",
-  "output": "CMakeFiles/tetris.dir/OyunAlani.cpp.obj"
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/tetris.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\tetris.dir\\src\\OyunAlani.cpp.obj -c \"C:\\Users\\DellX\\Desktop\\programlama 2 proje\\YZM104-Proje\\src\\OyunAlani.cpp\"",
+  "file": "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/src/OyunAlani.cpp",
+  "output": "CMakeFiles/tetris.dir/src/OyunAlani.cpp.obj"
 },
 {
   "directory": "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/tetris.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\tetris.dir\\TetrisBloklari.cpp.obj -c \"C:\\Users\\DellX\\Desktop\\programlama 2 proje\\YZM104-Proje\\TetrisBloklari.cpp\"",
-  "file": "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/TetrisBloklari.cpp",
-  "output": "CMakeFiles/tetris.dir/TetrisBloklari.cpp.obj"
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/tetris.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\tetris.dir\\src\\TetrisBloklari.cpp.obj -c \"C:\\Users\\DellX\\Desktop\\programlama 2 proje\\YZM104-Proje\\src\\TetrisBloklari.cpp\"",
+  "file": "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/src/TetrisBloklari.cpp",
+  "output": "CMakeFiles/tetris.dir/src/TetrisBloklari.cpp.obj"
 },
 {
   "directory": "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/tetris.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\tetris.dir\\BilgiAlani.cpp.obj -c \"C:\\Users\\DellX\\Desktop\\programlama 2 proje\\YZM104-Proje\\BilgiAlani.cpp\"",
-  "file": "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/BilgiAlani.cpp",
-  "output": "CMakeFiles/tetris.dir/BilgiAlani.cpp.obj"
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/tetris.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\tetris.dir\\src\\BilgiAlani.cpp.obj -c \"C:\\Users\\DellX\\Desktop\\programlama 2 proje\\YZM104-Proje\\src\\BilgiAlani.cpp\"",
+  "file": "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/src/BilgiAlani.cpp",
+  "output": "CMakeFiles/tetris.dir/src/BilgiAlani.cpp.obj"
 },
 {
   "directory": "C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-build/src/SFML/System",
