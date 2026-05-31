@@ -1,0 +1,3 @@
+C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate.dir
+C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-subbuild/CMakeFiles/edit_cache.dir
+C:/Users/DellX/Desktop/programlama 2 proje/YZM104-Proje/build/_deps/sfml-subbuild/CMakeFiles/rebuild_cache.dir

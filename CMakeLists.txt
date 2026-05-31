@@ -18,8 +18,11 @@ add_executable(tetris src/main.cpp src/OyunAlani.cpp src/TetrisBloklari.cpp src/
 
 target_link_libraries(tetris sfml-graphics sfml-window sfml-system sfml-audio)
 
-file(COPY "${CMAKE_CURRENT_SOURCE_DIR}/assets"
-     DESTINATION "${CMAKE_CURRENT_BINARY_DIR}")
+add_custom_command(TARGET tetris POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy_directory
+    "${CMAKE_CURRENT_SOURCE_DIR}/assets"
+    "$<TARGET_FILE_DIR:tetris>/assets"
+)
 
 if(WIN32)
     add_custom_command(TARGET tetris POST_BUILD
@@ -28,4 +31,11 @@ if(WIN32)
         $<TARGET_FILE_DIR:tetris>
         COMMAND_EXPAND_LISTS
     )
+
+    add_custom_command(TARGET tetris POST_BUILD
+        COMMAND ${CMAKE_COMMAND} -E copy_if_different
+        "${CMAKE_BINARY_DIR}/_deps/sfml-src/extlibs/bin/x64/openal32.dll"
+        "$<TARGET_FILE_DIR:tetris>"
+    )
+
 endif()
