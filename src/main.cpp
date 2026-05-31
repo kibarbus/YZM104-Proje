@@ -54,7 +54,7 @@ void oyunduraklatildi(RenderWindow& window, OyunAlani& oyunalani, BilgiAlani& bi
     oyunpauseekrani.setFillColor(Color(0, 0, 0, 1));
 
     Font pausefontu;
-    if(!pausefontu.loadFromFile("Blocktopia.ttf"))
+    if(!pausefontu.loadFromFile("assets/Blocktopia.ttf"))
     {
         cout<<"Pause font tipi yuklenemedi."<<endl;
     }
@@ -101,12 +101,12 @@ void oyunbittiekrani(RenderWindow& window, OyunAlani& oyunalani, BilgiAlani& bil
     oyunbittiekrani.setFillColor(Color(0, 0, 0, 1));
 
     Font gameoverfontu;
-    if(!gameoverfontu.loadFromFile("Blocktopia.ttf"))
+    if(!gameoverfontu.loadFromFile("assets/Blocktopia.ttf"))
     {
         cout<<"Game over font tipi yuklenemedi."<<endl;
     }
 
-    Text tebrikleryazisi ("TEBRIKLER! YENİ REKORUNUZ:" + to_string(bilgipaneli.getrekortut()), gameoverfontu, 80);
+    Text tebrikleryazisi ("TEBRIKLER! YENI REKORUNUZ:" + to_string(bilgipaneli.getrekortut()), gameoverfontu, 45);
     tebrikleryazisi.setFillColor(Color(255, 255, 255, 100));
     tebrikleryazisi.setPosition(windowbaslangicdegerix + (anapenceregenisligi / 2) - (tebrikleryazisi.getLocalBounds().width / 2), windowbaslangicdegeriy + (anapencereyuksekligi/2) - 300);
 
