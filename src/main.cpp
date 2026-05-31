@@ -190,7 +190,7 @@ int main()
     TetrisBloklari hayaletblok;
     BilgiAlani bilgipaneli(0, 0, oyunalani);
 
-    VideoMode kullaniciEkranBoyutu = VideoMode::getDesktopMode();//kullanıcının ekran boyutu alındı.
+    VideoMode kullaniciEkranBoyutu = VideoMode::getFullscreenModes()[0];//kullanıcının ekran boyutu alındı.
 
     RenderWindow window(kullaniciEkranBoyutu, "Tetris", Style::Fullscreen);//oyun default olarak tam ekran başlamaya ayarlandı.
 
