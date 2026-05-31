@@ -14,13 +14,14 @@ Bu projede, Programlama II dersi kapsamında dönem projesi olarak klasik tetris
 
 Oyunu oynamak ve kontrol etmek için aşağıdaki klavye kısayolları tanımlanmıştır:
 
-* **Sol Yön Tuşu:** Bloğu yatay eksende sola birim hareket ettirir.
+* **Sol Yön Tuşu:** Bloğu yatay eksende sola bir birim hareket ettirir.
 * **Sağ Yön Tuşu:** Bloğu yatay eksende sağa bir birim hareket ettirir.
 * **Yukarı Yön Tuşu:** Bloğu 90 derece saat yönünde döndürür (Rotasyon Özelliği).
 * **Aşağı Yön Tuşu:** Bloğu dikey eksende bir birim aşağı hareket ettirir.
 * **Boşluk (Space):** Bloğu anında en alta düşürür ve kilitler.
 * **P Tuşu:** Oyunu anlık olarak duraklatır / devam ettirir.
 * **R Tuşu:** Oyunu tamamen sıfırlayıp yeniden başlatır.
+* **ESC Tuşu:** Oyunu kapatır.
 
 ---
 
@@ -30,7 +31,8 @@ Oyunu oynamak ve kontrol etmek için aşağıdaki klavye kısayolları tanımlan
 
 *   C++17 destekleyen bir derleyici (GCC/MinGW)
 *   CMake (Sürüm 3.14 veya üzeri)
-*   (SFML kütüphanesi CMake FetchContent aracılığıyla projeyi çalıştırdığınızda cihazınıza otomatik indirilecektir.)
+*   Git (FetchContent için gereklidir.)
+(SFML kütüphanesi CMake FetchContent aracılığıyla projeyi çalıştırdığınızda cihazınıza otomatik indirilecektir.)
 
 
 ### Derleme Adımları
