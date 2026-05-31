@@ -207,6 +207,7 @@ void TetrisBloklari::blokdondur(const OyunAlani& oyunalani)
                     ilkdolusutun = j;
                 }
             }
+            blokmatrisi[i][j] = 0;
         }
     }
 
@@ -214,7 +215,13 @@ void TetrisBloklari::blokdondur(const OyunAlani& oyunalani)
     {
         for(int m=0; m<4; m++)
         {
-            blokmatrisi[k-ilkdolusatir][m-ilkdolusutun] = tempmatris[k][m];
+            int dolusatir = k - ilkdolusatir;
+            int dolusutun = m - ilkdolusutun;
+
+            
+            if (dolusatir >= 0 && dolusatir < 4 && dolusutun >= 0 && dolusutun < 4) {
+                blokmatrisi[dolusatir][dolusutun] = tempmatris[k][m];
+            }
         }
     }
 
